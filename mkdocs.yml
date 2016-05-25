@@ -1,1 +1,15 @@
-site_name: My Docs
+site_name: Digital Domain Content Console
+theme: readthedocs
+
+pages:
+- Home: index.md
+- Features: venom\features.md
+- Navigation: venom\navigation.md
+- Signup: venom\signup.md
+- Prerequisites: venom\prerequisites.md
+- Quickstart: venom\quickstart.md
+- Localization: venom\localization.md
+- Monitoring: venom\monitoring.md
+- Terms: venom\terms.md
+- Legal: venom\legal.md
+- Support: venom\support.md
