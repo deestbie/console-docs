@@ -10,9 +10,11 @@ Let's get started!
 
 * [**Signup**](venom\signup.md) - Learn about signup and account management options.
 
-* [**Prerequisites**](venom\prerequisites.md) - Learn about Get a summary of video technical specifications.
+* [**Prerequisites**](venom\prerequisites.md) - Learn about prerequisite for optimizing the content production cycle.
 
-* [**Quickstart**](venom\quickstart.md) - Learn how to publish a video.
+* [**Technical Specifications**](venom\technical_specifications.md) - Learn about video and audio technical specifications.
+
+* [**Quickstart**](venom\quickstart.md) - Learn how to publish content using a step-by-step tutorial. 
 
 * [**Localization**](venom\localization.md) - Learn how to add one or more languages to a video property.
 

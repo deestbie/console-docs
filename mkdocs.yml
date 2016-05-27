@@ -7,6 +7,7 @@ pages:
 - Navigation: venom\navigation.md
 - Signup: venom\signup.md
 - Prerequisites: venom\prerequisites.md
+- Technical Specifications: venom\technical_specifications.md
 - Quickstart: venom\quickstart.md
 - Localization: venom\localization.md
 - Monitoring: venom\monitoring.md
