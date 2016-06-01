@@ -48,12 +48,24 @@ To define a collection:
 
 The add video process involves selecting a video type and specifying camera label, URL, and video format details.
 
-* Supported video formats include **MP4 HD (1040p)**, and **MP4 (4K)**.
 * Supported video types include **On Demand (VOD)** and **Live Stream**.
-* Drag & Drop or Browse upload method is used for VOD videos.
-* Link to external URL is used to add Live Stream videos.
-* Each external URL is annotated with a unique camera label.
-* For live stream with multiple camera angles, you can add multiple URL with unique camera labels.
+* Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
+* Supported audio compression and encoding scheme is **Advanced Audio Coding (AAC)**
+* See [Technical Specifications](technicalspecifications.md) for detailed video and audio requirements.
+
+Upload Method:
+
+* **VOD** - Drag & Drop or Browse upload method.
+* **Live Stream** - Link to the following external URLs types:
+  * Origin URL - Input the publishing point URL where the live stream is originally hosted.
+  * Return URL - Input the redirection URL to that the viewer will return to after the live-stream
+   concludes.
+  * Meta URL - Input the meta URL that will typically upload a file that contains modified instructions on how to render particular videos in the player.
+
+Adding URL Labels:
+
+* Each external URL should be annotated with a unique camera label.
+* For a live stream using multiple camera angles, add a URL for each camera angle and specify a camera label that uniquely identifies the camera angle and characteristics.
 
 **To add a video:**
 
@@ -64,9 +76,17 @@ For Video On Demand:
 1. Use the **Drag and Drop** or **Browse** method to perform the upload.
 
 For Live Stream:
-1. Use the **Link to an External URL** option.
+1. Use the **Link to an External URL** option. Input Origin, Return, and Meta URLs.
 2. Select video formats MP4 HD (1040p) or MP4 (4K).
 2. If you are using multiple camera angles, add an external URL for each angle and add a descriptive Camera Label to identify the link.
+
+
+3. On the Architecture and Construction page, specify the Stream Name, Description, and URLs.
+   - Origin URL - Input the publishing point URL where the live stream is originally hosted.
+   - Return URL - Input the redirection URL to that the viewer will return to after the live-stream
+   concludes.
+   - Meta URL - Input the meta URL that will typically upload a file that contains modified instructions on how to render particular videos in the player.
+
 
 ## Step 5: Set Season and Property
 

@@ -5,7 +5,7 @@ We recommend you have the following digital assets available before beginning vi
 **Video Files**
 
 *	Videos must be created and available to be uploaded to the Content Console.
-* Supported video formats include **MP4 HD (1040p)**, **MP4 (4K)**, and **MP4 (4K)**. See [Technical Specifications](technical_specifications.md) for detailed video and audio requirements
+* Supported video formats include **MP4 HD (1040p)**, **MP4 (4K)**, and **MP4 (4K)**. See [Technical Specifications](technical_specifications.md) for detailed video and audio requirements.
 * Content Console supports **On Demand (VOD)** and **Live Stream** video types.
 
 **Video URLs**
