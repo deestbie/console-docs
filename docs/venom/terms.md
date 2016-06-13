@@ -8,7 +8,9 @@
 
 * Blind Spot - Depending on the camera type, number of camera inputs, positioning of camera, and stitching, your video may or may not have some clipping of video content referred to as a *blind spot*.
 
-* Video Projection -
+* Video Projection - 
+
+* Equirectangular Projection -
 
 * Flat Video -
 
@@ -26,3 +28,7 @@
 * Video Formats -
 
 * Digital Assets -
+
+* RTSP - Real Time Streaming Protocol (RTSP). A network control protocol used to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points.
+
+* H.264 Stream URL -

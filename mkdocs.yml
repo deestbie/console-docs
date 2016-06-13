@@ -4,13 +4,15 @@ theme: readthedocs
 pages:
 - Home: index.md
 - Features: venom\features.md
-- Navigation: venom\navigation.md
-- Signup: venom\signup.md
-- Prerequisites: venom\prerequisites.md
-- Technical Specifications: venom\technicalspecifications.md
-- Quickstart: venom\quickstart.md
+- Site Organization: venom\siteorg.md
+- Account Setup: venom\accountsetup.md
+- Account Permissions: venom\permissions.md
+- Technical Requirements: venom\techrequirements.md
+- Publish Video: venom\publishvideo.md
+- Publish Application: venom\publishapp.md
 - Localization: venom\localization.md
 - Monitoring: venom\monitoring.md
 - Terms: venom\terms.md
 - Legal: venom\legal.md
+- Technical FAQ: venom\techfaq.md
 - Support: venom\support.md

@@ -1,8 +1,8 @@
-#	Navigation
+# Site Organization
 
 The Content Console is organized into following sections:
 
-## Home Page
+**Home Page**
 
 Provides a top-view of assets and analytic data associated with your account including:
 
@@ -15,7 +15,7 @@ Provides a top-view of assets and analytic data associated with your account inc
 | My Production Area    | Displays a list of videos that have not completed the publishing process.         |
 
 
-## App Page
+**App Page**
 
 Allows you to customize your app with the following content from your Onboarding document:
 

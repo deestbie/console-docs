@@ -6,20 +6,24 @@ Let's get started!
 
 * [**Features**](venom\features.md) - Learn about Content Console features that comprise the video publishing workflow.
 
-* [**Navigation**](venom\navigation.md) - Learn about Content Console site organization.
+* [**Account Setup**](venom\acountsetup.md) - Learn about the account setup process, how to reset your password, and change the email address associated with your account.
 
-* [**Signup**](venom\signup.md) - Learn about signup and account management options.
+* [**Account Permissions**](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
 
-* [**Prerequisites**](venom\prerequisites.md) - Learn about prerequisite for optimizing the content production cycle.
+* [**Technical Requirements**](venom\techrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and audio technical requirements.
 
-* [**Technical Specifications**](venom\technicalspecifications.md) - Learn about video and audio technical specifications.
+* [**Publish Video**](venom\publishvideo.md) - Learn how to publish video content using a step-by-step tutorial.
 
-* [**Quickstart**](venom\quickstart.md) - Learn how to publish content using a step-by-step tutorial.
+* [**Publish App**](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.
 
 * [**Localization**](venom\localization.md) - Learn how to add one or more languages to a video property.
 
 * [**Monitoring**](venom\monitoring.md) - Learn about analytic categories and how to view statistical data.
 
+* [**Technical FAQ**](venom\techfaq.md) - Review a list of technical topics pertaining to video and application production using the Content Console.
+
 * [**Terms**](venom\terms.md) - Learn about video and content management terminology.
 
-* [**Support**](venom\support.md) - Review our problem/solution FAQ and methods of contacting customer support.
+* [**Legal**](venom\legals.md) - Learn about terms and conditions for using the Content Console.
+
+* [**Support**](venom\support.md) - Learn how to contact technical support.

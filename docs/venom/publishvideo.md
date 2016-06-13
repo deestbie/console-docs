@@ -183,9 +183,15 @@ Metadata is used to uniquely identify the characteristics of each video.
 
 ## Step 8: Set Blind Spot Position (Spherical Video)
 
-Depending on the camera type, number of camera inputs, positioning of camera, and stitching, your video may or may not have some clipping of video content referred to as a *blind spot*.
+Because your 360 video is created using multiple cameras, it’s possible your video output could include some clipping of content referred to as a "Nadir Blind Spot."
 
-If your video includes a blind spot, you can designate the blind spot location (Top or Bottom) and add a logo or icon to fill the blank space.
+* The blind spot represents the position where the camera rig is supported and the tripod point is either left out of the video or the images are pinched together to eliminate the hole.
+
+* The blind spot is usually corrected in post-production and filled in to imply a fully captured 360 image.
+
+* The blind spot is typically filled by superimposing footage in that area or by inserting a “black” image at the nadir of the 360 video. The blindspot can then be used to populate with advertising space, navigations, or other uses.  
+
+If your video includes a blind spot and you have not adjusted it in post-production, you can designate the blind spot location (Top or Bottom) and add a custom photo, logo, or icon to fill the blank space.
 
 **To configure blind spot and projection:**
 
@@ -198,7 +204,7 @@ If your video includes a blind spot, you can designate the blind spot location (
 
 ## Step 9: Add Key Art
 
-*Key Art* is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video.
+*Key Art* is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a *thumbnail*.
 
 * You upload key art during the video publishing phase.
 * Key Art displays on your video profile, property, and collection pages.
@@ -224,17 +230,19 @@ Special effects:
 
 ## Step 10: Set Broadcast Time
 
-The time you set your video to air is based on many factors. For example:
+The time you set your video to broadcast is based on many factors. For example:
 
-* You may have special arrangements with web providers to post your videos at a designated time.
-* There may be other considerations relating to the location where your videos will primarily be viewed.
-* You may be sequencing the premiere of videos based on an event or product launch, etc.  
+* You arrangements with web providers to post your video at a designated time.
+* You have considerations relating to the geographical area / time zone where your video will be initially broadcast.
+* You may be sequencing the premiere of a video based on an event or product launch, etc.
+* If your video security is set to Private or Internal, set your video to "Public" in the **Video Information > Who can see your video?** section prior to the Broadcast time.
 
 **To set a broadcast time:**
 
 1. Go to **Final Video Details > Set Broadcast Time**.
-2. Use the drop-down menus to set the date and time the video will air. The default is the current date and time.
+2. Use the drop-down menus to set the date and time the video will broadcast. The default is the current date and time.
 3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
+4. Make sure your video is set to "Public" in the **Video Information > Who can see your video?** before the broadcast time.
 
 ![Home](broadcast.jpg "Set Broadcast Time")
 
