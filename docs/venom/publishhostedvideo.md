@@ -180,7 +180,7 @@ The upload video process allows you to upload a VoD video. Supported video and a
 | Video Format    | MP4 HD (1040p), MP4 (2K), and **MP4 (4K)* |
 | Audio Compression and Encoding Scheme        | Advanced Audio Coding (AAC)                             |
 
-See [Technical Requirements](techrequirements.md) for prerequisite steps and video and audio requirements.
+See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
 
 **To upload a hosted video:**
 

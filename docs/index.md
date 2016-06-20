@@ -14,7 +14,7 @@ Let's get started!
 
 * [**Account Permissions**](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
 
-* [**Technical Requirements**](venom\techrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and audio technical requirements.
+* [**Video Publishing Requirements**](venom\videopublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and audio technical requirements.
 
 * [**Publish Hosted Video**](venom\publishhostedvideo.md) - Learn how to publish hosted video content using a step-by-step tutorial.
 

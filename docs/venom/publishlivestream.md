@@ -106,7 +106,7 @@ The upload video process involves specifying a services of stream URLs for your 
 
 * Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
 * Supported audio compression and encoding scheme is **Advanced Audio Coding (AAC)**
-* See [Technical Requirements](techrequirements.md) for prerequisite steps and video and audio requirements.
+* See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
 
 **To specify stream URLs:**
 
