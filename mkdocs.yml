@@ -5,10 +5,13 @@ pages:
 - Home: index.md
 - Features: venom\features.md
 - Site Organization: venom\siteorg.md
-- Account Setup: venom\accountsetup.md
+- Search Tools: venom\searchtools.md
+- Account Management: venom\accountmanage.md
 - Account Permissions: venom\permissions.md
 - Technical Requirements: venom\techrequirements.md
-- Publish Video: venom\publishvideo.md
+- Publish Hosted Video: venom\publishhostedvideo.md
+- Publish Live Stream: venom\publishlivestream.md
+- Manage Video: venom\managevideo.md
 - Publish Application: venom\publishapp.md
 - Localization: venom\localization.md
 - Monitoring: venom\monitoring.md

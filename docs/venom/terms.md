@@ -1,5 +1,8 @@
 # Terminology
 
+Coming soon...
+
+<!--
 * Property - A Property represents the top-level branding element of your videos (e.g., TV Network).
 
 * Collection -  A Collection is a sub-category of a Property (e.g., TV Series Name). Within each Collection you also define a Season that represents a subcategory of the collection (i.e. episode #, etc.)
@@ -8,11 +11,11 @@
 
 * Blind Spot - Depending on the camera type, number of camera inputs, positioning of camera, and stitching, your video may or may not have some clipping of video content referred to as a *blind spot*.
 
-* Video Projection - 
+* Video Projection -
 
 * Equirectangular Projection -
 
-* Flat Video -
+* Flat Video -  This type of video is usually filmed with a single camera per field of view (FOV) and stitched together to form a single equirectangular video.
 
 * Spherical Video - This mode supports the use of HMD devices. Characteristics of this mode include:
   * Start video using the HMD icon.
@@ -29,6 +32,6 @@
 
 * Digital Assets -
 
-* RTSP - Real Time Streaming Protocol (RTSP). A network control protocol used to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points.
+* RTSP - Real Time Streaming Protocol (RTSP). A network control protocol used to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points.-->
 
 * H.264 Stream URL -

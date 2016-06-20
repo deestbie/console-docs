@@ -2,29 +2,67 @@
 
 The Content Console is organized into following sections:
 
-**Home Page**
+## Home > Dashboard
 
 Provides a top-view of assets and analytic data associated with your account including:
 
 | Home Page                                               |
 |:----------------|:--------------------------------------|
-| Header                | Lists the total number of assets including Videos, Properties, Apps, Collections, and Users.  |
-|                       | Allows you to drill-down to a detailed view of videos and collections in each Property (**View Profile**) |    
-| My Properties         | Lists Properties defined in your account and displays Name, Updated, Access, Views, and Download information.   |
-|                       | Allows you to add a property (**+ Property**).  
-| My Production Area    | Displays a list of videos that have not completed the publishing process.         |
+| Dashboard     | Lists the total number of videos and streams, apps, members, and properties.   |
+| Organization      | Displays the Organization Name and administrator contact information, and account edit option if you have administrator privileges    |
+| Properties         | Lists properties defined in your account, and total number of collections, videos, and streams in the property.   |
+| View Property     | Allows you to select a property name to drill-down to a detailed view of collections in each property |    | Add Property      | Allows you to add a property (**+ Property**).  |
+
+## Home > Apps
+
+Allows you to add and customize your app profile, add asset, and tokens.
+
+**Coming soon...**
+
+<!--
+| Profile                                               |
+|:----------------|:--------------------------------------|
+| Organization ID    |  |
+| Application ID     |  |
+| Bundle ID          |  |
+| Scheme             |  |
+| Description        |  |
+| Type               |  |
+| Current Version    | Current app version. |
+| Store URL          | URL of the app store the video is published in. |
+| Analytics ID       |  |
+| Published ID       | A Yes/No toggle that indicates whether the app has been published to the specified Store URL. |
 
 
-**App Page**
+| Assets                                               |
+|:----------------|:--------------------------------------|
+| Coming soon     |  |
 
-Allows you to customize your app with the following content from your Onboarding document:
 
-| App Page                                               |
-|:-------------------------------------------------------|
-| Name, Description, and Organization                    |
-| Logo                                                   |
-| BG                                                     |
-| Device Type (iOS, Android, GearVR, Oculus Rift)        |
-| HMD (Google Cardboard, GearVR, Oculus Rift)            |
-| Published (True or False)                              |
-| Custom Assets                                          |
+| Token                                               |
+|:----------------|:--------------------------------------|
+| Coming soon     |  |
+-->
+
+## Home > Users
+
+Displays Name, Screen Name, and Join Date of users that are part of the current Organization.
+
+## Home > Dashboard > Property
+
+| Property Summary                                           |
+|:----------------|:--------------------------------------|
+| Dashboard    | Lists the total number of property views, and apps, members, and collections associated with the property. |
+| Property      | Displays the Property Name and description, administrator contact information, property edit option if you have administrator privileges, and total number of videos, streams, and downloads for the property.    |
+| Collections         | Lists collections defined in your property, and total number of videos, streams, and views associated with the collection.    |
+| View Collection     | Allows you to select a collection name to drill-down to a detailed view of videos added to each collection. |    
+| Add Collection      | Allows you to add a collection (**+ Collection**).  |
+
+## Home > Dashboard > Property > Collection
+
+| Collection Summary                                           |
+|:----------------|:--------------------------------------|
+| Dashboard    | Lists the collection views by total, number of days, and number of hours.  |
+| Videos         | Lists videos defined in your collection, including name, season, security visibility setting, upload date and time, number of views, downloads, and video size.   |
+| Sort Criteria    | Allows you to sort videos in your collection by Order, VoD, Stream, Visibility Settings (Public, Private, Hidden)
+| +Upload    | Allows you upload a video to the collection. |

@@ -1,10 +1,12 @@
-#	Account Management
+#	Introduction
+
+This topic provides information about account management.
 
 ### Who do I contact if I have questions about my account?
 
 When our Client Services department created your account, you received a Welcome Kit email that included your username/password, login URL, and introductory information.
 
-If you have additional questions, contact your Client Services representative at support@d2.com.
+If you have additional questions, contact your Client Services representative.
 
 ### How do I reset my password?
 

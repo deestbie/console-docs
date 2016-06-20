@@ -1,6 +1,8 @@
 # Technical FAQ
 
-### How long does it take to configure a single video profile?
+Coming soon...
+
+<!--### How long does it take to configure a single video profile?
 
 ### How long does it take to configure am app video profile?
 
@@ -33,4 +35,4 @@ In case of an outage, Content Console digital assets and the associated network 
 
 * Your live stream URL will most likely reside on a secure Media Server or Content Delivery Network.
 * Set default port of router to allow media server to be accessed externally. The default port is usually 5119.
-* Set firewall to allow users to access the media server.
+* Set firewall to allow users to access the media server.-->
