@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Publish Live Stream - Digital Domain Content Console</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Publish Live Stream";
+    var mkdocs_page_input_path = "venom\publishlivestream.md";
+    var mkdocs_page_url = "/venom/publishlivestream/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Digital Domain Content Console</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../features/">Features</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../siteorg/">Site Organization</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../searchtools/">Search Tools</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../accountmanage/">Account Management</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../permissions/">Account Permissions</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../videopublishrequirements/">Video Publishing Requirements</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../publishhostedvideo/">Publish Hosted Video</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Publish Live Stream</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#publishing-a-live-stream">Publishing a Live Stream</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#part-1-configure-video-property-and-collection">Part 1: Configure Video Property and Collection</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-1-launch-the-content-console">Step 1: Launch the Content Console</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-2-define-video-property">Step 2: Define Video Property</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-3-define-video-collection">Step 3: Define Video Collection</a></li>
+                
+                    <li><a class="toctree-l4" href="#part-2-define-basic-stream-information">Part 2: Define Basic Stream information</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-1-select-video-upload-method">Step 1: Select Video Upload Method</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-2-select-a-property">Step 2: Select a Property</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-3-define-video-metadata">Step 3: Define Video Metadata</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#part-3-specify-stream-settings-and-options">Part 3: Specify Stream Settings and Options</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-1-specify-stream-settings">Step 1: Specify Stream Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-2-configure-video-security">Step 2: Configure Video Security</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-3-enable-disable-video-downloading">Step 3: Enable / Disable Video Downloading</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-4-set-video-blind-spot">Step 4: Set Video Blind Spot</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-5-set-video-projection">Step 5: Set Video Projection</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-6-select-video-category">Step 6: Select Video Category</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#part-4-manage-video-profile">Part 4: Manage Video Profile</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-1-review-video-details">Step 1: Review Video Details</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-2-add-key-art">Step 2: Add Key Art</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-3-set-broadcast-time">Step 3: Set Broadcast Time</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-4-review-video">Step 4: Review Video</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-5-publish-video">Step 5: Publish Video</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../managevideo/">Manage Video</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../publishapp/">Publish Application</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../localization/">Localization</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../monitoring/">Monitoring</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../terms/">Terms</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../legal/">Legal</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../techfaq/">Technical FAQ</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../support/">Support</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Digital Domain Content Console</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Publish Live Stream</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="publishing-a-live-stream">Publishing a Live Stream</h1>
+<p>The Content Console offers a flexible video publishing platform where you can tailor your configuration workflow based on your requirements and availability of your video digital assets.</p>
+<p>The following tutorial illustrates how to publish a live stream that is hosted on an external streaming media service or Content Delivery Network (CDN).</p>
+<h1 id="part-1-configure-video-property-and-collection">Part 1: Configure Video Property and Collection</h1>
+<h2 id="step-1-launch-the-content-console">Step 1: Launch the Content Console</h2>
+<ol>
+<li>Launch the Content Console and log in using your credentials. The <em>Home</em> page displays.</li>
+</ol>
+<p><img alt="Home" src="../home_page.jpg" title="Content Console Home Page" /></p>
+<h2 id="step-2-define-video-property">Step 2: Define Video Property</h2>
+<p>The first step in the video publishing process is to define a Property. A Property has the following characteristics:</p>
+<ul>
+<li>A Property represents the top-level branding element of your videos (e.g., TV Network).</li>
+<li>A video must be added directly to a Property.</li>
+<li>A list of available Properties display on the Content Console Home page.</li>
+<li>A video can be reassigned to a different Property after it is uploaded.</li>
+</ul>
+<p><strong>To define a property:</strong></p>
+<ol>
+<li>On the <strong>Home</strong> page go to <strong>Properties</strong>.</li>
+<li>Select <strong>+Property</strong>. The <em>Create a New Property</em> pop-up displays.
+<img alt="Home" src="../add_property.jpg" title="Add Property" /></li>
+<li>Enter the Property name, headline, and description, then <strong>Create</strong>. The new property is added to the <em>Properties</em> page listing.</li>
+</ol>
+<h2 id="step-3-define-video-collection">Step 3: Define Video Collection</h2>
+<p>Within each Property you then define a Collection:</p>
+<ul>
+<li>A Collection is a sub-category of a Property (e.g., TV Series Name).</li>
+<li>After adding a new video asset, you then assign it to a Property and Collection.</li>
+<li>Videos in a Collection can be reordered.</li>
+<li>You can reassign a video to a different Property and Collection.</li>
+<li>Within each Collection you also define a Season that represents a subcategory of the collection (i.e. episode #, etc.)</li>
+</ul>
+<p>To define a collection:</p>
+<ol>
+<li>In <strong>Home &gt; Properties &gt; Property Name</strong>, select <strong>+Collection</strong>. The <em>Create New Collection</em> pop-up displays.
+<img alt="Home" src="../add_collection.jpg" title="Add Collection" /></li>
+<li>Enter the collection name, description, and type, then <strong>OK</strong>. The <em>Collection</em> page displays.</li>
+</ol>
+<h2 id="part-2-define-basic-stream-information">Part 2: Define Basic Stream information</h2>
+<p>This section allows you to set the property and collection the video is contained in, and define the video metadata (i.e., title, description, tags).</p>
+<h2 id="step-1-select-video-upload-method">Step 1: Select Video Upload Method</h2>
+<ol>
+<li>In <strong>Home &gt; Properties &gt; Property Name &gt; Collection</strong>.</li>
+<li>In the collection select Upload Video (<strong>+Upload Video</strong>).</li>
+<li>On the Uploader screen, select <strong>Live Stream</strong>.</li>
+</ol>
+<h2 id="step-2-select-a-property">Step 2: Select a Property</h2>
+<p>Change the default property assigned to your video and group your video in a collection. Note that both steps are required.</p>
+<ol>
+<li>In <strong>Select a Property</strong> section, the currently assigned property is selected. To reassign the current video to a new property, select it from the drop-down.</li>
+<li>After you select the property, the <strong>Select a Collection"</strong> drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the video.</li>
+</ol>
+<h2 id="step-3-define-video-metadata">Step 3: Define Video Metadata</h2>
+<p>Metadata is used to uniquely identify the characteristics of each video.</p>
+<ul>
+<li>Videos can be tagged with metadata including Title, Description, Pre Stream Text, and Post Stream Text.</li>
+<li>The default language for metadata is <em>English</em>.</li>
+<li>A Consumer will see the metadata on websites where a video is posted.  </li>
+<li>A Publisher can search for metadata in the Content Console.</li>
+</ul>
+<p><strong>Title (Required)</strong></p>
+<ul>
+<li>Effective titles summarize the video subject.</li>
+<li>They typically contain 5 words are less.</li>
+<li>Use descriptive keywords that grab a viewers attention.</li>
+<li>Should make sense out of context when they appear in search research.</li>
+</ul>
+<p><strong>Description</strong></p>
+<ul>
+<li>Effective descriptions are concise (e.g., a small paragraph or lead-in sentence with bullet points).</li>
+<li>Should include exciting descriptions about video topic that will attract viewers attention.</li>
+<li>Should include hashtags (#) so they can be easily promoted on social media site.</li>
+<li>Should include credits associated with video creator, participants, actors, promoters, etc.</li>
+</ul>
+<p><strong>Pre Screen Text</strong></p>
+<ul>
+<li>Enter introductory content for your video.</li>
+</ul>
+<p><strong>Post Screen Text</strong></p>
+<ul>
+<li>Enter text that will display after a video has finished playing (e.g., Thanks for watching, Visit our website, etc.)</li>
+</ul>
+<p><strong>To define video metadata:</strong></p>
+<ol>
+<li>Go to the <strong>Primary Language</strong> section.</li>
+<li>Enter the Title, Description, Pre Screen Text, and Post Screen Text.</li>
+</ol>
+<h1 id="part-3-specify-stream-settings-and-options">Part 3: Specify Stream Settings and Options</h1>
+<h2 id="step-1-specify-stream-settings">Step 1: Specify Stream Settings</h2>
+<p>The upload video process involves specifying a services of stream URLs for your live stream.</p>
+<ul>
+<li>Supported video formats include <strong>MP4 HD (1040p)</strong>, <strong>MP4 (2K)</strong>, and <strong>MP4 (4K)</strong>.</li>
+<li>Supported audio compression and encoding scheme is <strong>Advanced Audio Coding (AAC)</strong></li>
+<li>See <a href="../videopublishrequirements/">Video Publishing Requirements</a> for prerequisite steps and video and audio requirements.</li>
+</ul>
+<p><strong>To specify stream URLs:</strong></p>
+<ol>
+<li>Go to the <strong>Stream Settings</strong> section.</li>
+<li>Specify the following stream URL types:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">Stream URL Type</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Stream Origin URL</td>
+<td align="left">Input the publishing point URL where the live stream is originally hosted.</td>
+</tr>
+<tr>
+<td align="left">Stream Return URL</td>
+<td align="left">Input the redirection URL to that the viewer will return to after the live-stream</td>
+</tr>
+<tr>
+<td align="left">concludes.</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Stream Share URL</td>
+<td align="left">Input the meta URL that will upload when a video is shared on an external site. This option is applicable if "Can users share your video?" is set to Yes.</td>
+</tr>
+<tr>
+<td align="left">Stream Meta URL</td>
+<td align="left">Input the meta URL that will upload when a video is shared on an external site. This option is applicable if "Can users share your video?" is set to Yes.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-2-configure-video-security">Step 2: Configure Video Security</h2>
+<p>Throughout the publishing cycle, your videos will require different levels of security for access, downloading, and sharing to social networks. Video access levels include:</p>
+<ul>
+<li><strong>Private</strong> - Video can be accessed by the console user who uploaded it.</li>
+<li><strong>Internal</strong> - Video can be accessed by the console administrator and designated console users.</li>
+<li><strong>Public</strong> - Video is visible to external consumers and can be accessed by console administrator and designated console users.</li>
+<li>The default setting is <em>Private</em>.</li>
+</ul>
+<p><strong>As a best practice, set your video to private for the initial upload. You will need to add key art and set the broadcast time in post upload activities.</strong></p>
+<p><strong>To configure video security:</strong></p>
+<ol>
+<li>Go to the <strong>Who can see your video?</strong> section.</li>
+<li>Select a radio button to set the access level.</li>
+</ol>
+<h2 id="step-3-enable-disable-video-downloading">Step 3: Enable / Disable Video Downloading</h2>
+<p>You can set whether you want to enable or disable the ability for external consumer to download video.</p>
+<ul>
+<li>Option uses download method supported by website or device.</li>
+<li>Consumer must comply with video download terms of service of website or device.</li>
+<li>The default setting is <em>No</em>.</li>
+</ul>
+<p><strong>To enable / disable video downloading:</strong></p>
+<ol>
+<li>Go to the <strong>Can users download your video?</strong> section.</li>
+<li>Select a radio button to enable/disable video download (i.e., Yes/No).</li>
+</ol>
+<h2 id="step-4-set-video-blind-spot">Step 4: Set Video Blind Spot</h2>
+<p>Because your 360 video is created using multiple cameras, it’s possible your video output could include some clipping of content referred to as a "Nadir Blind Spot."</p>
+<ul>
+<li>
+<p>The blind spot represents the position where the camera rig is supported and the tripod point is either left out of the video or the images are pinched together to eliminate the hole.</p>
+</li>
+<li>
+<p>The blind spot is usually corrected in post-production and filled in to imply a fully captured 360 image.</p>
+</li>
+<li>
+<p>The blind spot is typically filled by superimposing footage in that area or by inserting a “black” image at the nadir of the 360 video. The blind spot can then be used to populate with advertising space, navigations, or other uses.  </p>
+</li>
+</ul>
+<p>If your video includes a blind spot and you have not adjusted it in post-production, you can designate the blind spot location (Top or Bottom) and add a custom photo, logo, or icon to fill the blank space.</p>
+<p><strong>To configure blind spot and projection:</strong></p>
+<ol>
+<li>Go to <strong>Video Blindspot?</strong> and configure as follows:</li>
+<li>If Projection = Flat, Blind Spot = None</li>
+<li>If Projection = Spherical and video includes a Blind Spot, Blind Spot = Top or Bottom</li>
+<li>If Projection = Spherical and video does not include a Blind Spot, Blind Spot = None</li>
+</ol>
+<h2 id="step-5-set-video-projection">Step 5: Set Video Projection</h2>
+<p>Video Projection?</p>
+<ul>
+<li>Flat - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.</li>
+<li>Spherical _ This video type is usually filmed using two or more cameras and supports the use of HMD devices. Characteristics include:</li>
+<li>Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.</li>
+<li>This view creates and impression of depth a full 360 experience.</li>
+</ul>
+<p><strong>To set video projection:</strong></p>
+<ol>
+<li>Go to <strong>Video Projection?</strong>.</li>
+<li>Select a radio button to set video projection (i.e., Spherical or Flat).</li>
+</ol>
+<h2 id="step-6-select-video-category">Step 6: Select Video Category</h2>
+<p>You can assign a category to video to make it easier for consumers to find (e.g., Entertainment, Sports, Music, Action, Family, etc.).</p>
+<p><strong>To set video projection:</strong></p>
+<ol>
+<li>Go to <strong>Video Category Type</strong>.</li>
+<li>From the drop-down select a category.</li>
+</ol>
+<h1 id="part-4-manage-video-profile">Part 4: Manage Video Profile</h1>
+<p>After your video is uploaded, the final step in the configuration process is to review and update your video details, upload video key art and set the video broadcast time.</p>
+<h2 id="step-1-review-video-details">Step 1: Review Video Details</h2>
+<p>The Video Details section allows you to review the current settings assigned to the video. You can also test / play the video in the Content Console, or use the embed a video link to test the video.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Option / Setting</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Views</td>
+<td align="left">Displays the number of video views</td>
+</tr>
+<tr>
+<td align="left">Uploaded</td>
+<td align="left">Displays the date and time video was uploaded</td>
+</tr>
+<tr>
+<td align="left">Visibility Settings</td>
+<td align="left">Displays the current visibility setting for the video (Private, Internal, Public)</td>
+</tr>
+<tr>
+<td align="left">Allow Downloads</td>
+<td align="left">Displays video download setting Yes/No</td>
+</tr>
+<tr>
+<td align="left">Allow Sharing</td>
+<td align="left">Displays video sharing setting Yes/No</td>
+</tr>
+<tr>
+<td align="left">Allow Comments</td>
+<td align="left">Displays video comments setting Yes/No</td>
+</tr>
+<tr>
+<td align="left">File Size</td>
+<td align="left">Displays video file size</td>
+</tr>
+<tr>
+<td align="left">Duration</td>
+<td align="left">Display video play time</td>
+</tr>
+<tr>
+<td align="left">Embed Link</td>
+<td align="left">Displays video player and embed link.</td>
+</tr>
+<tr>
+<td align="left">Users</td>
+<td align="left">Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)</td>
+</tr>
+<tr>
+<td align="left"><strong>To view video details:</strong></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Go to <strong>Home &gt; Properties &gt; Collection &gt; Video</strong>.</li>
+<li>Select <strong>Video Details</strong>.</li>
+<li>Review the video information. You can test the video by playing it, or using the embed video link.</li>
+<li>To update video settings, go to the <strong>Edit</strong> section.</li>
+</ol>
+<h2 id="step-2-add-key-art">Step 2: Add Key Art</h2>
+<p><em>Key Art</em> is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a <em>thumbnail</em>. When your video was initially uploaded a thumbnail was assigned as the default start page.</p>
+<ul>
+<li>You upload key art during the video publishing phase.</li>
+<li>Key Art displays on your video profile, property, and collection pages.</li>
+</ul>
+<p>Supported key art size specifications include:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Key Art Setting</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Image Size</td>
+<td align="left">16:9, 1600 x 825</td>
+</tr>
+<tr>
+<td align="left">Format</td>
+<td align="left">4K</td>
+</tr>
+<tr>
+<td align="left">Live Area</td>
+<td align="left">Square, 825 x 825</td>
+</tr>
+<tr>
+<td align="left">Special Effects</td>
+<td align="left">Key Art will center on the x/y axis. A parallax effect can be applied to your Key Art image.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>To upload key art:</strong></p>
+<ol>
+<li>Go to <strong>Home &gt; Properties &gt; Collection &gt; Video</strong>.</li>
+<li>Select <strong>Edit</strong>.</li>
+<li>Click the video thumbnail and upload a key art file using the dialog box.</li>
+</ol>
+<h2 id="step-3-set-broadcast-time">Step 3: Set Broadcast Time</h2>
+<p>The time you set your video to broadcast is based on many factors. For example:</p>
+<ul>
+<li>You arrangements with web providers to post your video at a designated time.</li>
+<li>You have considerations relating to the geographical area / time zone where your video will be initially broadcast.</li>
+<li>You may be sequencing the premiere of a video based on an event or product launch, etc.</li>
+<li>If your video security is set to Private or Internal, set your video to "Public" in the <strong>Video Information &gt; Who can see your video?</strong> section prior to the Broadcast time.</li>
+</ul>
+<p><strong>To set a broadcast time:</strong></p>
+<ol>
+<li>Go to <strong>Home &gt; Properties &gt; Collection &gt; Video</strong>.</li>
+<li>Select <strong>Edit</strong>.</li>
+<li>Use the drop-down menus to set the date and time the video will broadcast. The default is the current date and time.</li>
+<li>If you are ready to publish the video, select <strong>Review</strong> to continue, or <strong>Save for Later</strong> to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the <strong>Home</strong>. page.</li>
+<li>Make sure your video is set to "Public" in the <strong>Who can see your video?</strong> before the broadcast time.</li>
+</ol>
+<h2 id="step-4-review-video">Step 4: Review Video</h2>
+<p>The Review Video Profile page displays a final presentation of your video configuration.</p>
+<ol>
+<li>Review the content for accuracy.</li>
+<li>Verify that it represents the message and style you want to present.</li>
+<li>Verify that the image URL presented launch to the correct page and work properly.</li>
+<li>Verify that all referenced websites are correct.</li>
+<li>Select the edit icon to make any adjustments.</li>
+</ol>
+<h2 id="step-5-publish-video">Step 5: Publish Video</h2>
+<ol>
+<li>If you are happy with the video configuration, click <strong>Publish</strong>.</li>
+<li>Your video will go live on all the sites posted based on your designated Broadcast Time.</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../managevideo/" class="btn btn-neutral float-right" title="Manage Video">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../publishhostedvideo/" class="btn btn-neutral" title="Publish Hosted Video"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../publishhostedvideo/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../managevideo/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
