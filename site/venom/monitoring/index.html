@@ -144,7 +144,21 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#monitoring">Monitoring</a></li>
+                <li class="toctree-l3"><a href="#introduction">Introduction</a></li>
+                
+                    <li><a class="toctree-l4" href="#data-collection-areas">Data Collection Areas</a></li>
+                
+                    <li><a class="toctree-l4" href="#data-collection-process">Data Collection Process</a></li>
+                
+                    <li><a class="toctree-l4" href="#analytic-reports">Analytic Reports</a></li>
+                
+                    <li><a class="toctree-l4" href="#dashboard-view-reports">Dashboard View Reports</a></li>
+                
+                    <li><a class="toctree-l4" href="#property-view-reports">Property View Reports</a></li>
+                
+                    <li><a class="toctree-l4" href="#collection-view-reports">Collection View Reports</a></li>
+                
+                    <li><a class="toctree-l4" href="#saving-a-report">Saving a Report</a></li>
                 
             
             </ul>
@@ -212,15 +226,158 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="monitoring">Monitoring</h1>
-<p>Coming soon...</p>
-<!--## Analytical Categories
-
-## Dashboard View
-
-## Property View
-
-## Saving a Report -->
+                <h1 id="introduction">Introduction</h1>
+<p>This topic provides information on the Content Console's data monitoring capabilities.</p>
+<h2 id="data-collection-areas">Data Collection Areas</h2>
+<p>The Content Console compiles monitoring data related to live and on demand video streams. Data is collected for external video usage and internally for console artifacts.</p>
+<h3 id="video-usage-external">Video Usage (External)</h3>
+<p>Usage monitoring is performed on external Video on Demand (VoD) and Live Streams. Statistical data can help you determine audience size, number of unique visitors, peak traffic time, etc. and can be used to optimize your video outreach strategy.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Report Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Collection Interval</td>
+<td align="left">Daily</td>
+</tr>
+<tr>
+<td align="left">Visibility</td>
+<td align="left">Organization Administrators and Publishers</td>
+</tr>
+<tr>
+<td align="left">Report Types</td>
+<td align="left">PDF</td>
+</tr>
+<tr>
+<td align="left">Performance Tracking</td>
+<td align="left">Views, Page Loads, Session Time, Locality, Downloads</td>
+</tr>
+</tbody>
+</table>
+<p>Note: Video Usage data is presented in the blue screen area.</p>
+<p><img alt="Video Usage" src="../blue_video_usage.jpg" title="Example of Video Usage screen area" /></p>
+<h3 id="content-console-artifacts-internal">Content Console Artifacts (Internal)</h3>
+<p>Usage monitoring is performed for Content Console Artifacts and tracks the actual number of artifacts that are added to the Content Console. This data can be useful to gauge overall number of assets, balance of content in a particular Property or Collection, number of Published versus Private videos, etc.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Report Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Collection Interval</td>
+<td align="left">Immediately throughout the content management cycle.</td>
+</tr>
+<tr>
+<td align="left">Visibility</td>
+<td align="left">Organization Administrators and Publishers</td>
+</tr>
+<tr>
+<td align="left">Performance Tracking</td>
+<td align="left">Views, Videos, Streams, Apps, Members, Properties, Collections</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-collection-process">Data Collection Process</h2>
+<ul>
+<li>Data to be captured is defined in a business definition.</li>
+<li>Based on this definition raw data for Video on Demand (VoD) and live stream activity is collected.</li>
+<li>The data is then stored and segmented on a <em>per day</em> basis.</li>
+<li>The captured data is then transformed into metrics, analyzed, and summarized and grouped (e.g., daily, all).</li>
+<li>Data presentation is segregated based on collection point (i.e., external or internal).</li>
+<li>Collected data is then presented in a series of data tables on the Dashboard, Property, and Collection pages.</li>
+</ul>
+<h2 id="analytic-reports">Analytic Reports</h2>
+<p>The following analytics reports are provided:</p>
+<h3 id="user-activity-statistics-by-date-total">User Activity Statistics by Date / Total</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Report Name</th>
+<th align="left">Description</th>
+<th>Platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Total Page Loads</td>
+<td align="left">Total number of times a page containing a published video or live stream was accessed.</td>
+<td>Web, Android, iOS</td>
+</tr>
+<tr>
+<td align="left">Total Views</td>
+<td align="left">Total number of times a published video or live stream video that started playing.</td>
+<td>Web, Android, iOS</td>
+</tr>
+<tr>
+<td align="left">Unique Views</td>
+<td align="left">Total number of unique viewers per Video on Demand (VoD) or Live Stream.</td>
+<td>Web, Android, iOS</td>
+</tr>
+<tr>
+<td align="left">Total Session Time</td>
+<td align="left">Total time user spent on page containing a published video or live stream.</td>
+<td>Web, Android, iOS</td>
+</tr>
+<tr>
+<td align="left">Average Session Time</td>
+<td align="left">Average time user spent on page containing a published video or live stream.</td>
+<td>Web, Android, iOS</td>
+</tr>
+<tr>
+<td align="left">Locality</td>
+<td align="left">Total views segmented by geographic region (i.e., county, region, and city)</td>
+<td>Web, Android, iOS</td>
+</tr>
+<tr>
+<td align="left">Total Times Downloaded</td>
+<td align="left">Total number of times Video on Demand (VoD) was downloaded</td>
+<td>Android, iOS</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-activity-statistics-by-date-total">Platform Activity Statistics by Date / Total</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Report Name</th>
+<th align="left">Description</th>
+<th>Platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Total Page Loads</td>
+<td align="left">Total number of times a page containing a published video or live stream was accessed.</td>
+<td>Web, Android, iOS</td>
+</tr>
+<tr>
+<td align="left">Total Views</td>
+<td align="left">Total number of times a published video or live stream video that started playing.</td>
+<td>Web, Android, iOS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="dashboard-view-reports">Dashboard View Reports</h2>
+<p><img alt="Dashboard" src="../dashboard_reports.jpg" title="Dashboard Reports" /></p>
+<h2 id="property-view-reports">Property View Reports</h2>
+<p><img alt="Property" src="../property_reports.jpg" title="Property Reports" /></p>
+<p><img alt="Property" src="../property_reports2.jpg" title="Property Reports" /></p>
+<h2 id="collection-view-reports">Collection View Reports</h2>
+<p><img alt="Collection" src="../collection_reports.jpg" title="Collection Reports" /></p>
+<p><img alt="Collection" src="../collection_reports2.jpg" title="Collection Reports" /></p>
+<h2 id="saving-a-report">Saving a Report</h2>
+<ul>
+<li>Video usage reports are auto-generated the end of each daily cycle and saved to a PDF file.</li>
+<li>The PDF files can be viewed by selecting View Report blue screen area of Dashboard, Property, and Collection pages.</li>
+<li>When the report loads, save it using your standard operating system save function.  </li>
+</ul>
               
             </div>
           </div>

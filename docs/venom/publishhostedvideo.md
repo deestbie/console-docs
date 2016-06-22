@@ -4,7 +4,7 @@ The Content Console offers a flexible video publishing platform where you can ta
 
 The following tutorial illustrates how to publish a video that is hosted on the Content Console.
 
-# Part 1: Configure Video Property and Collection
+# **Part 1: Configure Video Property and Collection**
 
 ## Step 1: Launch the Content Console
 

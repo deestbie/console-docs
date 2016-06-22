@@ -487,13 +487,68 @@
         },
         {
             "location": "/venom/monitoring/",
-            "text": "Monitoring\n\n\nComing soon...",
+            "text": "Introduction\n\n\nThis topic provides information on the Content Console's data monitoring capabilities.\n\n\nData Collection Areas\n\n\nThe Content Console compiles monitoring data related to live and on demand video streams. Data is collected for external video usage and internally for console artifacts.\n\n\nVideo Usage (External)\n\n\nUsage monitoring is performed on external Video on Demand (VoD) and Live Streams. Statistical data can help you determine audience size, number of unique visitors, peak traffic time, etc. and can be used to optimize your video outreach strategy.\n\n\n\n\n\n\n\n\nReport Name\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nCollection Interval\n\n\nDaily\n\n\n\n\n\n\nVisibility\n\n\nOrganization Administrators and Publishers\n\n\n\n\n\n\nReport Types\n\n\nPDF\n\n\n\n\n\n\nPerformance Tracking\n\n\nViews, Page Loads, Session Time, Locality, Downloads\n\n\n\n\n\n\n\n\nNote: Video Usage data is presented in the blue screen area.\n\n\n\n\nContent Console Artifacts (Internal)\n\n\nUsage monitoring is performed for Content Console Artifacts and tracks the actual number of artifacts that are added to the Content Console. This data can be useful to gauge overall number of assets, balance of content in a particular Property or Collection, number of Published versus Private videos, etc.\n\n\n\n\n\n\n\n\nReport Name\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nCollection Interval\n\n\nImmediately throughout the content management cycle.\n\n\n\n\n\n\nVisibility\n\n\nOrganization Administrators and Publishers\n\n\n\n\n\n\nPerformance Tracking\n\n\nViews, Videos, Streams, Apps, Members, Properties, Collections\n\n\n\n\n\n\n\n\nData Collection Process\n\n\n\n\nData to be captured is defined in a business definition.\n\n\nBased on this definition raw data for Video on Demand (VoD) and live stream activity is collected.\n\n\nThe data is then stored and segmented on a \nper day\n basis.\n\n\nThe captured data is then transformed into metrics, analyzed, and summarized and grouped (e.g., daily, all).\n\n\nData presentation is segregated based on collection point (i.e., external or internal).\n\n\nCollected data is then presented in a series of data tables on the Dashboard, Property, and Collection pages.\n\n\n\n\nAnalytic Reports\n\n\nThe following analytics reports are provided:\n\n\nUser Activity Statistics by Date / Total\n\n\n\n\n\n\n\n\nReport Name\n\n\nDescription\n\n\nPlatform\n\n\n\n\n\n\n\n\n\n\nTotal Page Loads\n\n\nTotal number of times a page containing a published video or live stream was accessed.\n\n\nWeb, Android, iOS\n\n\n\n\n\n\nTotal Views\n\n\nTotal number of times a published video or live stream video that started playing.\n\n\nWeb, Android, iOS\n\n\n\n\n\n\nUnique Views\n\n\nTotal number of unique viewers per Video on Demand (VoD) or Live Stream.\n\n\nWeb, Android, iOS\n\n\n\n\n\n\nTotal Session Time\n\n\nTotal time user spent on page containing a published video or live stream.\n\n\nWeb, Android, iOS\n\n\n\n\n\n\nAverage Session Time\n\n\nAverage time user spent on page containing a published video or live stream.\n\n\nWeb, Android, iOS\n\n\n\n\n\n\nLocality\n\n\nTotal views segmented by geographic region (i.e., county, region, and city)\n\n\nWeb, Android, iOS\n\n\n\n\n\n\nTotal Times Downloaded\n\n\nTotal number of times Video on Demand (VoD) was downloaded\n\n\nAndroid, iOS\n\n\n\n\n\n\n\n\nPlatform Activity Statistics by Date / Total\n\n\n\n\n\n\n\n\nReport Name\n\n\nDescription\n\n\nPlatform\n\n\n\n\n\n\n\n\n\n\nTotal Page Loads\n\n\nTotal number of times a page containing a published video or live stream was accessed.\n\n\nWeb, Android, iOS\n\n\n\n\n\n\nTotal Views\n\n\nTotal number of times a published video or live stream video that started playing.\n\n\nWeb, Android, iOS\n\n\n\n\n\n\n\n\nDashboard View Reports\n\n\n\n\nProperty View Reports\n\n\n\n\n\n\nCollection View Reports\n\n\n\n\n\n\nSaving a Report\n\n\n\n\nVideo usage reports are auto-generated the end of each daily cycle and saved to a PDF file.\n\n\nThe PDF files can be viewed by selecting View Report blue screen area of Dashboard, Property, and Collection pages.\n\n\nWhen the report loads, save it using your standard operating system save function.",
             "title": "Monitoring"
         },
         {
-            "location": "/venom/monitoring/#monitoring",
-            "text": "Coming soon...",
-            "title": "Monitoring"
+            "location": "/venom/monitoring/#introduction",
+            "text": "This topic provides information on the Content Console's data monitoring capabilities.",
+            "title": "Introduction"
+        },
+        {
+            "location": "/venom/monitoring/#data-collection-areas",
+            "text": "The Content Console compiles monitoring data related to live and on demand video streams. Data is collected for external video usage and internally for console artifacts.",
+            "title": "Data Collection Areas"
+        },
+        {
+            "location": "/venom/monitoring/#video-usage-external",
+            "text": "Usage monitoring is performed on external Video on Demand (VoD) and Live Streams. Statistical data can help you determine audience size, number of unique visitors, peak traffic time, etc. and can be used to optimize your video outreach strategy.     Report Name  Description      Collection Interval  Daily    Visibility  Organization Administrators and Publishers    Report Types  PDF    Performance Tracking  Views, Page Loads, Session Time, Locality, Downloads     Note: Video Usage data is presented in the blue screen area.",
+            "title": "Video Usage (External)"
+        },
+        {
+            "location": "/venom/monitoring/#content-console-artifacts-internal",
+            "text": "Usage monitoring is performed for Content Console Artifacts and tracks the actual number of artifacts that are added to the Content Console. This data can be useful to gauge overall number of assets, balance of content in a particular Property or Collection, number of Published versus Private videos, etc.     Report Name  Description      Collection Interval  Immediately throughout the content management cycle.    Visibility  Organization Administrators and Publishers    Performance Tracking  Views, Videos, Streams, Apps, Members, Properties, Collections",
+            "title": "Content Console Artifacts (Internal)"
+        },
+        {
+            "location": "/venom/monitoring/#data-collection-process",
+            "text": "Data to be captured is defined in a business definition.  Based on this definition raw data for Video on Demand (VoD) and live stream activity is collected.  The data is then stored and segmented on a  per day  basis.  The captured data is then transformed into metrics, analyzed, and summarized and grouped (e.g., daily, all).  Data presentation is segregated based on collection point (i.e., external or internal).  Collected data is then presented in a series of data tables on the Dashboard, Property, and Collection pages.",
+            "title": "Data Collection Process"
+        },
+        {
+            "location": "/venom/monitoring/#analytic-reports",
+            "text": "The following analytics reports are provided:",
+            "title": "Analytic Reports"
+        },
+        {
+            "location": "/venom/monitoring/#user-activity-statistics-by-date-total",
+            "text": "Report Name  Description  Platform      Total Page Loads  Total number of times a page containing a published video or live stream was accessed.  Web, Android, iOS    Total Views  Total number of times a published video or live stream video that started playing.  Web, Android, iOS    Unique Views  Total number of unique viewers per Video on Demand (VoD) or Live Stream.  Web, Android, iOS    Total Session Time  Total time user spent on page containing a published video or live stream.  Web, Android, iOS    Average Session Time  Average time user spent on page containing a published video or live stream.  Web, Android, iOS    Locality  Total views segmented by geographic region (i.e., county, region, and city)  Web, Android, iOS    Total Times Downloaded  Total number of times Video on Demand (VoD) was downloaded  Android, iOS",
+            "title": "User Activity Statistics by Date / Total"
+        },
+        {
+            "location": "/venom/monitoring/#platform-activity-statistics-by-date-total",
+            "text": "Report Name  Description  Platform      Total Page Loads  Total number of times a page containing a published video or live stream was accessed.  Web, Android, iOS    Total Views  Total number of times a published video or live stream video that started playing.  Web, Android, iOS",
+            "title": "Platform Activity Statistics by Date / Total"
+        },
+        {
+            "location": "/venom/monitoring/#dashboard-view-reports",
+            "text": "",
+            "title": "Dashboard View Reports"
+        },
+        {
+            "location": "/venom/monitoring/#property-view-reports",
+            "text": "",
+            "title": "Property View Reports"
+        },
+        {
+            "location": "/venom/monitoring/#collection-view-reports",
+            "text": "",
+            "title": "Collection View Reports"
+        },
+        {
+            "location": "/venom/monitoring/#saving-a-report",
+            "text": "Video usage reports are auto-generated the end of each daily cycle and saved to a PDF file.  The PDF files can be viewed by selecting View Report blue screen area of Dashboard, Property, and Collection pages.  When the report loads, save it using your standard operating system save function.",
+            "title": "Saving a Report"
         },
         {
             "location": "/venom/terms/",
