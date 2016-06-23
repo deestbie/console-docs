@@ -13,7 +13,8 @@ pages:
 - Publish Live Stream: venom\publishlivestream.md
 - Manage Video: venom\managevideo.md
 - Publish Application: venom\publishapp.md
-- Monitoring: venom\monitoring.md
+- Video Usage Analytics: venom\videousageanalytics.md
+- Content Console Monitoring: venom\contentconsolemonitoring.md
 - Localization: venom\localization.md
 - Terms: venom\terms.md
 - Legal: venom\legal.md

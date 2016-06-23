@@ -24,7 +24,9 @@ Let's get started!
 
 * [**Publish Application**](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.
 
-* [**Monitoring**](venom\monitoring.md) - Learn about analytic categories and how to view statistical data.
+* [**Video Usage Analytics**](venom\videousageanalytics.md) - Learn about the Content Console's video usage analytics capabilities.
+
+* [**Content Console Monitoring**](venom\contentconsolemonitoring.md) - Learn about the Content Console's data artifacts monitoring capabilities.
 
 * [**Localization**](venom\localization.md) - Learn how to add one or more languages to a video property.
 

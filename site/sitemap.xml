@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>None/venom/features/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
      <loc>None/venom/siteorg/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
      <loc>None/venom/searchtools/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
      <loc>None/venom/permissions/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -44,7 +44,7 @@
     
     <url>
      <loc>None/venom/accountmanage/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -52,7 +52,7 @@
     
     <url>
      <loc>None/venom/videopublishrequirements/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -60,7 +60,7 @@
     
     <url>
      <loc>None/venom/publishhostedvideo/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
      <loc>None/venom/publishlivestream/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -76,7 +76,7 @@
     
     <url>
      <loc>None/venom/managevideo/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -84,15 +84,23 @@
     
     <url>
      <loc>None/venom/publishapp/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/venom/monitoring/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <loc>None/venom/videousageanalytics/</loc>
+     <lastmod>2016-06-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/venom/contentconsolemonitoring/</loc>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -100,7 +108,7 @@
     
     <url>
      <loc>None/venom/localization/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -108,7 +116,7 @@
     
     <url>
      <loc>None/venom/terms/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -116,7 +124,7 @@
     
     <url>
      <loc>None/venom/legal/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -124,7 +132,7 @@
     
     <url>
      <loc>None/venom/techfaq/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -132,7 +140,7 @@
     
     <url>
      <loc>None/venom/support/</loc>
-     <lastmod>2016-06-22</lastmod>
+     <lastmod>2016-06-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

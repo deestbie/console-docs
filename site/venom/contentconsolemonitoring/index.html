@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Content Console Monitoring - Digital Domain Content Console</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Content Console Monitoring";
+    var mkdocs_page_input_path = "venom\contentconsolemonitoring.md";
+    var mkdocs_page_url = "/venom/contentconsolemonitoring/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Digital Domain Content Console</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../features/">Features</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../siteorg/">Site Organization</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../searchtools/">Search Tools</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../permissions/">Staff Permissions</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../accountmanage/">Account Management</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../videopublishrequirements/">Video Publishing Requirements</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../publishhostedvideo/">Publish Hosted Video</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../publishlivestream/">Publish Live Stream</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../managevideo/">Manage Video</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../publishapp/">Publish Application</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../videousageanalytics/">Video Usage Analytics</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Content Console Monitoring</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#introduction">Introduction</a></li>
+                
+                    <li><a class="toctree-l4" href="#data-collection-for-content-console-artifacts">Data Collection for Content Console Artifacts</a></li>
+                
+                    <li><a class="toctree-l4" href="#report-details">Report Details</a></li>
+                
+                    <li><a class="toctree-l4" href="#monitoring-reports">Monitoring Reports</a></li>
+                
+                    <li><a class="toctree-l4" href="#totals-per-organization">Totals per Organization</a></li>
+                
+                    <li><a class="toctree-l4" href="#totals-by-property-summary">Totals by Property Summary</a></li>
+                
+                    <li><a class="toctree-l4" href="#property-sort-controls">Property Sort Controls</a></li>
+                
+                    <li><a class="toctree-l4" href="#totals-for-property-details">Totals for Property Details</a></li>
+                
+                    <li><a class="toctree-l4" href="#totals-by-collection-summary">Totals by Collection Summary</a></li>
+                
+                    <li><a class="toctree-l4" href="#collection-sort-controls">Collection Sort Controls</a></li>
+                
+                    <li><a class="toctree-l4" href="#totals-for-collection-details">Totals for Collection Details</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../localization/">Localization</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../terms/">Terms</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../legal/">Legal</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../techfaq/">Technical FAQ</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../support/">Support</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Digital Domain Content Console</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Content Console Monitoring</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="introduction">Introduction</h1>
+<p>This topic provides information on the Content Console's data artifacts monitoring capabilities.</p>
+<h2 id="data-collection-for-content-console-artifacts">Data Collection for Content Console Artifacts</h2>
+<p>The Content Console compiles monitoring data related artifacts added to the Content Console and tracks the actual number of artifacts that are added to the Content Console.</p>
+<p>This data can be useful to gauge overall number of assets, balance of content in a particular Property or Collection, number of Published versus Private videos, etc.</p>
+<h2 id="report-details">Report Details</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Report Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Collection Interval</td>
+<td align="left">Immediately throughout the content management cycle.</td>
+</tr>
+<tr>
+<td align="left">Visibility</td>
+<td align="left">Organization Administrators and Publishers</td>
+</tr>
+<tr>
+<td align="left">Performance Tracking</td>
+<td align="left">Views, Videos, Streams, Apps, Members, Properties, Collections</td>
+</tr>
+</tbody>
+</table>
+<h2 id="monitoring-reports">Monitoring Reports</h2>
+<p>The following monitoring reports are provided:</p>
+<h2 id="totals-per-organization">Totals per Organization</h2>
+<p>Totals are presented in the blue information box on <strong>Organization Home &gt; Dashboard</strong>.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Statistic</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Videos and Streams</td>
+<td align="left">Total number of videos and streams added to the Organization.</td>
+</tr>
+<tr>
+<td align="left">Apps</td>
+<td align="left">Total number of applications added to the Organization.</td>
+</tr>
+<tr>
+<td align="left">Members</td>
+<td align="left">Total number of members in the Organizations (i.e., account holders)</td>
+</tr>
+<tr>
+<td align="left">Properties</td>
+<td align="left">Total number of properties added to the Organization.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Video Usage" src="../console_report_org.jpg" title="Totals per Organization" /></p>
+<h2 id="totals-by-property-summary">Totals by Property Summary</h2>
+<p>Information and totals presented for each property listed on the <strong>Organization Home &gt; Dashboard &gt; Property</strong>.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Last Updated</td>
+<td align="left">Date and time property last updated.</td>
+</tr>
+<tr>
+<td align="left">Collections</td>
+<td align="left">Total number of collections defined in the property.</td>
+</tr>
+<tr>
+<td align="left">Videos</td>
+<td align="left">Total number of Video on Demand (VoD) videos added to the property.</td>
+</tr>
+<tr>
+<td align="left">Streams</td>
+<td align="left">Total number of live streams added to the property.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Properties" src="../property_dashboard_report.jpg" title="Property Statistics Information" /></p>
+<h2 id="property-sort-controls">Property Sort Controls</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Sorts properties..</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Title</td>
+<td align="left">Alphabetically by title.</td>
+</tr>
+<tr>
+<td align="left">Recent</td>
+<td align="left">Based on most recently updated.</td>
+</tr>
+<tr>
+<td align="left">Active</td>
+<td align="left">Based on published state (i.e., published or saved and not yet published)</td>
+</tr>
+<tr>
+<td align="left">Inactive</td>
+<td align="left">Based on whether property is archived.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Property" src="../console_property_sort_controls.jpg" title="Property Sort Controls" /></p>
+<h2 id="totals-for-property-details">Totals for Property Details</h2>
+<p>Totals are presented in the blue information box on <strong>Organization Home &gt; Dashboard &gt; Property &gt; Property Details</strong>.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Statistic</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Views</td>
+<td align="left">Total number of times the property was viewed (regardless of published state).</td>
+</tr>
+<tr>
+<td align="left">Apps</td>
+<td align="left">Total number of applications associated with the current property and videos collections.</td>
+</tr>
+<tr>
+<td align="left">Members</td>
+<td align="left">Total number of members that have privileges to manage or view videos in the property (i.e., account holders)</td>
+</tr>
+<tr>
+<td align="left">Collections</td>
+<td align="left">Total number of collections defined in the property.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Property" src="../content_console_property_details.jpg" title="Property Details Statistics" /></p>
+<h2 id="totals-by-collection-summary">Totals by Collection Summary</h2>
+<p>Information and totals presented for each property listed on the <strong>Organization Home &gt; Dashboard &gt; Property &gt; Collection</strong>.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Last Updated</td>
+<td align="left">Date and time property last updated.</td>
+</tr>
+<tr>
+<td align="left">Collections</td>
+<td align="left">Total number of collections defined in the property.</td>
+</tr>
+<tr>
+<td align="left">Videos</td>
+<td align="left">Total number of Video on Demand (VoD) videos added to the property.</td>
+</tr>
+<tr>
+<td align="left">Streams</td>
+<td align="left">Total number of live streams added to the property.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="collection-sort-controls">Collection Sort Controls</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Sorts collections..</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Title</td>
+<td align="left">Alphabetically by title.</td>
+</tr>
+<tr>
+<td align="left">Recent</td>
+<td align="left">Based on most recently updated.</td>
+</tr>
+<tr>
+<td align="left">Active</td>
+<td align="left">Based on video published state (i.e., saved and not yet published)</td>
+</tr>
+<tr>
+<td align="left">Staging</td>
+<td align="left">Based on video published state (i.e., published and is live or pending configured start time).</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Property" src="../collection_stats.jpg" title="Collection Sort Controls" /></p>
+<h2 id="totals-for-collection-details">Totals for Collection Details</h2>
+<p>Totals are presented in the blue information box on <strong>Organization Home &gt; Dashboard &gt; Property &gt; Collection</strong>.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Statistic</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Views</td>
+<td align="left">Total number of times Video on Demand (VoD) videos or live streams in the collection have been viewed (regardless of published state).</td>
+</tr>
+<tr>
+<td align="left">Members</td>
+<td align="left">Total number of members that have privileges to manage or view videos in the collection (i.e., account holders)</td>
+</tr>
+<tr>
+<td align="left">Session Time</td>
+<td align="left">Total time Video on Demand (VoD) videos or live streams in collection have been viewed.</td>
+</tr>
+<tr>
+<td align="left">Videos</td>
+<td align="left">Total number of Video on Demand (VoD) videos in collection.</td>
+</tr>
+<tr>
+<td align="left">Streams</td>
+<td align="left">Total number of live streams in the collection.</td>
+</tr>
+<tr>
+<td align="left">Downloads</td>
+<td align="left">Total number of Video on Demand (VoD) videos in the collection that have been downloaded.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Properties" src="../content_collection_summary.jpg" title="Collection Statistics Information" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../localization/" class="btn btn-neutral float-right" title="Localization">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../videousageanalytics/" class="btn btn-neutral" title="Video Usage Analytics"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../videousageanalytics/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../localization/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

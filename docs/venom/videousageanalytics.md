@@ -1,16 +1,16 @@
 # Introduction
 
-This topic provides information on the Content Console's data monitoring capabilities.
+This topic provides information on the Content Console's video usage analytics capabilities.
 
-## Data Collection Areas
+## Data Collection for Video Usage
 
-The Content Console compiles monitoring data related to live and on demand video streams. Data is collected for external video usage and internally for console artifacts.
+The Content Console compiles usage data for external Video on Demand (VoD) and Live Stream usage by mobile device applications, and websites where videos are embedded and viewed.
 
-### Video Usage (External)
+Statistical data can help you determine audience size, number of unique visitors, peak traffic time, etc. and can be used to optimize your video outreach strategy.
 
-Usage monitoring is performed on external Video on Demand (VoD) and Live Streams. Statistical data can help you determine audience size, number of unique visitors, peak traffic time, etc. and can be used to optimize your video outreach strategy.
+## Report Details
 
-| Report Name | Description   |
+| Features | Description   |
 |:----------------|:--------------------------------------|
 | Collection Interval  | Daily |
 | Visibility  | Organization Administrators and Publishers |
@@ -22,16 +22,6 @@ Note: **View Reports** link is available in the blue information box on Organiza
 ![Video Usage](blue_video_usage.jpg "View Reports")
 
 Figure: Example of Dashboard Information Box
-
-### Content Console Artifacts (Internal)
-
-Usage monitoring is performed for Content Console Artifacts and tracks the actual number of artifacts that are added to the Content Console. This data can be useful to gauge overall number of assets, balance of content in a particular Property or Collection, number of Published versus Private videos, etc.
-
-| Report Name | Description   |
-|:----------------|:--------------------------------------|
-| Collection Interval  | Immediately throughout the content management cycle. |
-| Visibility  | Organization Administrators and Publishers |
-| Performance Tracking  | Views, Videos, Streams, Apps, Members, Properties, Collections |
 
 ## Data Collection Process
 
@@ -72,7 +62,7 @@ The following analytics reports are provided:
 * Video usage reports are auto-generated the end of each daily cycle and saved to an HTML Reports page.
 * To view a report select **View Report** in the blue information box on Dashboard, Property, and Collection pages.
 
-The following example provides an example of an analytics report:
+The following examples illustrate where you can view an analytics report:
 
  ![Monitoring](analytics_report.jpg "Analytics Report")
 
@@ -87,5 +77,3 @@ The following example provides an example of an analytics report:
 ## View Reports > Collection
 
 ![Collection](collection_viewreport.jpg "View Collection Report")
-
-## Monitoring Reports

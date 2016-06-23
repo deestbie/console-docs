@@ -1,3 +1,69 @@
+
+
+## Totals per Organization
+
+Totals are presented in the blue information box on **Organization > Home**.
+
+| Statistic | Description   |
+|:----------------|:--------------------------------------|
+| Videos and Streams  | Total number of videos and streams added to the Organization. |
+| Apps  | Total number of applications added to the Organization. |
+| Members  | Total number of members in the Organizations (i.e., account holders) |
+| Properties  | Total number of properties added to the Organization. |
+
+![Video Usage](blue_video_usage.jpg "View Reports")
+
+## Totals by Property Summary
+
+Information and totals presented for each property listed on the **Properties Summary** on **Organization > Home**.
+
+| Name | Description   |
+|:----------------|:--------------------------------------|
+| Last Updated | Date and time property last updated. |
+| Collections  | Total number of collections defined in the property. |
+| Videos  | Total number of videos added to the property. |
+| Streams  | Total number of streams added to the property. |
+
+![Properties](property_dashboard_report.jpg "Property Summary Information")
+
+## Property Sort Controls
+
+| Name | Sorts properties..   |
+|:----------------|:--------------------------------------|
+| Title | Alphabetically by title. |
+| Recent  | Based on most recently updated. |
+| Active  | Based on published state (i.e., published or saved and not yet published) |
+| Inactive  | Based on whether property is archived. |
+
+## Totals for Property Views
+
+Totals are presented in the blue information box on **Organization > Home > Property > Property Details**.
+
+| Statistic | Description   |
+|:----------------|:--------------------------------------|
+| Views  | Total number of times the property was viewed (regardless of published state). |
+| Apps  | Total number of applications associated with the current property and videos collections. |
+| Members  | Total number of members that have privileges to manage or view videos in the property (i.e., account holders) |
+| Collections  | Total number of collections defined in the property. |
+
+![Property](property_viewreport.jpg "View Property Report")
+
+## Collection Sort Controls
+
+| Name | Sorts collections..   |
+|:----------------|:--------------------------------------|
+| Title | Alphabetically by title. |
+| Recent  | Based on most recently updated. |
+| Active  | Based on video published state (i.e., published or saved and not yet published) |
+| Inactive  | Based on whether video in collection is archived. |
+| Expand/Collapse Control  | Toggle that allows you to expand or collapse a property to view videos contained in the property. |
+
+![Property](collection_stats.jpg "Collection Sort Controls")
+
+
+
+
+
 # Introduction
 
 This topic provides information on the Content Console's data monitoring capabilities.
@@ -87,5 +153,3 @@ The following example provides an example of an analytics report:
 ## View Reports > Collection
 
 ![Collection](collection_viewreport.jpg "View Collection Report")
-
-## Monitoring Reports
