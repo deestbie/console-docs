@@ -6,15 +6,15 @@ pages:
 - Features: venom\features.md
 - Site Organization: venom\siteorg.md
 - Search Tools: venom\searchtools.md
+- Staff Permissions: venom\permissions.md
 - Account Management: venom\accountmanage.md
-- Account Permissions: venom\permissions.md
 - Video Publishing Requirements: venom\videopublishrequirements.md
 - Publish Hosted Video: venom\publishhostedvideo.md
 - Publish Live Stream: venom\publishlivestream.md
 - Manage Video: venom\managevideo.md
 - Publish Application: venom\publishapp.md
-- Localization: venom\localization.md
 - Monitoring: venom\monitoring.md
+- Localization: venom\localization.md
 - Terms: venom\terms.md
 - Legal: venom\legal.md
 - Technical FAQ: venom\techfaq.md

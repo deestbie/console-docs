@@ -2,18 +2,18 @@
 
 The Content Console is organized into following sections:
 
-## Home > Dashboard
+## Organization Home > Dashboard
 
 Provides a top-view of assets and analytic data associated with your account including:
 
-| Home Page                                               |
+| Organization Home Page                                               |
 |:----------------|:--------------------------------------|
 | Dashboard     | Lists the total number of videos and streams, apps, members, and properties.   |
 | Organization      | Displays the Organization Name and administrator contact information, and account edit option if you have administrator privileges    |
 | Properties         | Lists properties defined in your account, and total number of collections, videos, and streams in the property.   |
 | View Property     | Allows you to select a property name to drill-down to a detailed view of collections in each property |    | Add Property      | Allows you to add a property (**+ Property**).  |
 
-## Home > Apps
+## Organization Home > Apps
 
 Allows you to add and customize your app profile, add asset, and tokens.
 
@@ -44,11 +44,11 @@ Allows you to add and customize your app profile, add asset, and tokens.
 | Coming soon     |  |
 -->
 
-## Home > Users
+## Organization Home > Users
 
 Displays Name, Screen Name, and Join Date of users that are part of the current Organization.
 
-## Home > Dashboard > Property
+## Organization Home > Dashboard > Property
 
 | Property Summary                                           |
 |:----------------|:--------------------------------------|

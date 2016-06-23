@@ -10,9 +10,9 @@ Let's get started!
 
 * [**Search Tools**](venom\siteorg.md) - Learn about Content Console search and navigation tools.
 
-* [**Account Management**](venom\accountmanage.md) - Learn about the account setup process, how to reset your password, and change the email address associated with your account.
+* [**Staff Permissions**](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
 
-* [**Account Permissions**](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
+* [**Account Management**](venom\accountmanage.md) - Learn about the account setup process, how to reset your password, and change the email address associated with your account.
 
 * [**Video Publishing Requirements**](venom\videopublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and audio technical requirements.
 
@@ -24,9 +24,9 @@ Let's get started!
 
 * [**Publish Application**](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.
 
-* [**Localization**](venom\localization.md) - Learn how to add one or more languages to a video property.
-
 * [**Monitoring**](venom\monitoring.md) - Learn about analytic categories and how to view statistical data.
+
+* [**Localization**](venom\localization.md) - Learn how to add one or more languages to a video property.
 
 * [**Terms**](venom\terms.md) - Learn about video and content management terminology.
 

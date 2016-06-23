@@ -14,12 +14,14 @@ Usage monitoring is performed on external Video on Demand (VoD) and Live Streams
 |:----------------|:--------------------------------------|
 | Collection Interval  | Daily |
 | Visibility  | Organization Administrators and Publishers |
-| Report Types  | PDF |
+| Report Types  | HTML in Organization Home, Property, and Collection pages |
 | Performance Tracking  | Views, Page Loads, Session Time, Locality, Downloads |
 
-Note: Video Usage data is presented in the blue screen area.
+Note: **View Reports** link is available in the blue information box on Organization Dashboard, Properties, and Collection pages.
 
-![Video Usage](blue_video_usage.jpg "Example of Video Usage screen area")
+![Video Usage](blue_video_usage.jpg "View Reports")
+
+Figure: Example of Dashboard Information Box
 
 ### Content Console Artifacts (Internal)
 
@@ -50,6 +52,7 @@ The following analytics reports are provided:
 |:----------------|:--------------------------------------|--------------------------|
 | Total Page Loads    | Total number of times a page containing a published video or live stream was accessed.  | Web, Android, iOS |
 | Total Views     | Total number of times a published video or live stream video that started playing.    | Web, Android, iOS |
+| Total Complete Plays   | Total number of times a page containing a published video or live stream was accessed and the video was played for its complete duration.  | Web, Android, iOS |
 | Unique Views     | Total number of unique viewers per Video on Demand (VoD) or Live Stream.     | Web, Android, iOS |
 | Total Session Time  | Total time user spent on page containing a published video or live stream.  | Web, Android, iOS |
 | Average Session Time  | Average time user spent on page containing a published video or live stream.  | Web, Android, iOS |
@@ -64,24 +67,23 @@ The following analytics reports are provided:
 | Total Views     | Total number of times a published video or live stream video that started playing.    | Web, Android, iOS |
 
 
-## Dashboard View Reports
+## Viewing a Report
 
-![Dashboard](dashboard_reports.jpg "Dashboard Reports")
+* Video usage reports are auto-generated the end of each daily cycle and saved to an HTML Reports page.
+* To view a report select **View Report** in the blue information box on Dashboard, Property, and Collection pages.
 
-## Property View Reports
+The following example provides an example of an analytics report:
 
-![Property](property_reports.jpg "Property Reports")
+ ![Monitoring](analytics_report.jpg "Analytics Report")
 
-![Property](property_reports2.jpg "Property Reports")
+## View Reports > Organization Dashboard
 
-## Collection View Reports
+![Org](org_viewreport.jpg "View Organization Report")
 
-![Collection](collection_reports.jpg "Collection Reports")
+## View Reports > Property
 
-![Collection](collection_reports2.jpg "Collection Reports")
+![Property](property_viewreport.jpg "View Property Report")
 
-## Saving a Report
+## View Reports > Collection
 
-* Video usage reports are auto-generated the end of each daily cycle and saved to a PDF file.
-* The PDF files can be viewed by selecting View Report blue screen area of Dashboard, Property, and Collection pages.
-* When the report loads, save it using your standard operating system save function.  
+![Collection](collection_viewreport.jpg "View Collection Report")

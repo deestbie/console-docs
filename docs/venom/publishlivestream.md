@@ -137,41 +137,9 @@ Throughout the publishing cycle, your videos will require different levels of se
 1. Go to the **Who can see your video?** section.
 2. Select a radio button to set the access level.
 
-## Step 3: Enable / Disable Video Downloading
+## Step 3: Set Stream Projection
 
-You can set whether you want to enable or disable the ability for external consumer to download video.
-
-* Option uses download method supported by website or device.
-* Consumer must comply with video download terms of service of website or device.
-* The default setting is *No*.
-
-**To enable / disable video downloading:**
-
-1. Go to the **Can users download your video?** section.
-2. Select a radio button to enable/disable video download (i.e., Yes/No).
-
-## Step 4: Set Video Blind Spot
-
-Because your 360 video is created using multiple cameras, it’s possible your video output could include some clipping of content referred to as a "Nadir Blind Spot."
-
-* The blind spot represents the position where the camera rig is supported and the tripod point is either left out of the video or the images are pinched together to eliminate the hole.
-
-* The blind spot is usually corrected in post-production and filled in to imply a fully captured 360 image.
-
-* The blind spot is typically filled by superimposing footage in that area or by inserting a “black” image at the nadir of the 360 video. The blind spot can then be used to populate with advertising space, navigations, or other uses.  
-
-If your video includes a blind spot and you have not adjusted it in post-production, you can designate the blind spot location (Top or Bottom) and add a custom photo, logo, or icon to fill the blank space.
-
-**To configure blind spot and projection:**
-
-1. Go to **Video Blindspot?** and configure as follows:
-2. If Projection = Flat, Blind Spot = None
-3. If Projection = Spherical and video includes a Blind Spot, Blind Spot = Top or Bottom
-4. If Projection = Spherical and video does not include a Blind Spot, Blind Spot = None
-
-## Step 5: Set Video Projection
-
-Video Projection?
+Indicate what type of video you will be uploading.
 
 * Flat - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
 * Spherical _ This video type is usually filmed using two or more cameras and supports the use of HMD devices. Characteristics include:
@@ -183,18 +151,29 @@ Video Projection?
 1. Go to **Video Projection?**.
 2. Select a radio button to set video projection (i.e., Spherical or Flat).
 
-## Step 6: Select Video Category
-
-You can assign a category to video to make it easier for consumers to find (e.g., Entertainment, Sports, Music, Action, Family, etc.).
-
 **To set video projection:**
 
 1. Go to **Video Category Type**.
 2. From the drop-down select a category.
 
-# Part 4: Manage Video Profile
+## Step 4: Set Broadcast Time
 
-After your video is uploaded, the final step in the configuration process is to review and update your video details, upload video key art and set the video broadcast time.
+The time you set your video to broadcast is based on many factors. For example:
+
+* You arrangements with web providers to post your video at a designated time.
+* You have considerations relating to the geographical area / time zone where your video will be initially broadcast.
+* You may be sequencing the premiere of a video based on an event or product launch, etc.
+* If your video security is set to Private or Internal, set your video to "Public" in the **Video Information > Who can see your video?** section prior to the Broadcast time.
+
+**To set a broadcast time:**
+
+1. Go to **Home > Properties > Collection > Video**.
+2. Select **Edit**.
+3. Use the drop-down menus to set the date and time the video will broadcast. The default is the current date and time.
+3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
+4. Make sure your video is set to "Public" in the **Who can see your video?** before the broadcast time.
+
+## Part 4: Review, Test, and Publish Video
 
 ## Step 1: Review Video Details
 
@@ -219,46 +198,7 @@ The Video Details section allows you to review the current settings assigned to 
 3. Review the video information. You can test the video by playing it, or using the embed video link.
 4. To update video settings, go to the **Edit** section.
 
-## Step 2: Add Key Art
-
-*Key Art* is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a *thumbnail*. When your video was initially uploaded a thumbnail was assigned as the default start page.
-
-* You upload key art during the video publishing phase.
-* Key Art displays on your video profile, property, and collection pages.
-
-Supported key art size specifications include:
-
-| Key Art Setting       | Description            |
-|:-----------------|:-------------------------------------|
-| Image Size    | 16:9, 1600 x 825     |
-| Format    | 4K           |
-| Live Area    | Square, 825 x 825           |
-| Special Effects | Key Art will center on the x/y axis. A parallax effect can be applied to your Key Art image.  |
-
-**To upload key art:**
-
-1. Go to **Home > Properties > Collection > Video**.
-2. Select **Edit**.
-3. Click the video thumbnail and upload a key art file using the dialog box.
-
-## Step 3: Set Broadcast Time
-
-The time you set your video to broadcast is based on many factors. For example:
-
-* You arrangements with web providers to post your video at a designated time.
-* You have considerations relating to the geographical area / time zone where your video will be initially broadcast.
-* You may be sequencing the premiere of a video based on an event or product launch, etc.
-* If your video security is set to Private or Internal, set your video to "Public" in the **Video Information > Who can see your video?** section prior to the Broadcast time.
-
-**To set a broadcast time:**
-
-1. Go to **Home > Properties > Collection > Video**.
-2. Select **Edit**.
-3. Use the drop-down menus to set the date and time the video will broadcast. The default is the current date and time.
-3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
-4. Make sure your video is set to "Public" in the **Who can see your video?** before the broadcast time.
-
-## Step 4: Review Video
+## Step 2: Review Video
 
 The Review Video Profile page displays a final presentation of your video configuration.
 
@@ -268,7 +208,7 @@ The Review Video Profile page displays a final presentation of your video config
 4. Verify that all referenced websites are correct.
 5. Select the edit icon to make any adjustments.
 
-## Step 5: Publish Video
+## Step 3: Publish Video
 
 1. If you are happy with the video configuration, click **Publish**.
 2. Your video will go live on all the sites posted based on your designated Broadcast Time.
