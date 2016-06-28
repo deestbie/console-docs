@@ -24,9 +24,9 @@ You can access the *Staff Permissions* page by selecting a property on the Organ
 
 **Administrators:**
 
-* Create new organizations and properties
-* Create and manage apps including API keys and configuration items
-* Add and modify property access permissions
+* Create new organizations and properties.
+* Create and manage apps including API keys and configuration items.
+* Add and modify property access permissions.
 
 **Content Managers:**
 

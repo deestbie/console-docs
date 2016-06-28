@@ -79,7 +79,7 @@ Information and totals presented for each property listed on the **Organization 
 | Last Updated | Date and time property last updated. |
 | Collections  | Total number of collections defined in the property. |
 | Videos  | Total number of Video on Demand (VoD) videos added to the property. |
-| Streams  | Total number of live streams added to the property. |
+| Streams  | Total number of livestreams added to the property. |
 
 ## Collection Sort Controls
 

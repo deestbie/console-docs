@@ -11,11 +11,25 @@ Provides a top-view of assets and analytic data associated with your account inc
 | Dashboard     | Lists the total number of videos and streams, apps, members, and properties.   |
 | Organization      | Displays the Organization Name and administrator contact information, and account edit option if you have administrator privileges    |
 | Properties         | Lists properties defined in your account, and total number of collections, videos, and streams in the property.   |
-| View Property     | Allows you to select a property name to drill-down to a detailed view of collections in each property |    | Add Property      | Allows you to add a property (**+ Property**).  |
+| View Property     | Allows you to select a property name to drill-down to a detailed view of collections in each property |    
+| Add Property      | Allows you to add a property (**+ Property**).  |
+| View Report      | Allows you to view analytical reports about app usage. |
+
 
 ## Organization Home > Apps
 
-Allows you to add and customize your app profile, add asset, and tokens.
+Provides a top-view of application instances added to the Content Console, publishing info, platform, and video statistics.
+
+| App Home Page                                               |
+|:----------------|:--------------------------------------|
+| App Summary     | A list of application instances defined in the current organization.   |
+| Add Application      | Allows you to add an application (**+ Application**).  |
+| Published State      | The application publishing state (Published or Staging).     |
+| Version         | The current app version.   |
+| Type     | Platform the app is published on (iOS, Android, GearVR, Oculus Rift). |    
+| Videos      | Number of videos posted to the app.  |
+| Live Feeds      | Number of live feeds posted to the app. |
+| Downloads     | Number of times a video has been downloaded on the app. |
 
 **Coming soon...**
 
@@ -44,11 +58,18 @@ Allows you to add and customize your app profile, add asset, and tokens.
 | Coming soon     |  |
 -->
 
-## Organization Home > Users
+## Home > Users
 
-Displays Name, Screen Name, and Join Date of users that are part of the current Organization.
+Provides a summary of users defined in the current organization.
 
-## Organization Home > Dashboard > Property
+| Organization Members                                           |
+|:----------------|:--------------------------------------|
+| Name    | Displays the user name.  |
+| Screen Name         | Displays user screen name. Note that this name is auto-assigned.   |
+| Join Date   | Displays the member join date and time. |
+| +New Member    | Launches the Add New Organization Member popup. |
+
+## Home > Dashboard > Property
 
 | Property Summary                                           |
 |:----------------|:--------------------------------------|
@@ -64,5 +85,5 @@ Displays Name, Screen Name, and Join Date of users that are part of the current 
 |:----------------|:--------------------------------------|
 | Dashboard    | Lists the collection views by total, number of days, and number of hours.  |
 | Videos         | Lists videos defined in your collection, including name, season, security visibility setting, upload date and time, number of views, downloads, and video size.   |
-| Sort Criteria    | Allows you to sort videos in your collection by Order, VoD, Stream, Visibility Settings (Public, Private, Hidden)
+| Sort Criteria    | Allows you to sort videos in your collection by Order, VoD, Stream, Visibility Settings (Public, Private, Hidden).
 | +Upload    | Allows you upload a video to the collection. |

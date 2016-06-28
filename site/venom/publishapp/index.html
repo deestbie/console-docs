@@ -119,6 +119,13 @@
           
             <li>
     <li class="toctree-l1 ">
+        <a class="" href="../publishexternalvideo/">Publish External Video</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
         <a class="" href="../managevideo/">Manage Video</a>
         
     </li>
@@ -130,7 +137,20 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#publishing-an-application-using-the-content-console">Publishing an Application using the Content Console</a></li>
+                <li class="toctree-l3"><a href="#introduction">Introduction</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#what-is-involved-in-the-application-publishing-process">What is involved in the application publishing process?</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-1-gather-application-requirements">Step 1: Gather Application Requirements</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-2-add-application-to-content-console">Step 2: Add Application to Content Console</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-3-add-application-assets">Step 3: Add Application Assets</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-4-build-test-and-refine-apps">Step 4: Build, Test, and Refine Apps</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-5-update-application-tokens">Step 5: Update Application Tokens</a></li>
                 
             
             </ul>
@@ -219,8 +239,204 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="publishing-an-application-using-the-content-console">Publishing an Application using the Content Console</h1>
-<p>Coming soon...</p>
+                <h1 id="introduction">Introduction</h1>
+<p>This topic provides information about Content Console application publishing process.</p>
+<h1 id="what-is-involved-in-the-application-publishing-process">What is involved in the application publishing process?</h1>
+<p>The Digital Domain <em>Client Services</em> department manages the application publishing process and works with each client to gather specific requirements, publish these assets to each application, and add the application instance to the Content Console. Activities include:</p>
+<h2 id="step-1-gather-application-requirements">Step 1: Gather Application Requirements</h2>
+<ul>
+<li>Determine if a custom application is needed and define requirements.</li>
+<li>Determine supported app platforms (e.g., iOS, Android, GearVR, Oculus Rift).</li>
+<li>Determine assets required for each app including:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">Asset</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">App Branding Logos</td>
+<td align="left">Custom branding logos for app pages (.PNG).</td>
+</tr>
+<tr>
+<td align="left">CMS Branding Logos</td>
+<td align="left">Custom branding logos for Content Console Organization page (.PNG)</td>
+</tr>
+<tr>
+<td align="left">Landing/Splash Page</td>
+<td align="left">App landing page images. (.JPG)</td>
+</tr>
+<tr>
+<td align="left">Event Icons</td>
+<td align="left">Unique icons for specific app events or sections.</td>
+</tr>
+<tr>
+<td align="left">App Icons</td>
+<td align="left">App icon that will display on each mobile device after application is installed (.PNG file type)</td>
+</tr>
+<tr>
+<td align="left">Video Player Icons</td>
+<td align="left">Icon that will display on app video player to uniquely identify your brand. (.PNG file type)</td>
+</tr>
+<tr>
+<td align="left">Brand Assets</td>
+<td align="left">Set of full sized brand assets for design development.</td>
+</tr>
+<tr>
+<td align="left">Background Images</td>
+<td align="left">Keyframe images to be used for live events or VoD metadata. This requirement will vary per each custom app.</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>Size requirements are not specified as they will vary for each custom app and will be defined on each clients'  onboarding specification document.</li>
+<li>If you will be publishing applications for all four platforms, you will be providing one set of onboarding assets for each platform.</li>
+</ul>
+<h2 id="step-2-add-application-to-content-console">Step 2: Add Application to Content Console</h2>
+<p>Each client will provide their Client Services representative with the App Store URL for each specific platform app.</p>
+<ul>
+<li>Client Services will then add an instance of each app to the Digital Domain Content Console.</li>
+<li>Each completed app can then be associated with a specific property and added to the <em>Distribution Apps</em> section for videos in each Collection.</li>
+</ul>
+<p>To add an app to the Content Console:</p>
+<ol>
+<li>Select <strong>Organization &gt; Apps</strong>. The <em>Applications</em> page displays and presents a list of applications currently added to the organization.</li>
+<li>Select <strong>+Application</strong>. The <em>Create New Application</em> popup displays.</li>
+<li>Enter the information in the table listed below.</li>
+<li>Select <strong>Register</strong> to save the application.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Organization</td>
+<td align="left">The name of the organization the app is defined in.</td>
+</tr>
+<tr>
+<td align="left">App Name</td>
+<td align="left">The internal app name.</td>
+</tr>
+<tr>
+<td align="left">Bundle ID</td>
+<td align="left">The ID of the asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>).</td>
+</tr>
+<tr>
+<td align="left">Description</td>
+<td align="left">The app description (i.e., &lt;companyname iOS App).</td>
+</tr>
+<tr>
+<td align="left">Type</td>
+<td align="left">The app platform (i.e., iOS, Android, GearVR, or Oculus Rift).</td>
+</tr>
+<tr>
+<td align="left">Current Version</td>
+<td align="left">The app version (e.g., 1.1.1).</td>
+</tr>
+<tr>
+<td align="left">Store URL</td>
+<td align="left">The store URL that your app will be downloaded from (e.g. https://play.google.com/apps, https://itunes.apple.com/us/app).</td>
+</tr>
+<tr>
+<td align="left">Analytics ID</td>
+<td align="left">The ID of the analytic bundle that includes captured statistical data about your app.</td>
+</tr>
+</tbody>
+</table>
+<p>To add an icon to your application profile:</p>
+<ol>
+<li>Go to <strong>Organization &gt; Apps &gt; AppName &gt; Profile</strong>.</li>
+<li>Select the profile icon and upload a icon via the dialog box.</li>
+</ol>
+<h2 id="step-3-add-application-assets">Step 3: Add Application Assets</h2>
+<ul>
+<li>Clients will deliver assets to their Client Services representative based on their onboarding specification.</li>
+<li>Client services will add each asset to the Content Console (using an automated script or <strong>Create New Application Asset</strong> function).</li>
+<li>The assets will be packaged into an <em>asset bundle</em> that will then be added to each application platform build.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Name</td>
+<td align="left">Asset name. Use an easy to understand naming convention.</td>
+</tr>
+<tr>
+<td align="left">Description</td>
+<td align="left">Enter an asset description (e.g., asset purpose, app location, platform, etc.).</td>
+</tr>
+<tr>
+<td align="left">Value</td>
+<td align="left">Embed the Scalable Vector Graphics (SVG) code representation of the asset <em>OR</em>...</td>
+</tr>
+<tr>
+<td align="left">Upload</td>
+<td align="left">Select the Cloud icon to select and upload an asset.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-4-build-test-and-refine-apps">Step 4: Build, Test, and Refine Apps</h2>
+<ul>
+<li>Client services and our engineering staff will test each app and work with clients to refine application.</li>
+<li>When a final application version is available, the client will establish accounts with each application store, and submit the application to each platform-specific store.</li>
+<li>Note that lead time for approval from app stores is approximately 10-14 days.</li>
+<li>Review each app stores' sign off timelines to ensure your app will be available for download based on your delivery requirements.  </li>
+</ul>
+<h2 id="step-5-update-application-tokens">Step 5: Update Application Tokens</h2>
+<p>The <strong>Apps &gt; Token</strong> section defines the self-encryption scheme used for the app. All information is auto-generated as part of the app creation process. Token secret can be updated if a app security has been compromised.</p>
+<p><em>Note: Token secrets are updated by your Client Services only.</em></p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Organization</td>
+<td align="left">Organization where app is stored and managed. This field is non-editable.</td>
+</tr>
+<tr>
+<td align="left">Application Id</td>
+<td align="left">A string that is auto-generated when your app is added to the Content Console and uniquely identifies the app. This field is non-editable.</td>
+</tr>
+<tr>
+<td align="left">Application Name</td>
+<td align="left">Application name. This field is non-editable.</td>
+</tr>
+<tr>
+<td align="left">Token Id</td>
+<td align="left">Token that is used to verify the identity of user signed-in to an app. This field is non-editable.</td>
+</tr>
+<tr>
+<td align="left">Token Secret</td>
+<td align="left">Token shared secret. This field is editable and a new token secret can be added if app security has been compromised.</td>
+</tr>
+</tbody>
+</table>
+<p>To update the token secret:</p>
+<ol>
+<li>Generate a new token secret for the app using a random key generator, or prescribed method.</li>
+<li>Select <strong>Apps &gt; Token</strong>. The <em>Applications</em> page displays and presents a list of applications currently added to the organization.</li>
+<li>Select an application from the <em>Applications Summary</em>.</li>
+<li>Select <em>Token</em> tab.</li>
+<li>Enter new Token Secret and select <strong>Update</strong>.</li>
+<li>Select <strong>Create</strong> to save the asset.</li>
+</ol>
               
             </div>
           </div>

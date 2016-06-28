@@ -20,6 +20,8 @@ Let's get started!
 
 * [**Publish Live Stream**](venom\publishlivestream.md) - Learn how to publish live stream video content using a step-by-step tutorial.
 
+* [**Publish External Video**](venom\publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network using a step-by-step tutorial.
+
 * [**Manage Video**](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
 
 * [**Publish Application**](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.

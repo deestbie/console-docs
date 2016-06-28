@@ -2,7 +2,6 @@
 
 The Content Console provides search and navigation tools you can use view statistical information about properties, collections, and videos maintained on the site.
 
-
 ## How do I search for a video?
 
 The magnifying glass icon in the upper-right of the Content Console header allows you to perform a free text search to target video.
@@ -36,3 +35,16 @@ The magnifying glass icon in the upper-right of the Content Console header allow
 | Public          | Video visibility = Public       |
 | Private          | Video visibility = Private            |
 | Hidden          | Video visibility = Hidden            |
+
+## How do I sort applications by platform?
+
+1. Go to **Organization > Apps**. A list of applications defined in the current organization displays.
+2. The following sort views are available:
+
+| Options         | Video Sort View                   |
+|:-----------------|:-------------------------------------|
+| All       | Display all apps grouped by platform type. |
+| iOS        | Display only iOS apps.|
+| Android        | Display only Android apps.                  |
+| GearVR          | Display only GearVR apps.      |
+| Rift          | Display only Oculus Rift apps.            |
