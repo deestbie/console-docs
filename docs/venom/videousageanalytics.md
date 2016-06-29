@@ -62,9 +62,9 @@ The following analytics reports are provided:
 * Video usage reports are auto-generated the end of each daily cycle and saved to an HTML Reports page.
 * To view a report select **View Report** in the blue information box on Dashboard, Property, and Collection pages.
 
-The following examples illustrate where you can view an analytics report:
+The following illustration shows a example of an analytics report:
 
- ![Monitoring](analytics_report.jpg "Analytics Report")
+ ![Monitoring](analytics_example.jpg "Example Analytics Report")
 
 ## View Reports > Organization Dashboard
 
