@@ -24,15 +24,17 @@ You can access the *Staff Permissions* page by selecting a property on the Organ
 
 **Administrators:**
 
+This role can:
+
 * Create new organizations and properties.
 * Create and manage apps including API keys and configuration items.
 * Add and modify property access permissions.
 
 **Content Managers:**
 
-Content managers will upload, manage, and edit all necessary content, and associated metadata required to publish content to consumers including asset descriptions and graphics/artwork for featuring or showcasing the content.
+This role can upload, manage, and edit all necessary content, and associated metadata required to publish content to consumers including asset descriptions and graphics/artwork for featuring / showcasing content.
 
-This role is broken into the following categories:
+All Content Managers can perform the following sub-roles:
 
 *Contributor:*
 
