@@ -4,58 +4,29 @@ The Content Console offers a flexible video publishing platform where you can ta
 
 The following tutorial illustrates how to publish a video that is hosted on the Content Console.
 
-# PART 1 - CONFIGURE VIDEO PROPERTY AND COLLECTION
+# PART 1 - COMPLETE PREREQUISITES
 
-## Step 1: Launch the Content Console
+* Review [Video Publishing Requirements](videopublishrequirements.md)
+* Define a [Video Property](createproperty.md)
+* Define a [Video Collection](createcollection.md)
 
-1. Launch the Content Console and log in using your credentials. The *Home* page displays.
+# PART 2 - CREATE HOSTED VIDEO PROFILE
 
-![Home](home_page.jpg "Content Console Home Page")
+This section shows you how to publish a hosted video. You will:
 
-## Step 2: Define Video Property
-
-The first step in the video publishing process is to define a property. A property has the following characteristics:
-
-* A Property represents the top-level branding element of your video Collections.
-* A list of available Properties display on the Content Console Home page.
-* Within each Property you define one or more Collections.
-* You then add videos to Collections defined in a Property.
-* A video can be reassigned to a different Property and Collection after it is uploaded.
-
-**To define a property:**
-
-1. On the **Home** page go to **Properties**.
-2. Select **+Property**. The *Create a New Property* pop-up displays.
-![Home](add_property.jpg "Add Property")
-3. Enter the Property name, headline, and description, then **Create**. The new property is added to the *Properties Summary* page listing.
-
-## Step 3: Define Video Collection
-
-Within each Property you then define a Collection:
-
-- A Collection is a sub-category of a Property (e.g., TV Series Name).
-- After adding a new video asset, you then assign it to a Property and Collection.
-- Videos in a Collection can be reordered.
-- You can reassign a video to a different Property and Collection.
-- Within each Collection you also define a Season that represents a subcategory of the collection (i.e. Season, Series, Year, or Custom)
-
-To define a collection:
-
-1. In **Home > Properties > Property Name**, select **+Collection**. The *Create New Collection* pop-up displays.
-![Home](add_collection.jpg "Add Collection")
-3. Enter the collection name, description, and type, then **OK**. The *Collection* page displays.
-
-# PART 2 - CREATE VIDEO PROFILE
-
-This section shows you how to set the property and collection the video is contained in, and define the video metadata (i.e., title, description, tags).
+* Set the property and collection the hosted video is contained in
+* Configure video settings (i.e., visibility, downloading, sharing, projection, and blind spot)
+* Define video metadata (i.e., title, description, tags)
+* Upload a video
+* Review / update final configuration
+* Publish video
 
 ## Step 1: Select Video Upload Method
 
-1. In **Home > Properties > Property Name > Collection**.
-2. In the collection select Upload Video (**+Upload Video**).
-3. On the Uploader screen, select **Hosted on Digital Domain CMS Video**.
+1. In **Home > Properties > Property Name > Collection**, select Upload Video (**+Upload Video**).
+3. On the *Add a Video* menu, select **Hosted on Digital Domain CMS Video**.
 
-![Upload Video](addvideo_hosted_cms.jpg "Hosted on Digital Domain CMS")
+![Add a Video](addvideo_hosted_cms.jpg "Hosted on Digital Domain CMS")
 
 ## Step 2: Select Property and Collection
 
@@ -66,14 +37,17 @@ Change the default property assigned to your video and group your video in a col
 
 ## Step 3: Configure Video Security
 
-Throughout the publishing cycle, your videos will require different levels of security for access, downloading, and sharing to social networks. Video access levels include:
+Throughout the publishing cycle, your videos will require different levels of security for access, downloading, and sharing to social networks.
 
-* **Private** - Video can be accessed by the console user who uploaded it.
-* **Internal** - Video can be accessed by the console administrator and designated console users.
-* **Public** - Video is visible to external consumers and can be accessed by console administrator and designated console users.
-<!--* The default setting is *Private*.-->
+As a best practice, set your video to Private for the initial upload. You will need to add key art and set the video start time in post upload activities.
 
-**As a best practice, set your video to private for the initial upload. You will need to add key art and set the video start time in post upload activities.**
+Video access levels include:
+
+| Visibility Setting     | Description   |
+|:----------------|:--------------------------------------|
+| Private    | Video can be accessed by the console user who uploaded it. Default setting.  |
+| Internal    | Video can be accessed by the console administrator and designated console users.    |
+| Public      | Video is visible to external consumers and can be accessed by console administrator and designated console users.    |
 
 **To configure video security:**
 
@@ -86,7 +60,7 @@ You can set whether you want to enable or disable the ability for external consu
 
 * Option uses download method supported by website or device.
 * Consumer must comply with video download terms of service of website or device.
-<!--* The default setting is *No*.-->
+* The default setting is *No*.
 
 **To enable / disable video downloading:**
 
@@ -106,38 +80,13 @@ You can enable / disable social sharing of videos. Available social sharing netw
 
 Metadata is used to uniquely identify the characteristics of each video.
 
-* Videos can be tagged with metadata including Title, Description, and Search Tags.
+* Videos can be tagged with metadata including Title, Headline, Description, and (Search) Tags.
 * The default language for metadata is *English*.
 * A Consumer will see the metadata on websites where a video is posted.  
 * A Publisher can search for metadata in the Content Console.
+* See [Video Metadata](terms.md#video-metadata) more information on metadata types.
 <!--* The Add Language function allows you to add a new metadata instance to a video profile.-->
 <!--* Content for additional languages can be defined in a Excel template and uploaded to the Content Console.-->
-
-**Title (Required)**
-
-* Effective titles summarize the video subject.
-* They typically contain 5 words are less.
-* Use descriptive keywords that grab a viewers attention.
-* Should make sense out of context when they appear in search research.
-
-**Headline**
-
-* Effective headlines use a unique a set of reasons why a user should view your video.
-* Some techniques for creating catchy headlines include using numbers, trigger words, adjectives, keywords, and promises (e.g., details on what you will experience when watching the video, etc.).
-
-**Description**
-
-* Effective descriptions are concise (e.g., a small paragraph or lead-in sentence with bullet points).
-* Should include exciting descriptions about video topic that will attract viewers attention.
-* Should include hashtags (#) so they can be easily promoted on social media site.
-* Should include credits associated with video creator, participants, actors, promoters, etc.
-
-**Tags**
-
-* Search tags help to promote your video on social media sites and search engines.
-* Should contain keywords on who you are (individual, business, event, etc.)
-* To gain an edge on coverage, perform research on competitors, sites most relevant to your video subject, and tag names.
-* Search tags must be comma separated.
 
 **To define video metadata:**
 
@@ -160,15 +109,7 @@ Indicate what type of video you will be uploading.
 
 ## Step 8: Set Video Blind Spot
 
-Because your 360 video is created using multiple cameras, it’s possible your video output could include some clipping of content referred to as a "Nadir Blind Spot."
-
-* The blind spot represents the position where the camera rig is supported and the tripod point is either left out of the video or the images are pinched together to eliminate the hole.
-
-* The blind spot is usually corrected in post-production and filled in to imply a fully captured 360 image.
-
-* The blind spot is typically filled by superimposing footage in that area or by inserting a “black” image at the nadir of the 360 video. The blind spot can then be used to populate with advertising space, navigations, or other uses.  
-
-If your video includes a blind spot and you have not adjusted it in post-production, you can designate the blind spot location (Top or Bottom) and add a custom photo, logo, or icon to fill the blank space.
+If your video includes a blind spot and you adjusted it in post-production by adding a custom photo, logo, or icon to fill the blank space, you can designate the blind spot location (None, Top or Bottom). See [Blind Spot](terms.md#blind-spot) for more information. 
 
 **To configure blind spot and projection:**
 

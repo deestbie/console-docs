@@ -12,7 +12,7 @@
 
 Before you publish video and application digital assets to the Content Console you must complete the following steps:
 
-## Step 1. Create Digital Assets
+### Step 1. Create Digital Assets
 
 | Options          | Video Sort View                   |
 |:-------------------|:-------------------------------------|
@@ -20,7 +20,7 @@ Before you publish video and application digital assets to the Content Console y
 | Key Art          | Define thumbnails for each video that will stored in the Content Management System (i.e. Content Console).|
 
 
-## Step 2. Determine Digital Asset Storage and Management Approach
+### Step 2. Determine Digital Asset Storage and Management Approach
 
 The digital asset management process involves storage of assets and managing them for presentation on websites or mobile device applications. Organizations with large projects typically use a combination of Content Delivery Network (CDN) services for storing digital assets and Content Management Systems (CMS) associated with each unique product.  
 
@@ -40,7 +40,7 @@ Based on your requirements select an external service to for managing your asset
 
 Contact our Client Services Specialists to develop a solution that best suits your needs and requirements.
 
-## Step 3. Convert Video Digital Assets for Mobile Devices
+### Step 3. Convert Video Digital Assets for Mobile Devices
 
 Videos must be converted to the Video and Audio formats prior to being uploaded to the Content Console.
 
@@ -55,7 +55,7 @@ The following video file types are supported for mobile devices:
 
 ## Supported Video Formats
 
-### Format HD
+### --> Format HD
 
 | Category         | Measurement                          |
 |:-----------------|:-------------------------------------|
@@ -68,7 +68,7 @@ The following video file types are supported for mobile devices:
 | Nadir Blind Spot | Top, Bottom, None 	 	          |
 | Encode Options   | movflags faststart    		  |
 
-### Format 2K
+### --> Format 2K
 | Category         | Measurement                          |
 |:-----------------|:-------------------------------------|
 | Resolution       | 2048 x 1024			  |
@@ -80,7 +80,7 @@ The following video file types are supported for mobile devices:
 | Nadir Blind Spot | Top, Bottom, None 	 	          |
 | Encode Options   | movflags faststart    		  |
 
-### Format 4K
+### --> Format 4K
 | Category         | Measurement                          |
 |:-----------------|:-------------------------------------|
 | Resolution       | 4096 x 2048			  |

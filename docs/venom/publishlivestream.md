@@ -3,66 +3,34 @@
 
 The Content Console offers a flexible video publishing platform where you can tailor your configuration workflow based on your requirements and availability of your video digital assets.
 
-The following tutorial illustrates how to publish a live stream that is hosted on an external streaming media service or Content Delivery Network (CDN).
+The following tutorial illustrates how to publish a live stream that is hosted on an external streaming Media Server or Content Delivery Network (CDN).
 
-# Part 1: Configure Video Property and Collection
+# PART 1 - COMPLETE PREREQUISITES
 
-## Step 1: Launch the Content Console
+* Review [Video Publishing Requirements](videopublishrequirements.md)
+* Define a [Video Property](createproperty.md)
+* Define a [Video Collection](createcollection.md)
 
-1. Launch the Content Console and log in using your credentials. The *Home* page displays.
+## PART 2: CREATE LIVE STREAM PROFILE
 
-![Home](home_page.jpg "Content Console Home Page")
+This section shows you how to publish a hosted video. You will:
 
-## Step 2: Define Video Property
-
-The first step in the video publishing process is to define a Property. A Property has the following characteristics:
-
-* A Property represents the top-level branding element of your videos (e.g., TV Network).
-* A video must be added directly to a Property.
-* A list of available Properties display on the Content Console Home page.
-* A video can be reassigned to a different Property after it is uploaded.
-
-**To define a property:**
-
-1. On the **Home** page go to **Properties**.
-2. Select **+Property**. The *Create a New Property* pop-up displays.
-![Home](add_property.jpg "Add Property")
-3. Enter the Property name, headline, and description, then **Create**. The new property is added to the *Properties* page listing.
-
-## Step 3: Define Video Collection
-
-Within each Property you then define a Collection:
-
-- A Collection is a sub-category of a Property (e.g., TV Series Name).
-- After adding a new video asset, you then assign it to a Property and Collection.
-- Videos in a Collection can be reordered.
-- You can reassign a video to a different Property and Collection.
-- Within each Collection you also define a Season that represents a subcategory of the collection (i.e. episode #, etc.)
-
-To define a collection:
-
-1. In **Home > Properties > Property Name**, select **+Collection**. The *Create New Collection* pop-up displays.
-![Home](add_collection.jpg "Add Collection")
-3. Enter the collection name, description, and type, then **OK**. The *Collection* page displays.
-
-## Part 2: Define Basic Stream information
-
-This section allows you to set the property and collection the video is contained in, and define the video metadata (i.e., title, description, tags).
+* Set the property and collection the hosted video is contained in.
+* Configure video settings (i.e., visibility, downloading, sharing, projection, and blind spot).
+* Define video metadata (i.e., title, headiline, description, tags).
+* Upload a video.
+* Review / update final configuration.
+* Publish video.
 
 ## Step 1: Select Video Upload Method
 
 1. In **Home > Properties > Property Name > Collection**.
 2. In the collection select Upload Video (**+Upload Video**).
-3. On the Uploader screen, select **Live Stream**.
+3. On the Uploader screen, select **URL FOR LIVE STREAM**.
 
-## Step 2: Select a Property
+![Upload Video](addvideo_livestream_cms.jpg "URL FOR LIEVE STREAM")
 
-Change the default property assigned to your video and group your video in a collection. Note that both steps are required.
-
-1. In **Select a Property** section, the currently assigned property is selected. To reassign the current video to a new property, select it from the drop-down.
-2. After you select the property, the **Select a Collection"** drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the video.
-
-## Step 3: Define Video Metadata
+## Step 2: Define Video Metadata
 
 Metadata is used to uniquely identify the characteristics of each video.
 
@@ -93,14 +61,28 @@ Metadata is used to uniquely identify the characteristics of each video.
 
 * Enter text that will display after a video has finished playing (e.g., Thanks for watching, Visit our website, etc.)
 
-**To define video metadata:**
+## Step 3: Select Property and Collection
 
-1. Go to the **Primary Language** section.
-2. Enter the Title, Description, Pre Screen Text, and Post Screen Text.
+Change the default property assigned to your video and group your video in a collection. Note that both steps are required.
 
-# Part 3: Specify Stream Settings and Options
+1. In **Assign to a property** section, the currently assigned property is selected. To reassign the current video to a new property, select it from the drop-down.
+2. After you select the property, the **Assign to a collection"** drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the video.
 
-## Step 1: Specify Stream Settings
+## Step 3: Set Stream Projection
+
+Indicate what type of video you will be uploading.
+
+* Flat - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
+* Spherical _ This video type is usually filmed using two or more cameras and supports the use of HMD devices. Characteristics include:
+   * Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.
+   * This view creates and impression of depth a full 360 experience.
+
+**To set video projection:**
+
+1. Go to **Video Projection?**.
+2. Select a radio button to set video projection (i.e., Spherical or Flat).
+
+## Step 4: Specify Stream Settings
 
 The upload video process involves specifying a services of stream URLs for your live stream.
 
@@ -156,7 +138,7 @@ Indicate what type of video you will be uploading.
 1. Go to **Video Category Type**.
 2. From the drop-down select a category.
 
-## Step 4: Set Broadcast Time
+## Step 4: Set Start Time and Duration
 
 The time you set your video to broadcast is based on many factors. For example:
 
@@ -165,11 +147,11 @@ The time you set your video to broadcast is based on many factors. For example:
 * You may be sequencing the premiere of a video based on an event or product launch, etc.
 * If your video security is set to Private or Internal, set your video to "Public" in the **Video Information > Who can see your video?** section prior to the Broadcast time.
 
-**To set a broadcast time:**
+**To set video start time and duration:**
 
-1. Go to **Home > Properties > Collection > Video**.
-2. Select **Edit**.
-3. Use the drop-down menus to set the date and time the video will broadcast. The default is the current date and time.
+1. Go to **Settings > Start**.
+3. Select the down arrow to load the calendar popup, then set the date and time the video will broadcast.
+3. In **Duration (In Minutes)** specify a number that indicates estimated maximum live stream play time in minutes (e.g., 60 for 60 minutes).
 3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
 4. Make sure your video is set to "Public" in the **Who can see your video?** before the broadcast time.
 

@@ -1,4 +1,18 @@
 
+[Video Metadata](terms.md#video-metadata)  link in destination doc
+
+[Video Metadata](#video-metadata) top of source doc  DO NOT NEED THIS PART
+
+<a id="video-metadata"></a>Video Metadata header of source doc
+
+
+## Step 1: Launch the Content Console
+
+1. Launch the Content Console and log in using your credentials. The *Home* page displays.
+
+![Home](home_page.jpg "Content Console Home Page")
+
+
 
 ## Totals per Organization
 
