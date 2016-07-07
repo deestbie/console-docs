@@ -41,6 +41,10 @@ Let's get started!
 
 * [Update Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
 
+* [**Technical FAQ (Video)**](venom\techfaqvideo.md)
+
+Review a list of technical topics pertaining to video production using the Content Console.
+
 ##### Application Publishing Prerequisites
 
 * [Application Publishing Requirements](venom\apppublishrequirements.md) - Learn about prerequisites for optimizing the application publishing production cycle.
@@ -50,6 +54,10 @@ Let's get started!
 * [Publish Application](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.
 
 * [Update Application](venom\manageapp.md) - Learn how to manage (i.e., edit/update) an application that is added to the Content Console.
+
+* [**Technical FAQ (Application)**](venom\techfaqapp.md)
+
+Review a list of technical topics pertaining to application production using the Content Console.
 
 ##### Analytics and Usage Monitoring
 
@@ -61,17 +69,13 @@ Let's get started!
 
 * Learn how to add one or more languages to a video property.
 
-##### [Legal](venom\legal.md)
-
-Learn about terms and conditions for using the Content Console.
-
-#####  [**Technical FAQ**](venom\techfaq.md)
-
-Review a list of technical topics pertaining to video and application production using the Content Console.
-
 ##### [**Terms**](venom\terms.md)
 
 Learn about video and content management terminology.
+
+##### [Legal](venom\legal.md)
+
+Learn about terms and conditions for using the Content Console.
 
 ##### [**Support**](venom\support.md)
 

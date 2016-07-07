@@ -74,6 +74,8 @@ Metadata allows you to describe the content of a video. The following list inclu
 * They typically contain 5 words are less.
 * Use descriptive keywords that grab a viewers attention.
 * Should make sense out of context when they appear in search research.
+* There is no character limitation for video titles.
+* The first 50 characters (including spaces) display in a search list.
 
 **Headline**
 

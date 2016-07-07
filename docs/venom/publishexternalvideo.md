@@ -52,7 +52,7 @@ Video access levels include:
 
 **To configure video security:**
 
-1. Go to the **Visibility** section.
+1. Go to **Visibility**.
 2. Select a option box to set the access level.
 
 ## Step 4: Enable / Disable Video Downloading

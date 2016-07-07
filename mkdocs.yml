@@ -22,16 +22,17 @@ pages:
   - Publish External Video: venom\publishexternalvideo.md
   - Publish Live Stream: venom\publishlivestream.md
   - Update Video Profile: venom\managevideo.md
+  - Technical FAQ (Video): venom\techfaqvideo.md
 - APPLICATION PUBLISHING PREREQUISITES:
   - Application Publishing Requirements: venom\apppublishrequirements.md
 - PUBLISH APPLICATIONS:
   - Publish Application: venom\publishapp.md
   - Update Application Profile: venom\manageapp.md
+  - Technical FAQ (Application): venom\techfaqapp.md
 - ANALYTICS AND MONITORING:
   - Video Usage Analytics: venom\videousageanalytics.md
   - Content Console Monitoring: venom\contentconsolemonitoring.md
 - LOCALIZATION: venom\localization.md
 - TERMS: venom\terms.md
-- TECHNICAL FAQ: venom\techfaq.md
-- SUPPORT: venom\support.md
 - LEGAL: venom\legal.md
+- SUPPORT: venom\support.md
