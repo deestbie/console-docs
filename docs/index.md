@@ -41,9 +41,7 @@ Let's get started!
 
 * [Update Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
 
-* [**Technical FAQ (Video)**](venom\techfaqvideo.md)
-
-Review a list of technical topics pertaining to video production using the Content Console.
+* [**Technical FAQ (Video)**](venom\techfaqvideo.md) -  Review a list of technical topics pertaining to video production using the Content Console.
 
 ##### Application Publishing Prerequisites
 
@@ -55,9 +53,7 @@ Review a list of technical topics pertaining to video production using the Conte
 
 * [Update Application](venom\manageapp.md) - Learn how to manage (i.e., edit/update) an application that is added to the Content Console.
 
-* [**Technical FAQ (Application)**](venom\techfaqapp.md)
-
-Review a list of technical topics pertaining to application production using the Content Console.
+* [**Technical FAQ (Application)**](venom\techfaqapp.md) - Review a list of technical topics pertaining to application production using the Content Console.
 
 ##### Analytics and Usage Monitoring
 
