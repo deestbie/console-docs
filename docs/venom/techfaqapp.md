@@ -1,4 +1,4 @@
-# Technical FAQ
+# Technical FAQ (Application)
 
 Coming soon...
 
