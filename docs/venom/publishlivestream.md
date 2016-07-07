@@ -11,14 +11,15 @@ The following tutorial illustrates how to publish a live stream that is hosted o
 * Define a [Video Property](createproperty.md)
 * Define a [Video Collection](createcollection.md)
 
-## PART 2: CREATE LIVE STREAM PROFILE
+## PART 2: CREATE VIDEO PROFILE (for  LIVE STREAM)
 
-This section shows you how to publish a hosted video. You will:
+This section shows you how to publish a live stream. You will:
 
-* Set the property and collection the hosted video is contained in.
-* Configure video settings (i.e., visibility, downloading, sharing, projection, and blind spot).
-* Define video metadata (i.e., title, headiline, description, tags).
-* Upload a video.
+* Define video metadata (i.e., title, description, pre stream / post stream text, and tags).
+* Set the property and collection the live stream will be contained in.
+* Configure video settings (i.e., project, blind spot, and visibility).
+* Specify Stream URLs (Origin [Required], Return, Share, and Meta).
+* Set live stream start time and duration.
 * Review / update final configuration.
 * Publish video.
 
@@ -34,55 +35,45 @@ This section shows you how to publish a hosted video. You will:
 
 Metadata is used to uniquely identify the characteristics of each video.
 
-* Videos can be tagged with metadata including Title, Description, Pre Stream Text, and Post Stream Text.
+* Videos can be tagged with metadata including Title, Headline, Description, Pre Stream Text, and Post Stream Text.
 * The default language for metadata is *English*.
 * A Consumer will see the metadata on websites where a video is posted.  
 * A Publisher can search for metadata in the Content Console.
+* You can add additional language versions on the **Edit Video** page after the video upload process is complete.
+* See [Video Metadata](terms.md#video-metadata) more information on metadata types.
+<!--* The Add Language function allows you to add a new metadata instance to a video profile.-->
+<!--* Content for additional languages can be defined in a Excel template and uploaded to the Content Console.-->
 
-**Title (Required)**
+**To define video metadata:**
 
-* Effective titles summarize the video subject.
-* They typically contain 5 words are less.
-* Use descriptive keywords that grab a viewers attention.
-* Should make sense out of context when they appear in search research.
-
-**Description**
-
-* Effective descriptions are concise (e.g., a small paragraph or lead-in sentence with bullet points).
-* Should include exciting descriptions about video topic that will attract viewers attention.
-* Should include hashtags (#) so they can be easily promoted on social media site.
-* Should include credits associated with video creator, participants, actors, promoters, etc.
-
-**Pre Screen Text**
-
-* Enter introductory content for your video.
-
-**Post Screen Text**
-
-* Enter text that will display after a video has finished playing (e.g., Thanks for watching, Visit our website, etc.)
+1. Go to **Details**.
+2. Enter the Title, Headline, Description, Pre Stream, and Post Stream text for your video.
+3. Enter one or more search Tags (comma separated).
 
 ## Step 3: Select Property and Collection
 
-Change the default property assigned to your video and group your video in a collection. Note that both steps are required.
+Assign a property to your video and group it in a collection. Note that both steps are required.
 
-1. In **Assign to a property** section, the currently assigned property is selected. To reassign the current video to a new property, select it from the drop-down.
+1. In **Assign to a property**, select a property from the drop-down to assign to the current video.
 2. After you select the property, the **Assign to a collection"** drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the video.
 
-## Step 3: Set Stream Projection
+## Step 4: Set Stream Projection
 
 Indicate what type of video you will be uploading.
 
-* Flat - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
-* Spherical _ This video type is usually filmed using two or more cameras and supports the use of HMD devices. Characteristics include:
-   * Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.
-   * This view creates and impression of depth a full 360 experience.
+**Flat** - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
+
+**Spherical** - This video type is usually filmed using two or more cameras and supports the use of HMD devices.     Characteristics include:
+
+  * Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.
+  * This view creates and impression of depth a full 360 experience.
 
 **To set video projection:**
 
-1. Go to **Video Projection?**.
+1. Go to **Video Projection?**
 2. Select a radio button to set video projection (i.e., Spherical or Flat).
 
-## Step 4: Specify Stream Settings
+## Step 5: Specify Stream Settings
 
 The upload video process involves specifying a services of stream URLs for your live stream.
 
@@ -92,7 +83,7 @@ The upload video process involves specifying a services of stream URLs for your 
 
 **To specify stream URLs:**
 
-1. Go to the **Stream Settings** section.
+1. Go **Stream Settings**.
 2. Specify the following stream URL types:
 
 | Stream URL Type          | Description               |
@@ -103,61 +94,39 @@ The upload video process involves specifying a services of stream URLs for your 
 | Stream Share URL    | Input the meta URL that will upload when a video is shared on an external site. This option is applicable if "Can users share your video?" is set to Yes. |
 | Stream Meta URL    | Input the meta URL that will upload when a video is shared on an external site. This option is applicable if "Can users share your video?" is set to Yes. |
 
-## Step 2: Configure Video Security
+## Step 6: Configure Video Security
 
 Throughout the publishing cycle, your videos will require different levels of security for access, downloading, and sharing to social networks. Video access levels include:
 
 * **Private** - Video can be accessed by the console user who uploaded it.
 * **Internal** - Video can be accessed by the console administrator and designated console users.
 * **Public** - Video is visible to external consumers and can be accessed by console administrator and designated console users.
-* The default setting is *Private*.
 
 **As a best practice, set your video to private for the initial upload. You will need to add key art and set the broadcast time in post upload activities.**
 
 **To configure video security:**
 
-1. Go to the **Who can see your video?** section.
-2. Select a radio button to set the access level.
+1. Go to **Visibility**.
+2. Select an option box to set the access level.
 
-## Step 3: Set Stream Projection
-
-Indicate what type of video you will be uploading.
-
-* Flat - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
-* Spherical _ This video type is usually filmed using two or more cameras and supports the use of HMD devices. Characteristics include:
-   * Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.
-   * This view creates and impression of depth a full 360 experience.
-
-**To set video projection:**
-
-1. Go to **Video Projection?**.
-2. Select a radio button to set video projection (i.e., Spherical or Flat).
-
-**To set video projection:**
-
-1. Go to **Video Category Type**.
-2. From the drop-down select a category.
-
-## Step 4: Set Start Time and Duration
+## Step 7: Set Start Time and Duration
 
 The time you set your video to broadcast is based on many factors. For example:
 
 * You arrangements with web providers to post your video at a designated time.
 * You have considerations relating to the geographical area / time zone where your video will be initially broadcast.
 * You may be sequencing the premiere of a video based on an event or product launch, etc.
-* If your video security is set to Private or Internal, set your video to "Public" in the **Video Information > Who can see your video?** section prior to the Broadcast time.
+* If your video security is set to Private or Internal, set it to "Public" prior to the defined start time.
 
 **To set video start time and duration:**
 
-1. Go to **Settings > Start**.
+1. Go to **Settings > Start Time**.
 3. Select the down arrow to load the calendar popup, then set the date and time the video will broadcast.
 3. In **Duration (In Minutes)** specify a number that indicates estimated maximum live stream play time in minutes (e.g., 60 for 60 minutes).
 3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
-4. Make sure your video is set to "Public" in the **Who can see your video?** before the broadcast time.
+4. Make sure your video is set to "Public" in the **Visibility** before the defined start time.
 
-## Part 4: Review, Test, and Publish Video
-
-## Step 1: Review Video Details
+## Step 8: Review Video Details
 
 The Video Details section allows you to review the current settings assigned to the video. You can also test / play the video in the Content Console, or use the embed a video link to test the video.
 
@@ -180,7 +149,7 @@ The Video Details section allows you to review the current settings assigned to 
 3. Review the video information. You can test the video by playing it, or using the embed video link.
 4. To update video settings, go to the **Edit** section.
 
-## Step 2: Review Video
+## Step 9: Review Video
 
 The Review Video Profile page displays a final presentation of your video configuration.
 
@@ -190,7 +159,7 @@ The Review Video Profile page displays a final presentation of your video config
 4. Verify that all referenced websites are correct.
 5. Select the edit icon to make any adjustments.
 
-## Step 3: Publish Video
+## Step 10: Publish Video
 
 1. If you are happy with the video configuration, click **Publish**.
-2. Your video will go live on all the sites posted based on your designated Broadcast Time.
+2. Your video will go live on all the sites posted based on your designated start Time.

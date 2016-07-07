@@ -87,6 +87,14 @@ Metadata allows you to describe the content of a video. The following list inclu
 * Should include hashtags (#) so they can be easily promoted on social media site.
 * Should include credits associated with video creator, participants, actors, promoters, etc.
 
+**Pre Screen Text** (for LIVE STREAM ONLY)
+
+* Represents introductory content for your video.
+
+**Post Screen Text** (for LIVE STREAM ONLY)
+
+* Represents text that will display after a video has finished playing (e.g., Thanks for watching, Visit our website, etc.).
+
 **Tags**
 
 * Search tags help to promote your video on social media sites and search engines.

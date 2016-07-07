@@ -8,6 +8,8 @@ The first step in the video publishing process is to define a property. A proper
 * You then add videos to Collections defined in a Property.
 * A video can be reassigned to a different Property and Collection after it is uploaded.
 
+*Authorized Role* -  Administrator
+
 **To define a property:**
 
 1. On the **Home** page go to **Properties**.

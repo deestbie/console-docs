@@ -2,11 +2,13 @@
 
 Within each Property you then define a Collection:
 
-- A Collection is a sub-category of a Property (e.g., TV Series Name).
-- After adding a new video asset, you then assign it to a Property and Collection.
-- Videos in a Collection can be reordered.
-- You can reassign a video to a different Property and Collection.
-- Within each Collection you also define a Season that represents a subcategory of the collection (i.e. Season, Series, Year, or Custom)
+* A Collection is a sub-category of a Property (e.g., TV Series Name).
+* After adding a new video asset, you then assign it to a Property and Collection.
+* Videos in a Collection can be reordered.
+* You can reassign a video to a different Property and Collection.
+* Within each Collection you also define a Season that represents a subcategory of the collection (i.e. Season, Series, Year, or Custom).
+
+*Authorized Role* -  Administrator, Content Manager
 
 To define a collection:
 
