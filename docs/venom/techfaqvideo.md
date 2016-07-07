@@ -65,3 +65,5 @@ Also see [Video Publishing Options](videopublishingoptions.md) for information a
 * Your live stream URL will most likely reside on a secure Media Server or Content Delivery Network.
 * Set default port of router to allow media server to be accessed externally. The default port is usually 5119.
 * Set firewall to allow users to access the media server.
+
+### How do I fill a 360 live stream blind spot using an app asset?

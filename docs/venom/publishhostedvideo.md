@@ -1,7 +1,5 @@
 # Publishing a Hosted Video
 
-The Content Console offers a flexible video publishing platform where you can tailor your configuration workflow based on your requirements and availability of your video digital assets.
-
 The following tutorial illustrates how to publish a video that is hosted on the Content Console.
 
 # PART 1 - COMPLETE PREREQUISITES
@@ -16,7 +14,7 @@ This section shows you how to publish a hosted video. You will:
 
 * Set the property and collection the hosted video is contained in
 * Configure video settings (i.e., visibility, downloading, sharing, projection, and blind spot)
-* Define video metadata (i.e., title, description, tags)
+* Define video metadata (i.e., title, headline, description, tags)
 * Upload a video
 * Review / update final configuration
 * Publish video

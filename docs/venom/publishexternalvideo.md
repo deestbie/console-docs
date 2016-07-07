@@ -1,8 +1,6 @@
 
 # Publishing an External Video
 
-The Content Console offers a flexible video publishing platform where you can tailor your configuration workflow based on your requirements and availability of your video digital assets.
-
 The following tutorial illustrates how to publish a URL to an externally published MP4 video file.
 
 # PART 1 - COMPLETE PREREQUISITES

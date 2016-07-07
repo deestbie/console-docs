@@ -1,9 +1,19 @@
 
-# Publishing a Live Stream
+# Introduction
 
-The Content Console offers a flexible video publishing platform where you can tailor your configuration workflow based on your requirements and availability of your video digital assets.
+The following tutorial illustrates how to publish a live stream that is hosted on an external streaming Media Server or Content Delivery Network (CDN). You will:
 
-The following tutorial illustrates how to publish a live stream that is hosted on an external streaming Media Server or Content Delivery Network (CDN).
+#  About Live Streams
+
+* Cameras that support live 360 video stitching and streaming can utilize the live stream option.
+
+* You can live stream from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).
+
+* Using your 360 video camera, you can create a customized RTSP request URL stream link for external media players, or let your camera generate a default URL.
+
+* You can add live stream URLs from your Media Server or Content Delivery Network, or you can live stream directly from your 360 camera (depending on internet connectivity).
+
+* You can add a URL to the Content Console for each 360 video camera and specify a camera label that uniquely identifies the stream, angle, and unique characteristics.
 
 # PART 1 - COMPLETE PREREQUISITES
 
@@ -11,9 +21,9 @@ The following tutorial illustrates how to publish a live stream that is hosted o
 * Define a [Video Property](createproperty.md)
 * Define a [Video Collection](createcollection.md)
 
-## PART 2: CREATE VIDEO PROFILE (for  LIVE STREAM)
+## PART 2: CREATE VIDEO PROFILE (for LIVE STREAM)
 
-This section shows you how to publish a live stream. You will:
+The following tutorial illustrates how to publish a live stream that is hosted on an external streaming Media Server or Content Delivery Network (CDN). You will:
 
 * Define video metadata (i.e., title, description, pre stream / post stream text, and tags).
 * Set the property and collection the live stream will be contained in.
@@ -47,8 +57,7 @@ Metadata is used to uniquely identify the characteristics of each video.
 **To define video metadata:**
 
 1. Go to **Details**.
-2. Enter the Title, Headline, Description, Pre Stream, and Post Stream text for your video.
-3. Enter one or more search Tags (comma separated).
+2. Enter the (Stream) Title, Description, Pre Stream, and Post Stream text for your video.
 
 ## Step 3: Select Property and Collection
 
@@ -70,16 +79,17 @@ Indicate what type of video you will be uploading.
 
 **To set video projection:**
 
-1. Go to **Video Projection?**
-2. Select a radio button to set video projection (i.e., Spherical or Flat).
+1. Go to **Stream Projection?**
+2. Select an option box to set video projection (i.e., Spherical or Flat).
 
 ## Step 5: Specify Stream Settings
 
-The upload video process involves specifying a services of stream URLs for your live stream.
+The upload video process involves specifying a series of stream URLs for your live stream.
 
 * Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
 * Supported audio compression and encoding scheme is **Advanced Audio Coding (AAC)**
 * See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
+* If you will be using multiple live stream cameras, the URL published during the initial upload process represents your first stream in the sequence. You will then specify subsequent streams via the *Camera* page after the initial upload process is complete.
 
 **To specify stream URLs:**
 
@@ -89,12 +99,26 @@ The upload video process involves specifying a services of stream URLs for your 
 | Stream URL Type          | Description               |
 |:-------------------|:-------------------------------------|
 | Stream Origin URL    | Input the publishing point URL where the live stream is originally hosted. |
-| Stream Return URL    | Input the redirection URL to that the viewer will return to after the live-stream
- concludes. |
-| Stream Share URL    | Input the meta URL that will upload when a video is shared on an external site. This option is applicable if "Can users share your video?" is set to Yes. |
-| Stream Meta URL    | Input the meta URL that will upload when a video is shared on an external site. This option is applicable if "Can users share your video?" is set to Yes. |
+| Stream Return URL    | Input the redirection URL to that the viewer will return to after the live-stream concludes. |
+| Stream Share URL    | Input the meta URL that will upload when a video is shared on an external site.  |
+| Stream Meta URL    | Input the meta URL that will upload when a video is shared on an external site.  |
 
-## Step 6: Configure Video Security
+## Step 6: Set Video Blind Spot
+
+If your live stream camera generates a blind spot you can designate the blind spot location (None, Top or Bottom), and optionally fill the blank space by adding a custom photo, logo, or icon to fill the blank space in the App Assets section. See [Blind Spot](terms.md#blind-spot) for more information.
+
+**To configure blind spot:**
+
+1. Go to **Blindspot**.
+2. Select from the drop-down based on the following scenarios:
+
+| If Projection =             |
+|:-----------------|:-------------------------------------|
+| Flat, Blind Spot = None            |
+| Spherical and video includes a Blind Spot, Blind Spot = Top or Bottom |
+| Spherical and video does not include a Blind Spot, Blind Spot = None                             |
+
+## Step 7: Configure Video Security
 
 Throughout the publishing cycle, your videos will require different levels of security for access, downloading, and sharing to social networks. Video access levels include:
 
@@ -102,14 +126,14 @@ Throughout the publishing cycle, your videos will require different levels of se
 * **Internal** - Video can be accessed by the console administrator and designated console users.
 * **Public** - Video is visible to external consumers and can be accessed by console administrator and designated console users.
 
-**As a best practice, set your video to private for the initial upload. You will need to add key art and set the broadcast time in post upload activities.**
+*As a best practice, set your video to private for the initial upload. You will need to add key art and set the broadcast time in post upload activities.*
 
 **To configure video security:**
 
-1. Go to **Visibility**.
+1. Go to **Settings > Visibility**.
 2. Select an option box to set the access level.
 
-## Step 7: Set Start Time and Duration
+## Step 8: Set Start Time and Duration
 
 The time you set your video to broadcast is based on many factors. For example:
 
@@ -126,9 +150,9 @@ The time you set your video to broadcast is based on many factors. For example:
 3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
 4. Make sure your video is set to "Public" in the **Visibility** before the defined start time.
 
-## Step 8: Review Video Details
+## Step 9: Review Stream Details
 
-The Video Details section allows you to review the current settings assigned to the video. You can also test / play the video in the Content Console, or use the embed a video link to test the video.
+The Stream Details section allows you to review the current settings assigned to the video. You can also test / play the video in the Content Console, or use the embed a video link to test the video.
 
 | Option / Setting         | Description            |
 |:-----------------|:-------------------------------------|
@@ -140,15 +164,16 @@ The Video Details section allows you to review the current settings assigned to 
 | File Size    | Displays video file size            |
 | Duration    | Display video play time            |
 | Embed Link    | Displays video player and embed link.             |
-| Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   |         
-**To view video details:**
+| Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   |     
+
+**To view stream details:**
 
 1. Go to **Home > Properties > Collection > Video**.
-2. Select **Video Details**.
+2. Select **Stream Details**.
 3. Review the video information. You can test the video by playing it, or using the embed video link.
 4. To update video settings, go to the **Edit** section.
 
-## Step 9: Review Video
+## Step 10: Review Video
 
 The Review Video Profile page displays a final presentation of your video configuration.
 
@@ -159,7 +184,8 @@ The Review Video Profile page displays a final presentation of your video config
 5. Verify that the auto-generated thumbnail or custom key art displays properly.
 5. Select the edit icon to make any adjustments.
 
-## Step 10: Publish Video
+## Step 11: Publish Video
 
-1. If you are happy with the video configuration, click **Publish**.
+1. If you are happy with the video configuration, select **Publish**.
 2. Your video will go live on all the sites posted based on your designated start time.
+3. If you need to add additional live stream cameras or perform additional updates to the live stream profile, select **Save**.
