@@ -178,7 +178,6 @@ The following table shows page options and permission state:
 | Visibility Settings  | Private, Internal, Public         | Update |
 | Allow Downloads    | Video download setting Yes/No       | Update |
 | Allow Sharing    | Video sharing setting Yes/No            | Update |
-| Allow Comments    | Video comments setting Yes/No            | Update |
 | Projection    | Video projection setting Flat/Spherical        | Update |
 | Tag & Search Words    | List of search tags.        | Update |
 | Views    | Number of video views.            | Read-only |

@@ -21,6 +21,7 @@ pages:
   - Publish Hosted Video: venom\publishhostedvideo.md
   - Publish External Video: venom\publishexternalvideo.md
   - Publish Live Stream: venom\publishlivestream.md
+  - Add Multiple Live Stream Cameras: venom\addcamerastreams.md
   - Update Video Profile: venom\managevideo.md
   - Technical FAQ (Video): venom\techfaqvideo.md
 - APPLICATION PUBLISHING PREREQUISITES:

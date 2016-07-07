@@ -137,7 +137,6 @@ The Video Details section allows you to review the current settings assigned to 
 | Visibility Settings    | Displays the current visibility setting for the video (Private, Internal, Public)            |
 | Allow Downloads    | Displays video download setting Yes/No            |
 | Allow Sharing    | Displays video sharing setting Yes/No            |
-| Allow Comments    | Displays video comments setting Yes/No            |
 | File Size    | Displays video file size            |
 | Duration    | Display video play time            |
 | Embed Link    | Displays video player and embed link.             |
@@ -155,11 +154,12 @@ The Review Video Profile page displays a final presentation of your video config
 
 1. Review the content for accuracy.
 2. Verify that it represents the message and style you want to present.
-3. Verify that the image URL presented launch to the correct page and work properly.
+3. Verify that the Embed URL presented launches to the correct page and works properly.
 4. Verify that all referenced websites are correct.
+5. Verify that the auto-generated thumbnail or custom key art displays properly.
 5. Select the edit icon to make any adjustments.
 
 ## Step 10: Publish Video
 
 1. If you are happy with the video configuration, click **Publish**.
-2. Your video will go live on all the sites posted based on your designated start Time.
+2. Your video will go live on all the sites posted based on your designated start time.

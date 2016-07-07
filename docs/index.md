@@ -37,6 +37,8 @@ Let's get started!
 
 * [Publish Live Stream](venom\publishlivestream.md) - Learn how to publish live stream video content using a step-by-step tutorial.
 
+* [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence. 
+
 * [Publish External Video](venom\publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network using a step-by-step tutorial.
 
 * [Update Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.

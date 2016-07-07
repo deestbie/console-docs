@@ -1,3 +1,3 @@
-# Updating a Video Profile using the Content Console
+# Updating a Video Profile 
 
 Coming soon...
