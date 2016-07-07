@@ -8,15 +8,18 @@
 * Live stream URLs can be added from your Media Server or Content Delivery Network, or you can live stream directly from your 360 camera (depending on internet connectivity).
 * Key Art (i.e., thumbnail) files for video uploads must be uploaded directly to the Content Console and cannot be referenced using a URL.
 
-## What are the prerequisite steps must be completed prior to publishing content?
+## What prerequisite steps must be completed prior to publishing content?
 
 Before you publish video and application digital assets to the Content Console you must complete the following steps:
 
 ### Step 1. Create Digital Assets
 
+Prepare the following digital assets and have them available prior to creating a video profile in the Content Console. Because you will be required to upload a video, video URL, or post a live stream URL before you can save your video profile, having these assets available will help to expedite the video publishing process. 
+
 | Options          | Video Sort View                   |
 |:-------------------|:-------------------------------------|
 | 360 Video Files       | Shoot 360 videos, perform post production, and generate output files.             |
+| Video Metadata         | Define video Title, Headline, Description, and Search Tags for each video language version. |
 | Key Art          | Define thumbnails for each video that will stored in the Content Management System (i.e. Content Console).|
 
 

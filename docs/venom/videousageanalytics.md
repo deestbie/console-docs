@@ -19,7 +19,7 @@ Statistical data can help you determine audience size, number of unique visitors
 
 Note: **View Reports** link is available in the blue information box on Organization Dashboard, Properties, and Collection pages.
 
-![Video Usage](blue_video_usage.jpg "View Reports")
+![Video Usage](images\blue_video_usage.jpg "View Reports")
 
 Figure: Example of Dashboard Information Box
 
@@ -64,16 +64,16 @@ The following analytics reports are provided:
 
 The following illustration shows a example of an analytics report:
 
- ![Monitoring](analytics_example.jpg "Example Analytics Report")
+ ![Monitoring](images\analytics_example.jpg "Example Analytics Report")
 
 ## View Reports > Organization Dashboard
 
-![Org](org_viewreport.jpg "View Organization Report")
+![Org](images\org_viewreport.jpg "View Organization Report")
 
 ## View Reports > Property
 
-![Property](property_viewreport.jpg "View Property Report")
+![Property](images\property_viewreport.jpg "View Property Report")
 
 ## View Reports > Collection
 
-![Collection](collection_viewreport.jpg "View Collection Report")
+![Collection](images\collection_viewreport.jpg "View Collection Report")

@@ -8,18 +8,22 @@ pages:
   - Features: venom\features.md
   - Site Organization: venom\siteorg.md
   - Search Tools: venom\searchtools.md
+  - Roadmap: venom\roadmap.md
 - ACCOUNT MANAGEMENT:
   - Staff Permissions: venom\permissions.md
   - Manage User Accounts: venom\accountmanage.md
-- PREREQUISITES:
+- VIDEO PUBLISHING PREREQUISITES:
   - Video Publishing Requirements: venom\videopublishrequirements.md
   - Define Video Property: venom\createproperty.md
   - Define Video Collection: venom\createcollection.md
 - PUBLISH VIDEOS:
+  - Video Publishing Options: venom\videopublishingoptions.md
   - Publish Hosted Video: venom\publishhostedvideo.md
-  - Publish Live Stream: venom\publishlivestream.md
   - Publish External Video: venom\publishexternalvideo.md
+  - Publish Live Stream: venom\publishlivestream.md
   - Update Video Profile: venom\managevideo.md
+- APPLICATION PUBLISHING PREREQUISITES:
+  - Application Publishing Requirements: venom\apppublishrequirements.md
 - PUBLISH APPLICATIONS:
   - Publish Application: venom\publishapp.md
   - Update Application Profile: venom\manageapp.md
@@ -28,6 +32,6 @@ pages:
   - Content Console Monitoring: venom\contentconsolemonitoring.md
 - LOCALIZATION: venom\localization.md
 - TERMS: venom\terms.md
-- LEGAL: venom\legal.md
 - TECHNICAL FAQ: venom\techfaq.md
 - SUPPORT: venom\support.md
+- LEGAL: venom\legal.md

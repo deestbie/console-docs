@@ -12,17 +12,26 @@ Let's get started!
 
 * [Search Tools](venom\siteorg.md) - Learn about Content Console search and navigation tools.
 
+* [Road Map](venom\roadmap.md) - Provides a quick access roadmap for navigating content management How To topics.
+
+
 ##### Account Management
 
 * [Staff Permissions](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
 
 * [Manage User Accounts](venom\accountmanage.md) - Learn about the account setup process, how to reset your password, and change the email address associated with your account.
 
-##### Prerequisites
+##### Video Publishing Prerequisites
 
 * [Video Publishing Requirements](venom\videopublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and audio technical requirements.
 
+* [Define Property](venom\createproperty.md) - Learn how to define a property for storing your video collections.
+
+* [Define Collection](venom\createcollection.md) - Learn how to define a collection within a property for grouping your videos by type.
+
 ##### Publish Videos
+
+* [Video Publishing Options](venom\videopublishingoptions.md) - Learn about methods for accessing the **Add A Video** publishing tool, and supported video publishing options.  
 
 * [Publish Hosted Video](venom\publishhostedvideo.md) - Learn how to publish hosted video content using a step-by-step tutorial.
 
@@ -32,9 +41,14 @@ Let's get started!
 
 * [Update Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
 
+##### Application Publishing Prerequisites
+
+* [Application Publishing Requirements](venom\apppublishrequirements.md) - Learn about prerequisites for optimizing the application publishing production cycle.
+
 ##### Publish Applications
 
 * [Publish Application](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.
+
 * [Update Application](venom\manageapp.md) - Learn how to manage (i.e., edit/update) an application that is added to the Content Console.
 
 ##### Analytics and Usage Monitoring
@@ -46,10 +60,6 @@ Let's get started!
 ##### [Localization](venom\localization.md)
 
 * Learn how to add one or more languages to a video property.
-
-##### [Terms](venom\terms.md)
-
-* Learn about video and content management terminology.
 
 ##### [Legal](venom\legal.md)
 

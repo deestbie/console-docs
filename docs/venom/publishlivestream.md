@@ -28,7 +28,7 @@ This section shows you how to publish a hosted video. You will:
 2. In the collection select Upload Video (**+Upload Video**).
 3. On the Uploader screen, select **URL FOR LIVE STREAM**.
 
-![Upload Video](addvideo_livestream_cms.jpg "URL FOR LIEVE STREAM")
+![Upload Video](images\addvideo_livestream_cms.jpg "URL FOR LIEVE STREAM")
 
 ## Step 2: Define Video Metadata
 

@@ -11,5 +11,5 @@ Within each Property you then define a Collection:
 To define a collection:
 
 1. In **Home > Properties > Property Name**, select **+Collection**. The *Create New Collection* pop-up displays.
-![Home](add_collection.jpg "Add Collection")
+![Home](images\add_collection.jpg "Add Collection")
 3. Enter the collection name, description, and type, then **OK**. The *Collection* page displays.

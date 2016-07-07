@@ -31,7 +31,7 @@ Totals are presented in the blue information box on **Organization Home > Dashbo
 | Members  | Total number of members in the Organizations (i.e., account holders) |
 | Properties  | Total number of properties added to the Organization. |
 
-![Video Usage](console_report_org.jpg "Totals per Organization")
+![Video Usage](images\console_report_org.jpg "Totals per Organization")
 
 ## Totals by Property Summary
 
@@ -44,7 +44,7 @@ Information and totals presented for each property listed on the **Organization 
 | Videos  | Total number of Video on Demand (VoD) videos added to the property. |
 | Streams  | Total number of live streams added to the property. |
 
-![Properties](property_dashboard_report.jpg "Property Statistics Information")
+![Properties](images\property_dashboard_report.jpg "Property Statistics Information")
 
 ## Property Sort Controls
 
@@ -55,7 +55,7 @@ Information and totals presented for each property listed on the **Organization 
 | Active  | Based on published state (i.e., published or saved and not yet published) |
 | Inactive  | Based on whether property is archived. |
 
-![Property](console_property_sort_controls.jpg "Property Sort Controls")
+![Property](images\console_property_sort_controls.jpg "Property Sort Controls")
 
 ## Totals for Property Details
 
@@ -68,7 +68,7 @@ Totals are presented in the blue information box on **Organization Home > Dashbo
 | Members  | Total number of members that have privileges to manage or view videos in the property (i.e., account holders) |
 | Collections  | Total number of collections defined in the property. |
 
-![Property](content_console_property_details.jpg "Property Details Statistics")
+![Property](images\content_console_property_details.jpg "Property Details Statistics")
 
 ## Totals by Collection Summary
 
@@ -90,7 +90,7 @@ Information and totals presented for each property listed on the **Organization 
 | Active  | Based on video published state (i.e., saved and not yet published) |
 | Staging  | Based on video published state (i.e., published and is live or pending configured start time). |
 
-![Property](collection_stats.jpg "Collection Sort Controls")
+![Property](images\collection_stats.jpg "Collection Sort Controls")
 
 ## Totals for Collection Details
 
@@ -106,4 +106,4 @@ Totals are presented in the blue information box on **Organization Home > Dashbo
 | Downloads  | Total number of Video on Demand (VoD) videos in the collection that have been downloaded. |
 
 
-![Properties](content_collection_summary.jpg "Collection Statistics Information")
+![Properties](images\content_collection_summary.jpg "Collection Statistics Information")

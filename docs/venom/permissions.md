@@ -18,7 +18,7 @@ You can access the *Staff Permissions* page by selecting a property on the Organ
 
 **Organization Home > Select Property Name > Edit**
 
-![Permissions](staff_permissions.jpg "Staff Permissions")
+![Permissions](images\staff_permissions.jpg "Staff Permissions")
 
 ## What staff roles are supported?
 

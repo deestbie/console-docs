@@ -26,7 +26,7 @@ This section shows you how to publish a hosted video. You will:
 1. In **Home > Properties > Property Name > Collection**, select Upload Video (**+Upload Video**).
 3. On the *Add a Video* menu, select **Hosted on Digital Domain CMS Video**.
 
-![Add a Video](addvideo_hosted_cms.jpg "Hosted on Digital Domain CMS")
+![Add a Video](images\addvideo_hosted_cms.jpg "Hosted on Digital Domain CMS")
 
 ## Step 2: Select Property and Collection
 
@@ -109,7 +109,7 @@ Indicate what type of video you will be uploading.
 
 ## Step 8: Set Video Blind Spot
 
-If your video includes a blind spot and you adjusted it in post-production by adding a custom photo, logo, or icon to fill the blank space, you can designate the blind spot location (None, Top or Bottom). See [Blind Spot](terms.md#blind-spot) for more information. 
+If your video includes a blind spot and you adjusted it in post-production by adding a custom photo, logo, or icon to fill the blank space, you can designate the blind spot location (None, Top or Bottom). See [Blind Spot](terms.md#blind-spot) for more information.
 
 **To configure blind spot and projection:**
 
