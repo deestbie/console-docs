@@ -167,3 +167,25 @@ The following example provides an example of an analytics report:
 ## View Reports > Collection
 
 ![Collection](collection_viewreport.jpg "View Collection Report")
+
+
+| Option / Setting         | Description            | Permission  |
+|:-----------------|:-------------------------------------|------------|
+| Update Key Art | Image that will display on video player. Select upload new image. | Update |
+| Check Video | Performs master video file check. | Update |
+| Video Origin    | Location where the video is hosted on the Digital Domain server. | Read-only |
+| Video Title    | Title that summarizes video subject.          | Edit  |
+| Headline    | Video headline caption.           | Edit |
+| Description    | Video description.   | Edit |
+| Visibility Settings  | Private, Internal, Public         | Update |
+| Allow Downloads    | Video download setting Yes/No       | Update |
+| Allow Sharing    | Video sharing setting Yes/No            | Update |
+| Projection    | Video projection setting Flat/Spherical        | Update |
+| Tag & Search Words    | List of search tags.        | Update |
+| Views    | Number of video views.            | Read-only |
+| Downloads    | Number of video downloads.    | Read-only |
+| Uploaded    | Video upload time.        | Read-only |
+| File Size    | Video file size.        | Read-only |
+| Duration    | Video play time.            | Read-only |
+| Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   | Read-only |
+| Distribution Apps | Displays a list of apps the current video is associated with | Read-only |

@@ -3,6 +3,15 @@
 #### Property
 Represents the top-level branding element of your videos (e.g., TV Network).
 
+* Organization Administrators are responsible for creating and managing properties.
+* A list of available properties display on the Content Console Home page.
+* Within each property you define one or more mobile device applications.
+* Within each property you define one or more video collections.
+* You then add videos to collections defined in a property.
+* You select a property and collection during the video upload process (i.e., Hosted, Live Event, URL).
+* A video can be reassigned to a different property and collection after it is uploaded.
+* A new property is auto-assigned a Display Priority number that reflects the display sequence on the Properties Summary. This setting can be updated as a post creation task using the Edit Property function. Numbers are assigned in sequential order based on when a property is initially defined.
+
 #### Collection
 A sub-category of a Property (e.g., TV Series Name). Within each Collection you also define a Season that represents a subcategory of the collection (i.e. episode #, etc.).  
 
@@ -27,13 +36,13 @@ If your video includes a blind spot and you adjusted it in post-production by ad
 
 #### Video Projection
 
-Represents the video projection mapping mode. The Content Console supports Flat and Spherical modes.  
+Represents the video projection mapping mode. The Content Console supports [Flat](terms.md#flat-video-projection) and [Spherical](terms.md#spherical-video-projection) modes.  
 
-#### Flat Video Projection
+#### <a id="flat-video-projection"></a>Flat Video Projection
 
 This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
 
-#### Spherical Video Projection
+#### <a id="spherical-video-projection"></a>Spherical Video Projection
 
 This video type is usually filmed using two or more cameras and supports the use of HMD devices. Characteristics include:
 
@@ -51,9 +60,15 @@ A still image file that is used to showcase your video.
 
 #### Video on Demand (VoD)
 
+VoD stands for *Video on Demand*.
 
+* This video format stores data (in a compressed form) that is required to depict a video signal. VoD files supported by the Content Console must be generated from 360 degree cameras.
+* VoD files cannot be read in their initial "Raw" format and must be converted to the supported codec for video and audio file formats for mobile devices.
+* When convert your VoD files to the required format, you will configure measurements for various categories of the video signal based on the file size you are converting the VoD file to.
 
-#### Live Stream
+See [Video Publishing Requirements](videopublishrequirements.md) for more information on VoD conversion requirements for videos you would like to upload to the Content Console.
+
+#### Live Event
 
 
 
@@ -89,11 +104,11 @@ Metadata allows you to describe the content of a video. The following list inclu
 * Should include hashtags (#) so they can be easily promoted on social media site.
 * Should include credits associated with video creator, participants, actors, promoters, etc.
 
-**Pre Screen Text** (for LIVE STREAM ONLY)
+**Pre Screen Text** (for LIVE EVENT ONLY)
 
 * Represents introductory content for your video.
 
-**Post Screen Text** (for LIVE STREAM ONLY)
+**Post Screen Text** (for LIVE EVENT ONLY)
 
 * Represents text that will display after a video has finished playing (e.g., Thanks for watching, Visit our website, etc.).
 

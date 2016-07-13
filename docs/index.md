@@ -21,6 +21,8 @@ Let's get started!
 
 * [Manage User Accounts](venom\accountmanage.md) - Learn about the account setup process, how to reset your password, and change the email address associated with your account.
 
+* [Update Property](venom\updateproperty.md) - Learn how to update a property definition and set the display order of the property on the *Properties Summary* page.
+
 ##### Video Publishing Prerequisites
 
 * [Video Publishing Requirements](venom\videopublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and audio technical requirements.
@@ -35,13 +37,15 @@ Let's get started!
 
 * [Publish Hosted Video](venom\publishhostedvideo.md) - Learn how to publish hosted video content using a step-by-step tutorial.
 
-* [Publish Live Stream](venom\publishlivestream.md) - Learn how to publish live stream video content using a step-by-step tutorial.
+* [Add Video Formats](venom\addvideoformats.md) - Learn how to add additional videos formats to meet the requirements of your video distribution strategy.
 
-* [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence. 
+* [Publish Live Stream](venom\publishliveevent.md) - Learn how to publish live stream video content using a step-by-step tutorial.
+
+* [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
 
 * [Publish External Video](venom\publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network using a step-by-step tutorial.
 
-* [Update Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
+* [Manage Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
 
 * [**Technical FAQ (Video)**](venom\techfaqvideo.md) -  Review a list of technical topics pertaining to video production using the Content Console.
 
@@ -67,7 +71,7 @@ Let's get started!
 
 * Learn how to add one or more languages to a video property.
 
-##### [**Terms**](venom\terms.md)
+##### [**Terminology**](venom\terms.md)
 
 Learn about video and content management terminology.
 

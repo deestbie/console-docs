@@ -13,8 +13,8 @@ Our Client Services department creates each Content Console organization and ass
 ## How do I update my organization administrator account?
 
 1. Select **Organization > Dashboard**. In the left panel you will see your organization name.
-2. Select **Edit**, then update information in the table below.
-3. Select **Update** to apply changes.
+2. Select **Edit Profile**, then update information in the table below.
+3. Select **Save** to apply changes or **Cancel** to exit.
 
 | Name         | Description                 |
 |:-----------------|:-------------------------------------|
@@ -30,8 +30,8 @@ Our Client Services department creates each Content Console organization and ass
 ## How do I add a new member to an organization?
 
 1. Select **Organization > Users**. The *Organization Members* page displays.
-2. Select **Add New Organization Members** then specify information in the table below.
-3. Select **Add** to create new member.
+2. Select **+ New Users**. The *Add New Organization Member* pop-up displays.
+3. Specify the information in the table below, then **Add** to create new member.
 
 | Name         | Description                 |
 |:-----------------|:-------------------------------------|

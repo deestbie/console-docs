@@ -104,12 +104,10 @@ Select a category that best suits your video. Available options include Entertai
 
 Indicate what type of video you will be uploading.
 
-**Flat** - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
-
-**Spherical** - This video type is usually filmed using two or more cameras and supports the use of HMD devices.     Characteristics include:
-
-  * Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.
-  * This view creates and impression of depth a full 360 experience.
+| Projection Type         | Description |
+|:----------------|:--------------------------------------|
+| Flat     | This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.   |
+| Spherical      | This video type is usually filmed using two or more cameras and supports the use of HMD devices.     Characteristics include: <p></p><ul><li>Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.</li> <li>This view creates and impression of depth a full 360 experience.</li></ul>
 
 **To set video projection:**
 

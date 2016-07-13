@@ -14,7 +14,7 @@ Before you publish video and application digital assets to the Content Console y
 
 ### Step 1. Create Digital Assets
 
-Prepare the following digital assets and have them available prior to creating a video profile in the Content Console. Because you will be required to upload a video, video URL, or post a live stream URL before you can save your video profile, having these assets available will help to expedite the video publishing process. 
+Prepare the following digital assets and have them available prior to creating a video profile in the Content Console. Because you will be required to upload a video, video URL, or post a live stream URL for a live event before you can save your video profile, having these assets available will help to expedite the video publishing process.
 
 | Options          | Video Sort View                   |
 |:-------------------|:-------------------------------------|
@@ -54,7 +54,7 @@ The supported codec for video and audio file formats for mobile devices is **H.2
 The following video file types are supported for mobile devices:
 
 *	Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
-* Content Console supports **On Demand (VoD)** and **Live Stream** video types.
+* Content Console supports **On Demand (VoD)** and **Live Stream,** video types.
 
 ## Supported Video Formats
 

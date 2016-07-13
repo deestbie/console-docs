@@ -1,3 +1,3 @@
-# Updating a Video Profile 
+# Introduction
 
-Coming soon...
+This topic includes information on post-upload Content Console management tasks.

@@ -70,12 +70,10 @@ Assign a property to your video and group it in a collection. Note that both ste
 
 Indicate what type of video you will be uploading.
 
-**Flat** - This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.
-
-**Spherical** - This video type is usually filmed using two or more cameras and supports the use of HMD devices.     Characteristics include:
-
-  * Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.
-  * This view creates and impression of depth a full 360 experience.
+| Projection Type         | Description |
+|:----------------|:--------------------------------------|
+| Flat     | This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.   |
+| Spherical      | This video type is usually filmed using two or more cameras and supports the use of HMD devices.     Characteristics include: <p></p><ul><li>Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.</li> <li>This view creates and impression of depth a full 360 experience.</li></ul>
 
 **To set video projection:**
 
@@ -148,7 +146,7 @@ The time you set your video to broadcast is based on many factors. For example:
 3. Select the down arrow to load the calendar popup, then set the date and time the video will broadcast.
 3. In **Duration (In Minutes)** specify a number that indicates estimated maximum live stream play time in minutes (e.g., 60 for 60 minutes).
 3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
-4. Make sure your video is set to "Public" in the **Visibility** before the defined start time.
+4. Make sure your video is set to "Public" in  **Visibility** before the defined start time.
 
 ## Step 9: Review Stream Details
 

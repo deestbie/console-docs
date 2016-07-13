@@ -12,6 +12,7 @@ pages:
 - ACCOUNT MANAGEMENT:
   - Staff Permissions: venom\permissions.md
   - Manage User Accounts: venom\accountmanage.md
+  - Update Property: venom\updateproperty.md
 - VIDEO PUBLISHING PREREQUISITES:
   - Video Publishing Requirements: venom\videopublishrequirements.md
   - Define Video Property: venom\createproperty.md
@@ -19,10 +20,11 @@ pages:
 - PUBLISH VIDEOS:
   - Video Publishing Options: venom\videopublishingoptions.md
   - Publish Hosted Video: venom\publishhostedvideo.md
+  - Add Video Formats: venom\addvideoformats.md
   - Publish External Video: venom\publishexternalvideo.md
-  - Publish Live Stream: venom\publishlivestream.md
+  - Publish Live Stream: venom\publishliveevent.md
   - Add Multiple Live Stream Cameras: venom\addcamerastreams.md
-  - Update Video Profile: venom\managevideo.md
+  - Manage Video: venom\managevideo.md
   - Technical FAQ (Video): venom\techfaqvideo.md
 - APPLICATION PUBLISHING PREREQUISITES:
   - Application Publishing Requirements: venom\apppublishrequirements.md
@@ -34,6 +36,6 @@ pages:
   - Video Usage Analytics: venom\videousageanalytics.md
   - Content Console Monitoring: venom\contentconsolemonitoring.md
 - LOCALIZATION: venom\localization.md
-- TERMS: venom\terms.md
+- TERMINOLOGY: venom\terms.md
 - LEGAL: venom\legal.md
 - SUPPORT: venom\support.md
