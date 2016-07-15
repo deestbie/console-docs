@@ -39,7 +39,7 @@ Let's get started!
 
 * [Add Video Formats](venom\addvideoformats.md) - Learn how to add additional videos formats to meet the requirements of your video distribution strategy.
 
-* [Publish Live Stream](venom\publishliveevent.md) - Learn how to publish live stream video content using a step-by-step tutorial.
+* [Publish Live Event](venom\publishliveevent.md) - Learn how to publish a live event composed of one or more live streams using a step-by-step tutorial.
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
 

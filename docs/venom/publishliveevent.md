@@ -1,19 +1,19 @@
 
 # Introduction
 
-The following tutorial illustrates how to publish a live stream that is hosted on an external streaming Media Server or Content Delivery Network (CDN). You will:
+A Live event is composed of composed of one or more live streams that are hosted on an external streaming Media Server, a Content Delivery Network (CDN), or streamed directly from a 360 camera.
 
-#  About Live Streams
+#  About Live Events
 
-* Cameras that support live 360 video stitching and streaming can utilize the live stream option.
+* Cameras that support live 360 video stitching and streaming can utilize the live option.
 
-* You can live stream from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).
+* You can add a live stream from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).
 
 * Using your 360 video camera, you can create a customized RTSP request URL stream link for external media players, or let your camera generate a default URL.
 
 * You can add live stream URLs from your Media Server or Content Delivery Network, or you can live stream directly from your 360 camera (depending on internet connectivity).
 
-* You can add a URL to the Content Console for each 360 video camera and specify a camera label that uniquely identifies the stream, angle, and unique characteristics.
+* You can add a URL to the Content Console for each 360 video camera and specify a camera label that uniquely identifies characteristics of the stream (e.g., angle, associated mobile devices, video format, etc.).
 
 # PART 1 - COMPLETE PREREQUISITES
 
@@ -21,31 +21,60 @@ The following tutorial illustrates how to publish a live stream that is hosted o
 * Define a [Video Property](createproperty.md)
 * Define a [Video Collection](createcollection.md)
 
-## PART 2: CREATE VIDEO PROFILE (for LIVE STREAM)
+## PART 2: CREATE VIDEO PROFILE (for LIVE EVENT)
 
-The following tutorial illustrates how to publish a live stream that is hosted on an external streaming Media Server or Content Delivery Network (CDN). You will:
+The following tutorial illustrates how to publish a live event that is hosted on an external streaming Media Server, Content Delivery Network (CDN), or directly from your 360 camera. You will:
 
-* Define video metadata (i.e., title, description, pre stream / post stream text, and tags).
+* Specify Stream Origin
 * Set the property and collection the live stream will be contained in.
-* Configure video settings (i.e., project, blind spot, and visibility).
-* Specify Stream URLs (Origin [Required], Return, Share, and Meta).
+* Define video metadata (i.e., title, description, pre stream / post stream text, and tags).
+* Configure video security
 * Set live stream start time and duration.
-* Review / update final configuration.
+* Specify additional stream URLs (Return, Share, and Meta)
+* Set live stream projection
+* Set stream blind spot
+* Create live event
+* Test live stream
+* Add key art
+* Edit live event
 * Publish video.
 
 ## Step 1: Select Video Upload Method
 
-1. In **Home > Properties > Property Name > Collection**.
-2. In the collection select Upload Video (**+Upload Video**).
-3. On the Uploader screen, select **URL FOR LIVE STREAM**.
+1. You can launch the easy-to-use **Upload Video** publishing tool using the following paths:
 
-![Upload Video](images\addvideo_livestream_cms.jpg "URL FOR LIEVE STREAM")
+    * Select the Cloud Icon ![Cloud Icon](images\cloud_option.jpg "Upload Video") conveniently accessible via the Content Console header.
 
-## Step 2: Define Video Metadata
+    * Navigate to **Property > Collection** and select **+Upload Video**.<p></p>
 
-Metadata is used to uniquely identify the characteristics of each video.
+2. On the *Upload Video* page, select the **Live Event** option.
 
-* Videos can be tagged with metadata including Title, Headline, Description, Pre Stream Text, and Post Stream Text.
+    ![Add a Video](images\live_event_tab.jpg "Live Event Option")
+
+## Step 2: Specify Stream Origin URL
+
+The first step in the live event setup process is to specify a Stream Origin URL. This URL type represents the publishing point URL where the live stream is originally hosted.
+
+*Note: You can also specify additional optional Stream URLs (Stream Return, Stream Share, and Stream Meta). In Step X.*
+
+Your live stream must meet the following requirements:
+
+* Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
+* Supported audio compression and encoding scheme is **Advanced Audio Coding (AAC)**
+* See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
+* If you will be using multiple live stream cameras, the URL published during the initial upload process represents your first stream in the sequence. You will then specify subsequent streams via the *Camera* page after the initial upload process is complete.
+* You can set visibility for the entire "Live Event" instance *only*. You cannot set visibility for specific live stream camera entries within live event the instance (i.e., on the *Cameras* page).
+
+**To specify the stream origin URL:**
+
+1. Go to **Stream Origin URL**.
+2. Specify the main stream for the live event.
+
+## Step 3: Define Video Metadata
+
+Metadata is used to uniquely identify the characteristics of each live event. Data entered here will be visibility for all stream entries (i.e., Stream Origin plus multiple camera entries).
+
+* Videos can be tagged with metadata including Title, Description, Pre Stream Text, and Post Stream Text.
 * The default language for metadata is *English*.
 * A Consumer will see the metadata on websites where a video is posted.  
 * A Publisher can search for metadata in the Content Console.
@@ -59,131 +88,177 @@ Metadata is used to uniquely identify the characteristics of each video.
 1. Go to **Details**.
 2. Enter the (Stream) Title, Description, Pre Stream, and Post Stream text for your video.
 
-## Step 3: Select Property and Collection
+## Step 4: Select Property and Collection
 
-Assign a property to your video and group it in a collection. Note that both steps are required.
+Assign a property to your live event and group it in a collection. Both steps are required.
 
-1. In **Assign to a property**, select a property from the drop-down to assign to the current video.
-2. After you select the property, the **Assign to a collection"** drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the video.
+1. Go to **Settings**.
+2. In **Assign to a property**, select a property from the drop-down to assign to the current live event.
+3. After you select the property, the **Assign to a collection"** drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the live event.
 
-## Step 4: Set Stream Projection
+## Step 5: Configure Video Security
 
-Indicate what type of video you will be uploading.
+Throughout the publishing cycle, your  will require different levels of security for access, downloading, and sharing to social networks. Live event stream access levels include:
 
-| Projection Type         | Description |
-|:----------------|:--------------------------------------|
-| Flat     | This mode supports Monoscopic 360° videos. This video type is typically filmed with a single camera and stitched together to form a single equirectangular video.   |
-| Spherical      | This video type is usually filmed using two or more cameras and supports the use of HMD devices.     Characteristics include: <p></p><ul><li>Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.</li> <li>This view creates and impression of depth a full 360 experience.</li></ul>
+* **Private** - Live events can be accessed by the console user who uploaded it.
+* **Internal** - Live events can be accessed by the console administrator and designated console users.
+* **Public** - Live events are is visible to external consumers and can be accessed by console administrator and designated console users.
 
-**To set video projection:**
+*As a best practice, set your live event to private for the initial upload. You will need to add key art in the post setup activities.*
 
-1. Go to **Stream Projection?**
-2. Select an option box to set video projection (i.e., Spherical or Flat).
-
-## Step 5: Specify Stream Settings
-
-The upload video process involves specifying a series of stream URLs for your live stream.
-
-* Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
-* Supported audio compression and encoding scheme is **Advanced Audio Coding (AAC)**
-* See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
-* If you will be using multiple live stream cameras, the URL published during the initial upload process represents your first stream in the sequence. You will then specify subsequent streams via the *Camera* page after the initial upload process is complete.
-
-**To specify stream URLs:**
-
-1. Go **Stream Settings**.
-2. Specify the following stream URL types:
-
-| Stream URL Type          | Description               |
-|:-------------------|:-------------------------------------|
-| Stream Origin URL    | Input the publishing point URL where the live stream is originally hosted. |
-| Stream Return URL    | Input the redirection URL to that the viewer will return to after the live-stream concludes. |
-| Stream Share URL    | Input the meta URL that will upload when a video is shared on an external site.  |
-| Stream Meta URL    | Input the meta URL that will upload when a video is shared on an external site.  |
-
-## Step 6: Set Video Blind Spot
-
-If your live stream camera generates a blind spot you can designate the blind spot location (None, Top or Bottom), and optionally fill the blank space by adding a custom photo, logo, or icon to fill the blank space in the App Assets section. See [Blind Spot](terms.md#blind-spot) for more information.
-
-**To configure blind spot:**
-
-1. Go to **Blindspot**.
-2. Select from the drop-down based on the following scenarios:
-
-| If Projection =             |
-|:-----------------|:-------------------------------------|
-| Flat, Blind Spot = None            |
-| Spherical and video includes a Blind Spot, Blind Spot = Top or Bottom |
-| Spherical and video does not include a Blind Spot, Blind Spot = None                             |
-
-## Step 7: Configure Video Security
-
-Throughout the publishing cycle, your videos will require different levels of security for access, downloading, and sharing to social networks. Video access levels include:
-
-* **Private** - Video can be accessed by the console user who uploaded it.
-* **Internal** - Video can be accessed by the console administrator and designated console users.
-* **Public** - Video is visible to external consumers and can be accessed by console administrator and designated console users.
-
-*As a best practice, set your video to private for the initial upload. You will need to add key art and set the broadcast time in post upload activities.*
-
-**To configure video security:**
+**To configure live event security:**
 
 1. Go to **Settings > Visibility**.
 2. Select an option box to set the access level.
 
-## Step 8: Set Start Time and Duration
+## Step 6: Set Start Time and Duration
 
-The time you set your video to broadcast is based on many factors. For example:
+The date and time you set your live event to broadcast is based on many factors. For example:
 
-* You arrangements with web providers to post your video at a designated time.
-* You have considerations relating to the geographical area / time zone where your video will be initially broadcast.
-* You may be sequencing the premiere of a video based on an event or product launch, etc.
-* If your video security is set to Private or Internal, set it to "Public" prior to the defined start time.
+* You arrangements with web providers to post your live event at a designated time.
+* You have considerations relating to the geographical area / time zone where your live event will be initially broadcast.
+* You may be sequencing the premiere of a live event based on an event or product launch, etc.
+* If your live event security is set to Private or Internal, set it to "Public" prior to the scheduled start time of the live event.
 
 **To set video start time and duration:**
 
 1. Go to **Settings > Start Time**.
-3. Select the down arrow to load the calendar popup, then set the date and time the video will broadcast.
-3. In **Duration (In Minutes)** specify a number that indicates estimated maximum live stream play time in minutes (e.g., 60 for 60 minutes).
-3. If you are ready to publish the video, select **Review** to continue, or **Save for Later** to commit your changes and resume publishing this video at a later time. Your video will display in the Production Area on the **Home**. page.
-4. Make sure your video is set to "Public" in  **Visibility** before the defined start time.
+3. Select the down arrow to load the calendar popup, then set the date and time the live event will broadcast.
+3. In **Duration (In Minutes)** specify a number that indicates estimated maximum live event play time in minutes (e.g., 60 for 60 minutes).
 
-## Step 9: Review Stream Details
+## Step 7: Specify Additional Stream URLs (Optional)
 
-The Stream Details section allows you to review the current settings assigned to the video. You can also test / play the video in the Content Console, or use the embed a video link to test the video.
+You can optionally specify the following additional stream types for your live event:
 
-| Option / Setting         | Description            |
+| Stream URL Type          | Description               |
+|:-------------------|:-------------------------------------|
+| Stream Return URL    | The redirection URL the viewer will return to after the live-stream concludes. |
+| Stream Share URL    | The URL that will upload when a video is shared on an external site.  |
+| Stream Meta URL    | Typically includes a file uploaded with modified instructions on how to render
+particular videos in the player.   |
+
+**To specify stream URLs:**
+
+1. Go **Settings**.
+2. Specify each URL type as needed.
+
+## Step 8: Set Live Stream Projection
+
+Indicate what type of live stream you will be uploading.
+
+| Projection Type         | Description |
+|:----------------|:--------------------------------------|
+| Flat     | This mode supports Monoscopic 360° videos. This stream type is typically filmed with a single camera and stitched together to form a single equirectangular video.   |
+| Spherical      | This stream type is usually filmed using two or more cameras and supports the use of HMD devices.     Characteristics include: <p></p><ul><li>Uses stereoscopic technique to render images so there is a slight offset between your left and right eye.</li> <li>This view creates and impression of depth a full 360 experience.</li></ul>
+
+**To set live stream projection:**
+
+1. Go to **VR Attributes > Projection**.
+2. Select an option box to set live stream projection (i.e., Spherical or Flat).
+
+## Step 9: Set Video Blind Spot
+
+If your 360 live stream includes a blind spot and you adjusted by adding a custom photo, logo, or icon to fill the blank space, you can designate the blind spot location (None, Top or Bottom). See [Blind Spot](terms.md#blind-spot) for more information.
+
+**To configure blind spot:**
+
+1. Go to **VR Attributes >  Blindspot**.
+2. Select from the drop-down based on the following scenarios:
+
+| If Projection =             | Setting   |
 |:-----------------|:-------------------------------------|
-| Views    | Displays the number of video views            |
-| Uploaded    | Displays the date and time video was uploaded            |
-| Visibility Settings    | Displays the current visibility setting for the video (Private, Internal, Public)            |
-| Allow Downloads    | Displays video download setting Yes/No            |
-| Allow Sharing    | Displays video sharing setting Yes/No            |
-| File Size    | Displays video file size            |
-| Duration    | Display video play time            |
-| Embed Link    | Displays video player and embed link.             |
-| Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   |     
+| Flat      | Blind Spot = None            |
+| Spherical and video includes a Blind Spot   | Blind Spot = Top or Bottom |
+| Spherical and video does not include a Blind Spot   | Blind Spot = None     |
 
-**To view stream details:**
+## Step 10: Create Live Event
 
-1. Go to **Home > Properties > Collection > Video**.
-2. Select **Stream Details**.
-3. Review the video information. You can test the video by playing it, or using the embed video link.
-4. To update video settings, go to the **Edit** section.
+1. After completing your entries, select **Create** create the live event.
+2. After the live event instance is created **Edit** page displays.
 
-## Step 10: Review Video
+## Step 11: Edit Live Event
 
-The Review Video Profile page displays a final presentation of your video configuration.
+The *Edit* page for a live event allows you to review Live Event settings to verify they are correct:
 
-1. Review the content for accuracy.
-2. Verify that it represents the message and style you want to present.
-3. Verify that the Embed URL presented launches to the correct page and works properly.
-4. Verify that all referenced websites are correct.
-5. Verify that the auto-generated thumbnail or custom key art displays properly.
-5. Select the edit icon to make any adjustments.
+* Review the current settings assigned to the live event for accuracy.
+* Verify that descriptions represent the message and style you want to present.
+* Update the live event thumbnail as needed.
+* Perform a stream check to validate that the live stream initiates properly.
 
-## Step 11: Publish Video
+The following table shows page options and permission state:
 
-1. If you are happy with the video configuration, select **Publish**.
-2. Your video will go live on all the sites posted based on your designated start time.
-3. If you need to add additional live stream cameras or perform additional updates to the live stream profile, select **Save**.
+| Option / Setting         | Description            | Permission  |
+|:-----------------|:-------------------------------------|------------|
+| Update Key Art | Image that will display on video player. Select upload new image. | Update |
+| Check Video | Performs master video file check. | Update |
+| Start Time | Displays the date and time the live event will broadcast | Read-only |
+| Projection | Displays the current live event projection setting (Flat/Spherical) | Read-only |
+| Access | Displays the current visibility setting for the live event (Private/Internal/Public) | Read-only |
+| Stream Title    | Title that summarizes live event subject.          | Update  |   
+| Description    | Live event description.   | Update |
+| Pre Stream Message | Introductory content for your live event. | Update |
+| Post Stream Message | Text that will display after a live event has finished playing. | Update |
+| Origin URL  | Publishing point URL where live event is originally hosted | Update |
+| Return URL | The redirection URL the viewer will return to after the live-stream concludes.  | Update |
+| Share URL | The URL that will upload when a live event is shared on an external site.  | Update |
+| Meta URL | Typically includes a file uploaded with modified instructions on how to render
+particular videos in the player.  | Update  |
+| Visibility Settings  | Private, Internal, Public         | Update |
+| Status | Indicates if the live event is active or stopped | Read-only|
+| Stream Start Time | The live event stream broadcast time. | Update |
+| Stream Duration | Live event play time. | Update |
+| Users    | Displays number of users in each role that has access to the live event (Admins, Content Managers, Viewers)   | Read-only |
+| Distribution Apps | Displays a list of apps the live event is associated with | Read-only |
+
+**To edit the live event:**
+
+1. Review the table above and update items as needed.  
+
+## Step 12: Test Live Stream
+
+You can test the stream for your live event to determine if its running properly using the **Check Stream** option. The function executes a live stream check service and verifies the live stream against the Internet Engineering Task Force (IETF) document [HTTP Live Streaming
+draft-pantos-http-live-streaming-19](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19).
+
+The following list briefly summarizes what happens during the live stream check:
+
+* Verify that the live stream playlist exists.
+
+* Verify that the live stream playlist is valid according to the specification. Each playlist includes "tags." Some tags are required, other tags are required only when tags with specific values are present.
+
+* The **Check Stream** service drills down through the HTTP Live Streaming rules to verify if the live stream playlist is valid.
+
+* If the live stream is stopped, you will immediately receive a source error message. This indicates that the URL is not accessible. Because the stream content cannot be accessible the stream check ends.
+
+* If the live stream is started, but the protocols do not match the HTTP Live Streaming specification, you will also receive a source error message.
+
+* If the live stream is started and is successfully verified against the HTTP Live Streaming specification, you will receive a confirmation message that the stream check was successful.  
+
+**To test live event stream:**
+
+1. On the *Edit* page*, select **Check Stream**.
+2. If the stream check is successful, you will receive a confirmation message.
+3. If the stream check is not successful, you will receive a source error message. Verify that your live stream is available and adheres to the HTTP Live Streaming requirements try again.
+
+## Step 13: Add Key Art
+
+*Key Art* is an still image file that is used to showcase your live event. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a live event. Key art is also referred to as a *thumbnail*. When your live event was initially uploaded a thumbnail was assigned as the default start page.
+
+* You can upload a key art to replace auto-generated version.
+* Key Art displays on your live event profile, property, and collection pages.
+
+Supported key art size specifications include:
+
+| Key Art Setting       | Description            |
+|:-----------------|:-------------------------------------|
+| Image Size    | 16:9, 1600 x 825     |
+| Format    | 4K           |
+| Live Area    | Square, 825 x 825           |
+
+**To upload key art:**
+
+1. Select the current image and upload a new image based on the image requirements.
+
+## Step 14: Publish Video
+
+1. On the *Edit* page, if you are ready to publish the live event, select **Save**.
+2. Make sure your live event is set to "Public" in  **Visibility** before the defined start time.

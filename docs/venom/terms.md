@@ -60,7 +60,7 @@ A still image file that is used to showcase your video.
 
 #### Video on Demand (VoD)
 
-VoD stands for *Video on Demand*.
+VoD stands for *Video on Demand*. This video format is saved in a MP4 file (required by the Content Console) and can be accessed any time by the user. VoD files can be directly uploaded to the Content Console, or can by specifying an external URL that represents where the video is stored (e.g., media server, content delivery network, etc.).
 
 * This video format stores data (in a compressed form) that is required to depict a video signal. VoD files supported by the Content Console must be generated from 360 degree cameras.
 * VoD files cannot be read in their initial "Raw" format and must be converted to the supported codec for video and audio file formats for mobile devices.

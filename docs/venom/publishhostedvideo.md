@@ -141,7 +141,7 @@ Indicate what type of video you will be uploading.
 
 ## Step 10: Set Video Blind Spot
 
-If your video includes a blind spot and you adjusted it in post-production by adding a custom photo, logo, or icon to fill the blank space, you can designate the blind spot location (None, Top or Bottom). See [Blind Spot](terms.md#blind-spot) for more information.
+If your 360 video includes a blind spot and you adjusted it in post-production by adding a custom photo, logo, or icon to fill the blank space, you can designate the blind spot location (None, Top or Bottom). See [Blind Spot](terms.md#blind-spot) for more information.
 
 **To configure blind spot:**
 
@@ -162,7 +162,7 @@ After your video is uploaded, the final step in the configuration process is to 
 1. After completing your entries, select **Upload** begin the video upload. A progress indicator displays.
 2. After the video upload is complete the **Edit** page displays.
 
-## Step 12: Add Video Key Art
+## Step 12: Add Key Art
 
 *Key Art* is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a *thumbnail*. When your video was initially uploaded a thumbnail was assigned as the default start page.
 

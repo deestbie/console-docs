@@ -50,9 +50,13 @@ Supported iOS, Android, and GearVR apps use our HTML5 Video Player. The HTML5 pl
 
 ### How do I embed network camera video on a website?
 
+### How do I embed a VoD, External URL, or Live Event on a website?
+
+The video profile *Details* page includes an HTML5 player and **Embed Link** that you can use to post VoDs, External URLs, or Live Events to an external site. 
+
 ### Can I publish live stream URLs from a Media Server or Content Distribution Network into the Content Console?
 
-Yes, refer to the [URL Live Stream](publishlivestream.md) for information on how to publish a live stream.
+Yes, refer to the [URL Live Stream](publishliveevent.md) for information on how to publish a live stream.
 
 Also see [Video Publishing Options](videopublishingoptions.md) for information about the **Add A Video** publishing too.
 
