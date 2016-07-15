@@ -39,15 +39,17 @@ Let's get started!
 
 * [Add Video Formats](venom\addvideoformats.md) - Learn how to add additional videos formats to meet the requirements of your video distribution strategy.
 
+* [Manage Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
+
+* [**Technical FAQ (Video)**](venom\techfaqvideo.md) -  Review a list of technical topics pertaining to video production using the Content Console.
+
+##### Publish Live Events
+
 * [Publish Live Event](venom\publishliveevent.md) - Learn how to publish a live event composed of one or more live streams using a step-by-step tutorial.
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
 
 * [Publish External Video](venom\publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network using a step-by-step tutorial.
-
-* [Manage Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
-
-* [**Technical FAQ (Video)**](venom\techfaqvideo.md) -  Review a list of technical topics pertaining to video production using the Content Console.
 
 ##### Application Publishing Prerequisites
 
