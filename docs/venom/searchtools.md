@@ -2,7 +2,7 @@
 
 The Content Console provides search and navigation tools you can use view statistical information about properties, collections, and videos maintained on the site.
 
-## How do I search for a video?
+## <a id="search-for-video"></a>How do I search for a video?
 
 The magnifying glass icon in the upper-right of the Content Console header allows you to perform a free text search to target video.
 
@@ -10,7 +10,7 @@ The magnifying glass icon in the upper-right of the Content Console header allow
 2. Enter your search criteria and **Enter**. A list of matches display in *Search Results*.
 3. Select the result you would like to view.
 
-## How do I view statistical information about collections in a specific property?
+## <a id="view-collection-statistics"></a>How do I view statistical information about collections in a specific property?
 
 1. Go to **Dashboard > Organization Name > Property**. A list of collections defined in the property display.
 2. The following sort views are available:
@@ -22,7 +22,7 @@ The magnifying glass icon in the upper-right of the Content Console header allow
 | Active        | Includes videos that are not yet published.                              |
 | Staging          | Includes published with broadcast time pending or live.          |
 
-## How do I view video types and security settings of videos in a collection?
+## <a id="view-video-types-and-visibility"></a>How do I view video types and security settings of videos in a collection?
 
 1. Go to **Dashboard > Organization Name > Property** and select a collection. A list of videos defined in the collection displays.
 2. The following sort views are available:
@@ -36,7 +36,7 @@ The magnifying glass icon in the upper-right of the Content Console header allow
 | Private          | Video visibility = Private            |
 | Hidden          | Video visibility = Hidden            |
 
-## How do I sort applications by platform?
+## <a id="sort-applications-by-platform"></a>How do I sort applications by platform?
 
 1. Go to **Organization > Apps**. A list of applications defined in the current organization displays.
 2. The following sort views are available:

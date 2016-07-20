@@ -2,7 +2,7 @@
 
 This topic provides information about account management.
 
-## How do I create add a business or personal organization?
+## <a id="add-organization"></a>How do I create add a business or personal organization?
 
 Our Client Services department creates each Content Console organization and associated organization administrator account.
 
@@ -10,7 +10,7 @@ Our Client Services department creates each Content Console organization and ass
 * The account is set up as a business or personal account.
 * Organization administrators can then add new members using **Add New Member** (Organization > Users > Add New Member).
 
-## How do I update my organization administrator account?
+## <a id="update-org-admin-account"></a>How do I update my organization administrator account?
 
 1. Select **Organization > Dashboard**. In the left panel you will see your organization name.
 2. Select **Edit Profile**, then update information in the table below.
@@ -27,7 +27,7 @@ Our Client Services department creates each Content Console organization and ass
 | Brand Tagline      | Brand tagline or organization.  |
 | Type      | Organization type (i.e., Business or Personal).  |
 
-## How do I add a new member to an organization?
+## <a id="add-org-member"></a>How do I add a new member to an organization?
 
 1. Select **Organization > Users**. The *Organization Members* page displays.
 2. Select **+ New Users**. The *Add New Organization Member* pop-up displays.
@@ -40,22 +40,23 @@ Our Client Services department creates each Content Console organization and ass
 | Properties      | Select properties new member will have permissions to access. |
 | Permission Level   | Select permission level of new user (Viewer, Content Manager, or Admin). See [Staff Permissions](../venom/permissions.md) for a list of role definitions.  |
 
-## How do I update the permission level of an account after I create it?
+## <a id="update-permission-level"></a>How do I update the permission level of an account after I create it?
 
 Refer to the [Staff Permissions](../venom/permissions.md) topic for more information about staff role definitions, assigning staff permissions, and inviting members to an organization.
 
-## Who do I contact if I have questions about my account?
+## <a id="account-questions"></a>Who do I contact if I have questions about my account?
 
 If you have questions regarding your Content Console account, contact your assigned Client Services representative.
 
-## How do I reset my password?
+## <a id="reset-password"></a>How do I reset my password?
 
 To reset your password:
 
-1. Select **Home > Users > Forgot Password**.
-2. Enter your email address, then **OK**.
+1. Go to im360.com
+2. Select **Login > Forgot Password**.
+2. Enter your email address, then **RESET**.
 3. Follow the instructions in reset email.
 
-## How do I change my email address?
+## <a id="change-email-address"></a>How do I change my email address?
 
 Once an account is created, the email address associated with the account cannot be changed. Contact your Client Services representative if you need to create a new account with a new email address.

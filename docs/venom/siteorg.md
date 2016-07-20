@@ -2,7 +2,7 @@
 
 The Content Console is organized into following sections:
 
-## Organization Home > Dashboard
+## <a id="org-home-dashboard"></a>Organization Home > Dashboard
 
 Provides a top-view of assets and analytic data associated with your account including:
 
@@ -16,7 +16,7 @@ Provides a top-view of assets and analytic data associated with your account inc
 | View Report      | Allows you to view analytical reports about app usage. |
 
 
-## Organization Home > Apps
+## <a id="org-home-apps"></a>Organization Home > Apps
 
 Provides a top-view of application instances added to the Content Console, publishing info, platform, and video statistics.
 
@@ -58,7 +58,7 @@ Provides a top-view of application instances added to the Content Console, publi
 | Coming soon     |  |
 -->
 
-## Home > Users
+## <a id="home-users"></a>Home > Users
 
 Provides a summary of users defined in the current organization.
 
@@ -69,7 +69,7 @@ Provides a summary of users defined in the current organization.
 | Join Date   | Displays the member join date and time. |
 | +New Member    | Launches the Add New Organization Member popup. |
 
-## Home > Dashboard > Property
+## <a id="usershome-dashboard-property"></a>Home > UsersHome > Dashboard > Property
 
 | Property Summary            | Description |
 |:----------------|:--------------------------------------|
@@ -79,7 +79,7 @@ Provides a summary of users defined in the current organization.
 | View Collection     | Allows you to select a collection name to drill-down to a detailed view of videos added to each collection. |    
 | Add Collection      | Allows you to add a collection (**+ Collection**).  |
 
-## Home > Dashboard > Property > Collection
+## <a id="home-dashboard-property-collection"></a>Home > Dashboard > Property > Collection
 
 | Collection Summary          | Description |
 |:----------------|:--------------------------------------|
