@@ -1,12 +1,12 @@
 # Welcome to the Content Console
 
-Welcome to the Digital Domain Content Console. Our easy-to-use interface will allow you to build and manage your video content assets, publish videos for inclusion on external websites, and gather valuable statistical information on video usage.
+Welcome to the Digital Domain Content Console. Our easy-to-use interface will allow you to build and manage your video and live stream media assets, publish them for inclusion on external websites, and gather valuable statistical information on their usage.
 
 Let's get started!
 
 ##### Basics
 
-* [Features](venom\features.md) - Learn about Content Console features that comprise the video publishing workflow.
+* [Features](venom\features.md) - Learn about Content Console features that comprise the video and live stream publishing workflow.
 
 * [Site Organization](venom\siteorg.md) - Learn about how the Content Console is organized.
 
@@ -17,29 +17,33 @@ Let's get started!
 
 ##### Account Management
 
-* [Staff Permissions](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
+* [Sign Up](venom\signup.md) - Learn how to sign up for an im360 account and log into to the Content Console.
 
-* [Manage User Accounts](venom\accountmanage.md) - Learn about the account setup process, how to reset your password, and change the email address associated with your account.
+* [Manage User Accounts](venom\accountmanage.md) - Learn about the account setup process, how to reset your password, change the email address associated with your account, and invite users to your team.
+
+* [Staff Permissions](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
 
 * [Update Property](venom\updateproperty.md) - Learn how to update a property definition and set the display order of the property on the *Properties Summary* page.
 
-##### Video Publishing Prerequisites
+##### Media Publishing Prerequisites
 
-* [Video Publishing Requirements](venom\videopublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and audio technical requirements.
+* [Media Publishing Requirements](venom\mediapublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and live stream and audio technical requirements.
 
-* [Define Property](venom\createproperty.md) - Learn how to define a property for storing your video collections.
+* [Define Property](venom\createproperty.md) - Learn how to define a property for storing your media asset collections.
 
-* [Define Collection](venom\createcollection.md) - Learn how to define a collection within a property for grouping your videos by type.
+* [Define Collection](venom\createcollection.md) - Learn how to define a collection within a property for grouping your media assets by type.
 
 ##### Publish Videos
 
-* [Video Publishing Options](venom\videopublishingoptions.md) - Learn about methods for accessing the **Add A Video** publishing tool, and supported video publishing options.  
+* [Media Publishing Options](venom\mediapublishingoptions.md) - Learn about video, external URLs, and live events publishing tools and where you can access them.  
 
 * [Publish Hosted Video](venom\publishhostedvideo.md) - Learn how to publish hosted video content using a step-by-step tutorial.
 
 * [Add Video Formats](venom\addvideoformats.md) - Learn how to add additional videos formats to meet the requirements of your video distribution strategy.
 
 * [Manage Video](venom\managevideo.md) - Learn how to manage (i.e., edit/update) a video that is currently defined in a collection.
+
+* [Publish External Video](venom\publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network using a step-by-step tutorial.
 
 * [**Technical FAQ (Video)**](venom\techfaqvideo.md) -  Review a list of technical topics pertaining to video production using the Content Console.
 
@@ -48,8 +52,6 @@ Let's get started!
 * [Publish Live Event](venom\publishliveevent.md) - Learn how to publish a live event composed of one or more live streams using a step-by-step tutorial.
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
-
-* [Publish External Video](venom\publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network using a step-by-step tutorial.
 
 ##### Application Publishing Prerequisites
 
@@ -65,7 +67,7 @@ Let's get started!
 
 ##### Analytics and Usage Monitoring
 
-* [Video Usage Analytics](venom\videousageanalytics.md) - Learn about the Content Console's video usage analytics capabilities.
+* [Media Usage Analytics](venom\mediausageanalytics.md) - Learn about the Content Console's media usage analytics capabilities for videos, external URLs, and live events.
 
 * [Content Console Monitoring](venom\contentconsolemonitoring.md) - Learn about the Content Console's data artifacts monitoring capabilities.
 
@@ -75,7 +77,7 @@ Let's get started!
 
 ##### [**Terminology**](venom\terms.md)
 
-Learn about video and content management terminology.
+Learn about media asset and content management terminology.
 
 ##### [Legal](venom\legal.md)
 

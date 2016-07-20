@@ -4,11 +4,11 @@ The following tutorial illustrates how to publish a video that is hosted on the 
 
 # PART 1 - COMPLETE PREREQUISITES
 
-* Review [Video Publishing Requirements](videopublishrequirements.md)
-* Define a [Video Property](createproperty.md)
-* Define a [Video Collection](createcollection.md)
+* Review [Media Publishing Requirements](mediapublishrequirements.md)
+* Define a [Property](createproperty.md)
+* Define a [Collection](createcollection.md)
 
-# PART 2 - CREATE VIDEO PROFILE (FOR HOSTED VIDEO)
+# PART 2 - CREATE HOSTED VIDEO PROFILE
 
 This section shows you how to publish a hosted video. You will:
 
@@ -16,23 +16,23 @@ This section shows you how to publish a hosted video. You will:
 * Define video metadata (i.e., title, headline, description, tags)
 * Select video category
 * Select the property and collection the hosted video will be contained in
-* Configure video settings (i.e., visibility, downloading, sharing, projection, and blind spot)
+* Configure video settings (i.e., downloadable, visibility, projection, and blindspot)
 * Upload a video
-* Upload key Art
+* Upload key art
 * Review final video configuration
 * Publish video
 
-## Step 1: Select Video Upload Method
+## Step 1: Select Media Upload Method
 
-1. You can launch the easy-to-use **Upload Video** publishing tool using the following paths:
+1. You can launch the easy-to-use **Media Upload**  publishing tool using the following paths:
 
     * Select the Cloud Icon ![Cloud Icon](images\cloud_option.jpg "Upload Video") conveniently accessible via the Content Console header.
 
     * Navigate to **Property > Collection** and select **+Upload Video**.<p></p>
 
-2. On the *Upload Video* page, select the **Hosted Video** option.
+2. On the *Media Upload* page, select the **Hosted Video** option.
 
-    ![Add a Video](images\hosted_video_tab.jpg "Hosted Video Option")
+    ![Hosted Video Upload](images\hosted_video_tab.jpg "Hosted Video Option")
 
 ## Step 2: Select Video Source
 
@@ -44,7 +44,7 @@ The upload video process allows you to upload a VoD video. Supported video and a
 | Video Format    | MP4 HD (1040p), MP4 (2K), and MP4 (4K) |
 | Audio Compression and Encoding Scheme        | Advanced Audio Coding (AAC)                             |
 
-See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
+See [Video Publishing Requirements](mediapublishrequirements.md) for prerequisite steps and video and audio requirements.
 
 **To select video source:**
 
@@ -221,3 +221,4 @@ The following table shows page options and permission state:
 
 1. If you would like your video to go live on all sites/applications where it is posted, set **Visibility** to **Public**.
 2. If you are happy with the video configuration, and are ready to publish the video, select **Save**.
+3. To add additional video formats to the current video profile, go to [Add Video Formats](addvideoformats.md).

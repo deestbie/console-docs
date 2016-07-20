@@ -1,22 +1,22 @@
-# Video Publishing Requirements
+# Media Publishing Requirements
 
-## What activities are involved in managing video content on the Digital Domain Content Console?
+## What activities are involved in managing media assets on the Digital Domain Content Console?
 
 * Content to be presented on Digital Domain websites or mobile device applications must be added to our Content Console.
-* If you are not using a Media Server or Content Delivery Network, video content can be directly uploaded to our Content Console.
+* If you are not using a Media Server or Content Delivery Network, video content and live streams can be directly uploaded to our Content Console.
 * Video content must be converted to the required format for Video on Demand (VOD) and Live Streaming video types prior to upload.
 * Live stream URLs can be added from your Media Server or Content Delivery Network, or you can live stream directly from your 360 camera (depending on internet connectivity).
 * Key Art (i.e., thumbnail) files for video uploads must be uploaded directly to the Content Console and cannot be referenced using a URL.
 
 ## What prerequisite steps must be completed prior to publishing content?
 
-Before you publish video and application digital assets to the Content Console you must complete the following steps:
+Before you publish media and application digital assets to the Content Console you must complete the following steps:
 
-### Step 1. Create Digital Assets
+### Step 1. Create Media Assets
 
-Prepare the following digital assets and have them available prior to creating a video profile in the Content Console. Because you will be required to upload a video, video URL, or post a live stream URL for a live event before you can save your video profile, having these assets available will help to expedite the video publishing process.
+Prepare the following media assets and have them available prior to creating a media (video, external URL, or live event) or application profile in the Content Console. Because you will be required to upload a video, external URL, or post a live stream URL for a live event before you can save your video profile, having these assets available will help to expedite the video publishing process.
 
-| Options          | Video Sort View                   |
+| Options          | Description                |
 |:-------------------|:-------------------------------------|
 | 360 Video Files       | Shoot 360 videos, perform post production, and generate output files.             |
 | Video Metadata         | Define video Title, Headline, Description, and Search Tags for each video language version. |

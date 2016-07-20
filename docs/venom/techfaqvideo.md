@@ -2,7 +2,7 @@
 
 ### How long does it take to configure a single video profile?
 
-If you have all the digital assets available and complete the prerequisite steps defined in [Video Publishing Requirements](videopublishrequirements.md), the overall process will take approximately 5-10 minutes plus downloading and post processing time. Add additional time for:
+If you have all the digital assets available and complete the prerequisite steps defined in [Media Publishing Requirements](mediapublishrequirements.md), the overall process will take approximately 5-10 minutes plus downloading and post processing time. Add additional time for:
 
 * Localizations
 * Testing
@@ -52,13 +52,13 @@ Supported iOS, Android, and GearVR apps use our HTML5 Video Player. The HTML5 pl
 
 ### How do I embed a VoD, External URL, or Live Event on a website?
 
-The video profile *Details* page includes an HTML5 player and **Embed Link** that you can use to post VoDs, External URLs, or Live Events to an external site. 
+The video profile *Details* page includes an HTML5 player and **Embed Link** that you can use to post VoDs, External URLs, or Live Events to an external site.
 
 ### Can I publish live stream URLs from a Media Server or Content Distribution Network into the Content Console?
 
 Yes, refer to the [URL Live Stream](publishliveevent.md) for information on how to publish a live stream.
 
-Also see [Video Publishing Options](videopublishingoptions.md) for information about the **Add A Video** publishing too.
+Also see [Media Publishing Options](mediapublishingoptions.md) for information about publishing tools.
 
 ### How do I set up a live stream media server?
 

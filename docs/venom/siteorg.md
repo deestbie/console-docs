@@ -6,7 +6,7 @@ The Content Console is organized into following sections:
 
 Provides a top-view of assets and analytic data associated with your account including:
 
-| Organization Home Page                                               |
+| Organization Home Page         | Description |
 |:----------------|:--------------------------------------|
 | Dashboard     | Lists the total number of videos and streams, apps, members, and properties.   |
 | Organization      | Displays the Organization Name and administrator contact information, and account edit option if you have administrator privileges    |
@@ -20,7 +20,7 @@ Provides a top-view of assets and analytic data associated with your account inc
 
 Provides a top-view of application instances added to the Content Console, publishing info, platform, and video statistics.
 
-| App Home Page                                               |
+| App Home Page         | Description |
 |:----------------|:--------------------------------------|
 | App Summary     | A list of application instances defined in the current organization.   |
 | Add Application      | Allows you to add an application (**+ Application**).  |
@@ -62,7 +62,7 @@ Provides a top-view of application instances added to the Content Console, publi
 
 Provides a summary of users defined in the current organization.
 
-| Organization Members                                           |
+| Organization Members            | Description |
 |:----------------|:--------------------------------------|
 | Name    | Displays the user name.  |
 | Screen Name         | Displays user screen name. Note that this name is auto-assigned.   |
@@ -71,7 +71,7 @@ Provides a summary of users defined in the current organization.
 
 ## Home > Dashboard > Property
 
-| Property Summary                                           |
+| Property Summary            | Description |
 |:----------------|:--------------------------------------|
 | Dashboard    | Lists the total number of property views, and apps, members, and collections associated with the property. |
 | Property      | Displays the Property Name and description, administrator contact information, property edit option if you have administrator privileges, and total number of videos, streams, and downloads for the property.    |
@@ -81,7 +81,7 @@ Provides a summary of users defined in the current organization.
 
 ## Home > Dashboard > Property > Collection
 
-| Collection Summary                                           |
+| Collection Summary          | Description |
 |:----------------|:--------------------------------------|
 | Dashboard    | Lists the collection views by total, number of days, and number of hours.  |
 | Videos         | Lists videos defined in your collection, including name, season, security visibility setting, upload date and time, number of views, downloads, and video size.   |

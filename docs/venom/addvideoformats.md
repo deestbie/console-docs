@@ -21,14 +21,14 @@ The following tutorial illustrates how to upload a new video format:
 ## Step 2: Add New Video Format
 
 1. After the upload process is complete you will be redirected to the *Edit* page.
-2. Select *Video Formats* page. The *Additional Video Formats* page displays.
-3. Select **+ New Format**. The *Add New Format* pop-up displays.
+2. Select the *Video Details* page.
+3. In the *Video Formats* section, select **+ New Format**. The *Add New Format* pop-up displays.
 
 ## Step 3: Add Video Details
 
-Each additional video will use the Title, Headline, Description, and Tags you defined for the main video content. The Title and Description used in the Video Formats section is *internal* and intended to help you uniquely identify the characteristics of each video so you can effectively manage them.
+Each additional video will use the Title, Headline, Description, and Tags you defined for the main video content. The Name and Description used in the Video Formats section is *internal* and intended to help you uniquely identify the characteristics of each video so you can effectively manage them.
 
-1. Enter Title and Description for your video.
+1. Enter Name and Description for your video.
 
 ## Step 4: Set Video Projection
 
@@ -68,8 +68,8 @@ The upload video process allows you to upload a VoD video. Supported video and a
 | Video Format    | MP4 HD (1040p), MP4 (2K), and MP4 (4K) |
 | Audio Compression and Encoding Scheme        | Advanced Audio Coding (AAC)                             |
 
-See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
+See [Media Publishing Requirements](mediapublishrequirements.md) for prerequisite steps and video and audio requirements.
 
 **To select video source:**
 
-1. Use **Drag and Drop** or **Browse** (click once) to select your video file. The name of the selected video file and progress indicator will display. After the upload is complete, the video is added to the *Additional Video Formats Summary*.
+1. Use **Drag and Drop** or **Browse** (click once) to select your video file. The name of the selected video file and progress indicator will display. After the upload is complete, the video is added to the *Video Formats Summary*.

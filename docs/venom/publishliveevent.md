@@ -1,55 +1,55 @@
 
 # Introduction
 
-A Live event is composed of composed of one or more live streams that are hosted on an external streaming Media Server, a Content Delivery Network (CDN), or streamed directly from a 360 camera.
+A Live event is composed of one or more live streams that are hosted on an external streaming Media Server, a Content Delivery Network (CDN), or streamed directly from a 360 camera.
 
 #  About Live Events
 
-* Cameras that support live 360 video stitching and streaming can utilize the live option.
+* Cameras that support live 360 video stitching and streaming can utilize the live event option.
 
-* You can add a live stream from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).
+* You can add a live streams from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).
 
 * Using your 360 video camera, you can create a customized RTSP request URL stream link for external media players, or let your camera generate a default URL.
 
 * You can add live stream URLs from your Media Server or Content Delivery Network, or you can live stream directly from your 360 camera (depending on internet connectivity).
 
-* You can add a URL to the Content Console for each 360 video camera and specify a camera label that uniquely identifies characteristics of the stream (e.g., angle, associated mobile devices, video format, etc.).
+* You can add a URL to the Content Console for each additional 360 video camera and specify a camera label that uniquely identifies characteristics of the stream (e.g., angle, associated mobile devices, video format, etc.). See [Add Camera](addcamerastreams.md).
 
 # PART 1 - COMPLETE PREREQUISITES
 
-* Review [Video Publishing Requirements](videopublishrequirements.md)
-* Define a [Video Property](createproperty.md)
-* Define a [Video Collection](createcollection.md)
+* Review [Media Publishing Requirements](mediapublishrequirements.md)
+* Define a [Property](createproperty.md)
+* Define a [Collection](createcollection.md)
 
-## PART 2: CREATE VIDEO PROFILE (for LIVE EVENT)
+## PART 2: CREATE LIVE EVENT
 
 The following tutorial illustrates how to publish a live event that is hosted on an external streaming Media Server, Content Delivery Network (CDN), or directly from your 360 camera. You will:
 
-* Specify Stream Origin
+* Specify stream origin
 * Set the property and collection the live stream will be contained in.
-* Define video metadata (i.e., title, description, pre stream / post stream text, and tags).
-* Configure video security
-* Set live stream start time and duration.
+* Define live event metadata (i.e., title, description, pre stream / post stream text, and tags).
+* Configure live event visibility
+* Set live event start time and duration.
 * Specify additional stream URLs (Return, Share, and Meta)
 * Set live stream projection
 * Set stream blind spot
-* Create live event
+* Save live event
 * Test live stream
 * Add key art
 * Edit live event
-* Publish video.
+* Publish live event.
 
-## Step 1: Select Video Upload Method
+## Step 1: Select Media Upload Method
 
-1. You can launch the easy-to-use **Upload Video** publishing tool using the following paths:
+1. You can launch the easy-to-use **Media Upload** publishing tool using the following paths:
 
     * Select the Cloud Icon ![Cloud Icon](images\cloud_option.jpg "Upload Video") conveniently accessible via the Content Console header.
 
     * Navigate to **Property > Collection** and select **+Upload Video**.<p></p>
 
-2. On the *Upload Video* page, select the **Live Event** option.
+2. On the *Media Upload* page, select the **Live Event** option.
 
-    ![Add a Video](images\live_event_tab.jpg "Live Event Option")
+    ![Live Event Upload](images\live_event_tab.jpg "Live Event Option")
 
 ## Step 2: Specify Stream Origin URL
 
@@ -61,7 +61,7 @@ Your live stream must meet the following requirements:
 
 * Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
 * Supported audio compression and encoding scheme is **Advanced Audio Coding (AAC)**
-* See [Video Publishing Requirements](videopublishrequirements.md) for prerequisite steps and video and audio requirements.
+* See [Media Publishing Requirements](mediapublishrequirements.md) for prerequisite steps and video and audio requirements.
 * If you will be using multiple live stream cameras, the URL published during the initial upload process represents your first stream in the sequence. You will then specify subsequent streams via the *Camera* page after the initial upload process is complete.
 * You can set visibility for the entire "Live Event" instance *only*. You cannot set visibility for specific live stream camera entries within live event the instance (i.e., on the *Cameras* page).
 
@@ -80,8 +80,6 @@ Metadata is used to uniquely identify the characteristics of each live event. Da
 * A Publisher can search for metadata in the Content Console.
 * You can add additional language versions on the **Edit Video** page after the video upload process is complete.
 * See [Video Metadata](terms.md#video-metadata) more information on metadata types.
-<!--* The Add Language function allows you to add a new metadata instance to a video profile.-->
-<!--* Content for additional languages can be defined in a Excel template and uploaded to the Content Console.-->
 
 **To define video metadata:**
 
@@ -216,7 +214,7 @@ particular videos in the player.  | Update  |
 
 ## Step 12: Test Live Stream
 
-You can test the stream for your live event to determine if its running properly using the **Check Stream** option. The function executes a live stream check service and verifies the live stream against the Internet Engineering Task Force (IETF) document [HTTP Live Streaming
+You can test the stream for your live event to determine if its running properly using the **Check Stream** option. The function executes a live stream check service and verifies the live stream against the Internet Engineering Task Force (IETF) document [HTTPS Live Streaming
 draft-pantos-http-live-streaming-19](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19).
 
 The following list briefly summarizes what happens during the live stream check:
@@ -258,7 +256,8 @@ Supported key art size specifications include:
 
 1. Select the current image and upload a new image based on the image requirements.
 
-## Step 14: Publish Video
+## Step 14: Publish Live Event
 
 1. On the *Edit* page, if you are ready to publish the live event, select **Save**.
 2. Make sure your live event is set to "Public" in  **Visibility** before the defined start time.
+3. To add additional cameras to the current live event profile, go to [Add Camera](addcamerastreams.md).

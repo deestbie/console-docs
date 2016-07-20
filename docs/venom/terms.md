@@ -66,7 +66,7 @@ VoD stands for *Video on Demand*. This video format is saved in a MP4 file (requ
 * VoD files cannot be read in their initial "Raw" format and must be converted to the supported codec for video and audio file formats for mobile devices.
 * When convert your VoD files to the required format, you will configure measurements for various categories of the video signal based on the file size you are converting the VoD file to.
 
-See [Video Publishing Requirements](videopublishrequirements.md) for more information on VoD conversion requirements for videos you would like to upload to the Content Console.
+See [Media Publishing Requirements](mediapublishrequirements.md) for more information on VoD conversion requirements for videos you would like to upload to the Content Console.
 
 #### Live Event
 

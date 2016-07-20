@@ -10,15 +10,16 @@ pages:
   - Search Tools: venom\searchtools.md
   - Roadmap: venom\roadmap.md
 - ACCOUNT MANAGEMENT:
-  - Staff Permissions: venom\permissions.md
+  - Sign Up: venom\signup.md
   - Manage User Accounts: venom\accountmanage.md
+  - Staff Permissions: venom\permissions.md
   - Update Property: venom\updateproperty.md
-- VIDEO PUBLISHING PREREQUISITES:
-  - Video Publishing Requirements: venom\videopublishrequirements.md
-  - Define Video Property: venom\createproperty.md
-  - Define Video Collection: venom\createcollection.md
+- MEDIA PUBLISHING PREREQUISITES:
+  - Media Publishing Requirements: venom\mediapublishrequirements.md
+  - Define Property: venom\createproperty.md
+  - Define Collection: venom\createcollection.md
 - PUBLISH VIDEOS:
-  - Video Publishing Options: venom\videopublishingoptions.md
+  - Media Publishing Options: venom\mediapublishingoptions.md
   - Publish Hosted Video: venom\publishhostedvideo.md
   - Add Video Formats: venom\addvideoformats.md
   - Publish External Video: venom\publishexternalvideo.md
@@ -34,7 +35,7 @@ pages:
   - Update Application Profile: venom\manageapp.md
   - Technical FAQ (Application): venom\techfaqapp.md
 - ANALYTICS AND MONITORING:
-  - Video Usage Analytics: venom\videousageanalytics.md
+  - Media Usage Analytics: venom\mediausageanalytics.md
   - Content Console Monitoring: venom\contentconsolemonitoring.md
 - LOCALIZATION: venom\localization.md
 - TERMINOLOGY: venom\terms.md
