@@ -118,7 +118,7 @@
 
 
   <li class="toctree-l1 ">
-    <a class="" href="../permissions/">Staff Permissions</a>
+    <a class="" href="../signup/">Sign Up</a>
     
   </li>
 
@@ -128,6 +128,15 @@
 
   <li class="toctree-l1 ">
     <a class="" href="../accountmanage/">Manage User Accounts</a>
+    
+  </li>
+
+    
+      
+
+
+  <li class="toctree-l1 ">
+    <a class="" href="../permissions/">Staff Permissions</a>
     
   </li>
 
@@ -148,13 +157,13 @@
 
 
   <ul class="subnav">
-  <li><span>VIDEO PUBLISHING PREREQUISITES</span></li>
+  <li><span>MEDIA PUBLISHING PREREQUISITES</span></li>
     
       
 
 
   <li class="toctree-l1 ">
-    <a class="" href="../videopublishrequirements/">Video Publishing Requirements</a>
+    <a class="" href="../mediapublishrequirements/">Media Publishing Requirements</a>
     
   </li>
 
@@ -163,7 +172,7 @@
 
 
   <li class="toctree-l1 ">
-    <a class="" href="../createproperty/">Define Video Property</a>
+    <a class="" href="../createproperty/">Define Property</a>
     
   </li>
 
@@ -172,7 +181,7 @@
 
 
   <li class="toctree-l1 ">
-    <a class="" href="../createcollection/">Define Video Collection</a>
+    <a class="" href="../createcollection/">Define Collection</a>
     
   </li>
 
@@ -190,7 +199,7 @@
 
 
   <li class="toctree-l1 ">
-    <a class="" href="../videopublishingoptions/">Video Publishing Options</a>
+    <a class="" href="../mediapublishingoptions/">Media Publishing Options</a>
     
   </li>
 
@@ -273,12 +282,12 @@
         <ul>
   
     <li class="toctree-l4">
-      <a href="#part-2-create-video-profile-for-live-event">PART 2: CREATE VIDEO PROFILE (for LIVE EVENT)</a>
+      <a href="#part-2-create-live-event">PART 2: CREATE LIVE EVENT</a>
       
     </li>
   
     <li class="toctree-l4">
-      <a href="#step-1-select-video-upload-method">Step 1: Select Video Upload Method</a>
+      <a href="#step-1-select-media-upload-method">Step 1: Select Media Upload Method</a>
       
     </li>
   
@@ -343,7 +352,7 @@
     </li>
   
     <li class="toctree-l4">
-      <a href="#step-14-publish-video">Step 14: Publish Video</a>
+      <a href="#step-14-publish-live-event">Step 14: Publish Live Event</a>
       
     </li>
   
@@ -432,7 +441,7 @@
 
 
   <li class="toctree-l1 ">
-    <a class="" href="../videousageanalytics/">Video Usage Analytics</a>
+    <a class="" href="../mediausageanalytics/">Media Usage Analytics</a>
     
   </li>
 
@@ -522,14 +531,14 @@
             <div class="section">
               
                 <h1 id="introduction">Introduction</h1>
-<p>A Live event is composed of composed of one or more live streams that are hosted on an external streaming Media Server, a Content Delivery Network (CDN), or streamed directly from a 360 camera.</p>
+<p>A Live event is composed of one or more live streams that are hosted on an external streaming Media Server, a Content Delivery Network (CDN), or streamed directly from a 360 camera.</p>
 <h1 id="about-live-events">About Live Events</h1>
 <ul>
 <li>
-<p>Cameras that support live 360 video stitching and streaming can utilize the live option.</p>
+<p>Cameras that support live 360 video stitching and streaming can utilize the live event option.</p>
 </li>
 <li>
-<p>You can add a live stream from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).</p>
+<p>You can add a live streams from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).</p>
 </li>
 <li>
 <p>Using your 360 video camera, you can create a customized RTSP request URL stream link for external media players, or let your camera generate a default URL.</p>
@@ -538,36 +547,36 @@
 <p>You can add live stream URLs from your Media Server or Content Delivery Network, or you can live stream directly from your 360 camera (depending on internet connectivity).</p>
 </li>
 <li>
-<p>You can add a URL to the Content Console for each 360 video camera and specify a camera label that uniquely identifies characteristics of the stream (e.g., angle, associated mobile devices, video format, etc.).</p>
+<p>You can add a URL to the Content Console for each additional 360 video camera and specify a camera label that uniquely identifies characteristics of the stream (e.g., angle, associated mobile devices, video format, etc.). See <a href="../addcamerastreams/">Add Camera</a>.</p>
 </li>
 </ul>
 <h1 id="part-1-complete-prerequisites">PART 1 - COMPLETE PREREQUISITES</h1>
 <ul>
-<li>Review <a href="../videopublishrequirements/">Video Publishing Requirements</a></li>
-<li>Define a <a href="../createproperty/">Video Property</a></li>
-<li>Define a <a href="../createcollection/">Video Collection</a></li>
+<li>Review <a href="../mediapublishrequirements/">Media Publishing Requirements</a></li>
+<li>Define a <a href="../createproperty/">Property</a></li>
+<li>Define a <a href="../createcollection/">Collection</a></li>
 </ul>
-<h2 id="part-2-create-video-profile-for-live-event">PART 2: CREATE VIDEO PROFILE (for LIVE EVENT)</h2>
+<h2 id="part-2-create-live-event">PART 2: CREATE LIVE EVENT</h2>
 <p>The following tutorial illustrates how to publish a live event that is hosted on an external streaming Media Server, Content Delivery Network (CDN), or directly from your 360 camera. You will:</p>
 <ul>
-<li>Specify Stream Origin</li>
+<li>Specify stream origin</li>
 <li>Set the property and collection the live stream will be contained in.</li>
-<li>Define video metadata (i.e., title, description, pre stream / post stream text, and tags).</li>
-<li>Configure video security</li>
-<li>Set live stream start time and duration.</li>
+<li>Define live event metadata (i.e., title, description, pre stream / post stream text, and tags).</li>
+<li>Configure live event visibility</li>
+<li>Set live event start time and duration.</li>
 <li>Specify additional stream URLs (Return, Share, and Meta)</li>
 <li>Set live stream projection</li>
 <li>Set stream blind spot</li>
-<li>Create live event</li>
+<li>Save live event</li>
 <li>Test live stream</li>
 <li>Add key art</li>
 <li>Edit live event</li>
-<li>Publish video.</li>
+<li>Publish live event.</li>
 </ul>
-<h2 id="step-1-select-video-upload-method">Step 1: Select Video Upload Method</h2>
+<h2 id="step-1-select-media-upload-method">Step 1: Select Media Upload Method</h2>
 <ol>
 <li>
-<p>You can launch the easy-to-use <strong>Upload Video</strong> publishing tool using the following paths:</p>
+<p>You can launch the easy-to-use <strong>Media Upload</strong> publishing tool using the following paths:</p>
 <ul>
 <li>
 <p>Select the Cloud Icon <img alt="Cloud Icon" src="../images\cloud_option.jpg" title="Upload Video" /> conveniently accessible via the Content Console header.</p>
@@ -578,8 +587,8 @@
 </ul>
 </li>
 <li>
-<p>On the <em>Upload Video</em> page, select the <strong>Live Event</strong> option.</p>
-<p><img alt="Add a Video" src="../images\live_event_tab.jpg" title="Live Event Option" /></p>
+<p>On the <em>Media Upload</em> page, select the <strong>Live Event</strong> option.</p>
+<p><img alt="Live Event Upload" src="../images\live_event_tab.jpg" title="Live Event Option" /></p>
 </li>
 </ol>
 <h2 id="step-2-specify-stream-origin-url">Step 2: Specify Stream Origin URL</h2>
@@ -589,7 +598,7 @@
 <ul>
 <li>Supported video formats include <strong>MP4 HD (1040p)</strong>, <strong>MP4 (2K)</strong>, and <strong>MP4 (4K)</strong>.</li>
 <li>Supported audio compression and encoding scheme is <strong>Advanced Audio Coding (AAC)</strong></li>
-<li>See <a href="../videopublishrequirements/">Video Publishing Requirements</a> for prerequisite steps and video and audio requirements.</li>
+<li>See <a href="../mediapublishrequirements/">Media Publishing Requirements</a> for prerequisite steps and video and audio requirements.</li>
 <li>If you will be using multiple live stream cameras, the URL published during the initial upload process represents your first stream in the sequence. You will then specify subsequent streams via the <em>Camera</em> page after the initial upload process is complete.</li>
 <li>You can set visibility for the entire "Live Event" instance <em>only</em>. You cannot set visibility for specific live stream camera entries within live event the instance (i.e., on the <em>Cameras</em> page).</li>
 </ul>
@@ -606,9 +615,7 @@
 <li>A Consumer will see the metadata on websites where a video is posted.  </li>
 <li>A Publisher can search for metadata in the Content Console.</li>
 <li>You can add additional language versions on the <strong>Edit Video</strong> page after the video upload process is complete.</li>
-<li>See <a href="../terms/#video-metadata">Video Metadata</a> more information on metadata types.
-<!--* The Add Language function allows you to add a new metadata instance to a video profile.-->
-<!--* Content for additional languages can be defined in a Excel template and uploaded to the Content Console.--></li>
+<li>See <a href="../terms/#video-metadata">Video Metadata</a> more information on metadata types.</li>
 </ul>
 <p><strong>To define video metadata:</strong></p>
 <ol>
@@ -866,7 +873,7 @@
 <li>Review the table above and update items as needed.  </li>
 </ol>
 <h2 id="step-12-test-live-stream">Step 12: Test Live Stream</h2>
-<p>You can test the stream for your live event to determine if its running properly using the <strong>Check Stream</strong> option. The function executes a live stream check service and verifies the live stream against the Internet Engineering Task Force (IETF) document <a href="https://tools.ietf.org/html/draft-pantos-http-live-streaming-19">HTTP Live Streaming
+<p>You can test the stream for your live event to determine if its running properly using the <strong>Check Stream</strong> option. The function executes a live stream check service and verifies the live stream against the Internet Engineering Task Force (IETF) document <a href="https://tools.ietf.org/html/draft-pantos-http-live-streaming-19">HTTPS Live Streaming
 draft-pantos-http-live-streaming-19</a>.</p>
 <p>The following list briefly summarizes what happens during the live stream check:</p>
 <ul>
@@ -928,10 +935,11 @@ draft-pantos-http-live-streaming-19</a>.</p>
 <ol>
 <li>Select the current image and upload a new image based on the image requirements.</li>
 </ol>
-<h2 id="step-14-publish-video">Step 14: Publish Video</h2>
+<h2 id="step-14-publish-live-event">Step 14: Publish Live Event</h2>
 <ol>
 <li>On the <em>Edit</em> page, if you are ready to publish the live event, select <strong>Save</strong>.</li>
 <li>Make sure your live event is set to "Public" in  <strong>Visibility</strong> before the defined start time.</li>
+<li>To add additional cameras to the current live event profile, go to <a href="../addcamerastreams/">Add Camera</a>.</li>
 </ol>
               
             </div>
