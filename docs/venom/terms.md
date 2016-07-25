@@ -124,3 +124,9 @@ Metadata allows you to describe the content of a video. The following list inclu
 Real Time Streaming Protocol (RTSP). A network control protocol used to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points.
 
 #### H.264 Stream URL
+
+#### Bundle ID
+
+Field used to specify the application Bundle ID (iOS) or Package Name (Android). This ID is a unique identifier for the application asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>). The Bundle ID is automatically created when an app is initially defined. The same Bundle ID must be used for when app updates are issued.  
+
+#### HLS (HTTP Live Streaming)

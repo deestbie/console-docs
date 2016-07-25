@@ -314,12 +314,17 @@
     <li class="toctree-l3">
       <a href="#introduction">Introduction</a>
       
-    </li>
+        <ul>
   
-    <li class="toctree-l3">
+    <li class="toctree-l4">
       <a href="#what-is-involved-in-the-application-publishing-process">What is involved in the application publishing process?</a>
       
-        <ul>
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#what-application-platforms-are-supported">What application platforms are supported?</a>
+      
+    </li>
   
     <li class="toctree-l4">
       <a href="#step-1-gather-application-requirements">Step 1: Gather Application Requirements</a>
@@ -333,6 +338,16 @@
   
     <li class="toctree-l4">
       <a href="#step-3-add-application-assets">Step 3: Add Application Assets</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#add-application-assets">Add Application Assets</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#add-application-tokens">Add Application Tokens</a>
       
     </li>
   
@@ -477,13 +492,41 @@
               
                 <h1 id="introduction">Introduction</h1>
 <p>This topic provides information about Content Console application publishing process.</p>
-<h1 id="what-is-involved-in-the-application-publishing-process">What is involved in the application publishing process?</h1>
-<p>The Digital Domain <em>Client Services</em> department manages the application publishing process and works with each client to gather specific requirements, publish these assets to each application, and add the application instance to the Content Console. Activities include:</p>
+<h2 id="what-is-involved-in-the-application-publishing-process">What is involved in the application publishing process?</h2>
+<p>The Digital Domain <em>Client Services</em> department manages the application publishing process and works with each client to gather specific requirements, publish these assets to each application, and add the application instance to the Content Console.</p>
+<h2 id="what-application-platforms-are-supported">What application platforms are supported?</h2>
+<table>
+<thead>
+<tr>
+<th align="left">App Platform</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">iOS</td>
+<td align="left">Native mobile app written in Objective C for iOS operating system.</td>
+</tr>
+<tr>
+<td align="left">Android</td>
+<td align="left">Native app written in Java for Android operating system.</td>
+</tr>
+<tr>
+<td align="left">GearVR Gear VR Mobile Headset</td>
+<td align="left">Custom Android app written using Unity3D software.</td>
+</tr>
+<tr>
+<td align="left">Oculus Rift Virtual Reality Headset</td>
+<td align="left">Custom app written using Unity3D software and the Oculus Rift SDK.</td>
+</tr>
+</tbody>
+</table>
+<p>Activities include:</p>
 <h2 id="step-1-gather-application-requirements">Step 1: Gather Application Requirements</h2>
 <ul>
-<li>Determine if a custom application is needed and define requirements.</li>
-<li>Determine supported app platforms (e.g., iOS, Android, GearVR, Oculus Rift).</li>
-<li>Determine assets required for each app including:</li>
+<li>Determine if a native or custom application is needed and define requirements.</li>
+<li>Determine what platforms app will be supported on (iOS, Android, GearVR, Oculus Rift).</li>
+<li>Determine assets required for each app. Assets will be unique for each application based the requirements defined with your Client Services representative. Examples of asset types include:</li>
 </ul>
 <table>
 <thead>
@@ -538,7 +581,7 @@
 <li>Client Services will then add an instance of each app to the Digital Domain Content Console.</li>
 <li>Each completed app can then be associated with a specific property and added to the <em>Distribution Apps</em> section for videos in each Collection.</li>
 </ul>
-<p>To add an app to the Content Console:</p>
+<p><strong>To add an app to the Content Console:</strong></p>
 <ol>
 <li>Select <strong>Organization &gt; Apps</strong>. The <em>Applications</em> page displays and presents a list of applications currently added to the organization.</li>
 <li>Select <strong>+Application</strong>. The <em>Create New Application</em> popup displays.</li>
@@ -563,11 +606,11 @@
 </tr>
 <tr>
 <td align="left">Bundle ID</td>
-<td align="left">The ID of the asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>).</td>
+<td align="left">Field used to specify the application Bundle ID (iOS) or Package Name (Android). This ID is a unique identifier for the application asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>). The Bundle ID is automatically created when an app is initially defined. The same Bundle ID must be used for when app updates are issued.</td>
 </tr>
 <tr>
 <td align="left">Description</td>
-<td align="left">The app description (i.e., &lt;companyname iOS App).</td>
+<td align="left">The app description (i.e., <companyname> app platform, etc.).</td>
 </tr>
 <tr>
 <td align="left">Type</td>
@@ -579,7 +622,7 @@
 </tr>
 <tr>
 <td align="left">Store URL</td>
-<td align="left">The store URL that your app will be downloaded from (e.g. https://play.google.com/apps, https://itunes.apple.com/us/app).</td>
+<td align="left">The store URL that your app will be downloaded from (e.g. https://play.google.com/apps/<appname>, https://itunes.apple.com/us/<appname>), https://www.oculus.com/experiences/gear-vr/<appname>, and https://www.oculus.com/experiences/rift/<appname>).</td>
 </tr>
 <tr>
 <td align="left">Analytics ID</td>
@@ -587,7 +630,7 @@
 </tr>
 </tbody>
 </table>
-<p>To add an icon to your application profile:</p>
+<p><strong>To add an icon to your application profile:</strong></p>
 <ol>
 <li>Go to <strong>Organization &gt; Apps &gt; AppName &gt; Profile</strong>.</li>
 <li>Select the profile icon and upload a icon via the dialog box.</li>
@@ -624,6 +667,8 @@
 </tr>
 </tbody>
 </table>
+<h2 id="add-application-assets">Add Application Assets</h2>
+<h2 id="add-application-tokens">Add Application Tokens</h2>
 <h2 id="step-4-build-test-and-refine-apps">Step 4: Build, Test, and Refine Apps</h2>
 <ul>
 <li>Client services and our engineering staff will test each app and work with clients to refine application.</li>

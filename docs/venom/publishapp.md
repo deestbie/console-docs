@@ -2,15 +2,26 @@
 
 This topic provides information about Content Console application publishing process.
 
-# What is involved in the application publishing process?
+## What is involved in the application publishing process?
 
-The Digital Domain *Client Services* department manages the application publishing process and works with each client to gather specific requirements, publish these assets to each application, and add the application instance to the Content Console. Activities include:
+The Digital Domain *Client Services* department manages the application publishing process and works with each client to gather specific requirements, publish these assets to each application, and add the application instance to the Content Console.
+
+## What application platforms are supported?
+
+| App Platform         | Description               |
+|:-----------------|:-------------------------------------|
+| iOS       | Native mobile app written in Objective C for iOS operating system.   |
+| Android         | Native app written in Java for Android operating system. |
+| GearVR Gear VR Mobile Headset        | Custom Android app written using Unity3D software.  |
+| Oculus Rift Virtual Reality Headset      | Custom app written using Unity3D software and the Oculus Rift SDK.    |
+
+Activities include:
 
 ## Step 1: Gather Application Requirements
 
-* Determine if a custom application is needed and define requirements.
-* Determine supported app platforms (e.g., iOS, Android, GearVR, Oculus Rift).
-* Determine assets required for each app including:
+* Determine if a native or custom application is needed and define requirements.
+* Determine what platforms app will be supported on (iOS, Android, GearVR, Oculus Rift).
+* Determine assets required for each app. Assets will be unique for each application based the requirements defined with your Client Services representative. Examples of asset types include:
 
 | Asset         | Description                |
 |:-----------------|:-------------------------------------|
@@ -35,7 +46,7 @@ Each client will provide their Client Services representative with the App Store
 * Client Services will then add an instance of each app to the Digital Domain Content Console.
 * Each completed app can then be associated with a specific property and added to the *Distribution Apps* section for videos in each Collection.
 
-To add an app to the Content Console:
+**To add an app to the Content Console:**
 
 1. Select **Organization > Apps**. The *Applications* page displays and presents a list of applications currently added to the organization.
 2. Select **+Application**. The *Create New Application* popup displays.
@@ -46,14 +57,14 @@ To add an app to the Content Console:
 |:-----------------|:-------------------------------------|
 | Organization       | The name of the organization the app is defined in.                |
 | App Name       | The internal app name.                |
-| Bundle ID       | The ID of the asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>).                |
-| Description       | The app description (i.e., <companyname iOS App).             |
+| Bundle ID       | Field used to specify the application Bundle ID (iOS) or Package Name (Android). This ID is a unique identifier for the application asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>). The Bundle ID is automatically created when an app is initially defined. The same Bundle ID must be used for when app updates are issued.              |
+| Description       | The app description (i.e., <companyname> app platform, etc.).             |
 | Type       | The app platform (i.e., iOS, Android, GearVR, or Oculus Rift).                |
 | Current Version       | The app version (e.g., 1.1.1).                |
-| Store URL       | The store URL that your app will be downloaded from (e.g. https://play.google.com/apps, https://itunes.apple.com/us/app).                |
-| Analytics ID       | The ID of the analytic bundle that includes captured statistical data about your app.    
+| Store URL       | The store URL that your app will be downloaded from (e.g. https://play.google.com/apps/<appname>, https://itunes.apple.com/us/<appname>), https://www.oculus.com/experiences/gear-vr/<appname>, and https://www.oculus.com/experiences/rift/<appname>).                |
+| Analytics ID       | The ID of the analytic bundle that includes captured statistical data about your app.    |
 
-To add an icon to your application profile:
+**To add an icon to your application profile:**
 
 1. Go to **Organization > Apps > AppName > Profile**.
 2. Select the profile icon and upload a icon via the dialog box.
@@ -70,6 +81,14 @@ To add an icon to your application profile:
 | Description       | Enter an asset description (e.g., asset purpose, app location, platform, etc.). |
 | Value       | Embed the Scalable Vector Graphics (SVG) code representation of the asset *OR*...  |
 | Upload       | Select the Cloud icon to select and upload an asset. |
+
+
+## Add Application Assets
+
+
+
+## Add Application Tokens
+
 
 ## Step 4: Build, Test, and Refine Apps
 

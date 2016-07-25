@@ -18,10 +18,12 @@ Prepare the following media assets and have them available prior to creating a m
 
 | Options          | Description                |
 |:-------------------|:-------------------------------------|
-| 360 Video Files       | Shoot 360 videos, perform post production, and generate output files.             |
+| 360 Video Files       | Shoot 360 videos, perform post production, and generate output files. Determine if videos will be uploaded directly to the Digital Domain CMS, or whether they will be hosted on a Content Delivery Network or Media Server). In this scenario, you will need to have the external URL's of each video available.           |
+| Live Event     | Determine number of live streams you will have per event (i.e., main stream, multiple camera angles, etc.), and where they will be hosted (i.e., Content Delivery Network, Media Server, or Direct from 360 video camera).           |
 | Video Metadata         | Define video Title, Headline, Description, and Search Tags for each video language version. |
 | Key Art          | Define thumbnails for each video that will stored in the Content Management System (i.e. Content Console).|
 
+Note: Based on your distribution strategy, you may need to publish multiple video formats for the same video profile. These media assets should also be prepared as part of this prerequisite step.
 
 ### Step 2. Determine Digital Asset Storage and Management Approach
 
@@ -45,6 +47,8 @@ Contact our Client Services Specialists to develop a solution that best suits yo
 
 ### Step 3. Convert Video Digital Assets for Mobile Devices
 
+**Videos**
+
 Videos must be converted to the Video and Audio formats prior to being uploaded to the Content Console.
 
 The supported codec for video and audio file formats for mobile devices is **H.264** also referred to as **MPEG-4 Part 10, Advanced Video Coding (MPEG-4 AVC), Version 10 (Constrained Baseline Profile)**.
@@ -55,6 +59,15 @@ The following video file types are supported for mobile devices:
 
 *	Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
 * Content Console supports **On Demand (VoD)** and **Live Stream,** video types.
+
+**Live Stream**
+
+The Digital Domain HTML5 Player supports HTTP streaming, but HTTPS is preferred. HTTPS is being the new standard because it is more secure and HTTPS is required if you want to include or request scripts, videos, images, iframes, etc.
+
+Our HTML5 player supports the following HTTP Live Stream specification. The Live Media Playlist using HTTPS link outlines the preferred requirements. 
+
+* [HTTP Live Streaming](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19)
+* [Live Media Playlist Using HTTPS](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19#section-8.2)
 
 ## Supported Video Formats
 

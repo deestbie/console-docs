@@ -2,8 +2,6 @@
 
 This topic provides information about creating an im360.com account. This account is required to access the Digitial Domain Content Console.
 
-### Sign Up
-
 #### <a id="do-i-need-an-account"></a>Do I need an im360 account to use the Content Console?
 
 Yes. You can create your account on im360.com using the instructions below. If your Client Services representative has already created an account for you, skip this step.

@@ -25,7 +25,7 @@ Let's get started!
 
 * [Update Property](venom\updateproperty.md) - Learn how to update a property definition and set the display order of the property on the *Properties Summary* page.
 
-##### Media Publishing Prerequisites
+##### Media Publishing Prerequisites (Videos / Live Events)
 
 * [Media Publishing Requirements](venom\mediapublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and live stream and audio technical requirements.
 
