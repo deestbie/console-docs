@@ -12,8 +12,8 @@ You can launch the easy-to-use **Upload Media** publishing tool using the follow
 
 The **Upload Media** publishing tool includes the following options:
 
-* [Hosted Video](publishhostedvideo.md) - Learn how to publish a video that is hosted on the Content Console.
+* [Hosted Video](publishhostedvideo.md) - Learn how to publish a VoD video that is hosted on the Content Console.
 
-* [Externally Video](publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network.
+* [External Video](publishexternalvideo.md) - Learn how to publish a URL to an external video hosted on a media server or content delivery network.
 
-* [Live Event](publishliveevent.md) - Learn how to publish a live event video content that is composed of one or more live streams.
+* [Live Event](publishliveevent.md) - Learn how to publish a live event video content that is composed of one or more live streams published on a Content Delivery Network, Media Server, or streamed directly from a 360 camera.

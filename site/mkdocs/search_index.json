@@ -312,7 +312,7 @@
         },
         {
             "location": "/venom/mediapublishingoptions/",
-            "text": "Publishing Tool\n\n\nYou can launch the easy-to-use \nUpload Media\n publishing tool using the following paths:\n\n\n\n\n\n\nSelect the Cloud Icon \n conveniently accessible via the Content Console header.\n\n\n\n\n\n\nNavigate to \nProperty > Collection\n and select \n+Upload\n.\n\n\n\n\n\n\n\n\nPublishing Options\n\n\nThe \nUpload Media\n publishing tool includes the following options:\n\n\n\n\n\n\nHosted Video\n - Learn how to publish a video that is hosted on the Content Console.\n\n\n\n\n\n\nExternally Video\n - Learn how to publish an external video hosted on a media server or content delivery network.\n\n\n\n\n\n\nLive Event\n - Learn how to publish a live event video content that is composed of one or more live streams.",
+            "text": "Publishing Tool\n\n\nYou can launch the easy-to-use \nUpload Media\n publishing tool using the following paths:\n\n\n\n\n\n\nSelect the Cloud Icon \n conveniently accessible via the Content Console header.\n\n\n\n\n\n\nNavigate to \nProperty > Collection\n and select \n+Upload\n.\n\n\n\n\n\n\n\n\nPublishing Options\n\n\nThe \nUpload Media\n publishing tool includes the following options:\n\n\n\n\n\n\nHosted Video\n - Learn how to publish a VoD video that is hosted on the Content Console.\n\n\n\n\n\n\nExternal Video\n - Learn how to publish a URL to an external video hosted on a media server or content delivery network.\n\n\n\n\n\n\nLive Event\n - Learn how to publish a live event video content that is composed of one or more live streams published on a Content Delivery Network, Media Server, or streamed directly from a 360 camera.",
             "title": "Media Publishing Options"
         },
         {
@@ -322,7 +322,7 @@
         },
         {
             "location": "/venom/mediapublishingoptions/#publishing-options",
-            "text": "The  Upload Media  publishing tool includes the following options:    Hosted Video  - Learn how to publish a video that is hosted on the Content Console.    Externally Video  - Learn how to publish an external video hosted on a media server or content delivery network.    Live Event  - Learn how to publish a live event video content that is composed of one or more live streams.",
+            "text": "The  Upload Media  publishing tool includes the following options:    Hosted Video  - Learn how to publish a VoD video that is hosted on the Content Console.    External Video  - Learn how to publish a URL to an external video hosted on a media server or content delivery network.    Live Event  - Learn how to publish a live event video content that is composed of one or more live streams published on a Content Delivery Network, Media Server, or streamed directly from a 360 camera.",
             "title": "Publishing Options"
         },
         {
