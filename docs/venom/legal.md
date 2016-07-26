@@ -186,7 +186,7 @@ not duplicate or redistribute in any form.
 
 ## Content Policy Guidelines
 
-Items posted or through the Digital Domain service must follow our content policy and guidelines, detailed below. Producers or sellers of items are expected to conduct proper research to ensure that the items sold through the Digital Domain service are in compliance with all local, state, national, and international laws. If Digital Domain determines that the content of an item is prohibited, we may summarily remove or alter it without returning any fees the listing has incurred. Digital Domain reserves the right to make judgments about whether or not content is appropriate.
+Items posted or through this website service must follow the content policy and guidelines of Digital Domain Holdings Limited (“Digital Domain”) as detailed below. Producers or sellers of items through this website are expected to conduct proper research to ensure that these items are in compliance with all local, state, national, and international laws. If Digital Domain determines that the content of an item is prohibited for any reason, it may summarily remove or alter it without notice and without returning any fees that has been charged. Digital Domain reserves the right to make judgments about whether or not content is appropriate.
 
 Please take a moment to familiarize yourself with some examples of prohibited content:
 
@@ -204,9 +204,9 @@ Items sold through the Digital Domain service must adhere to all applicable laws
 
 **Stolen Goods**
 
-If Digital Domain learns that an item is not the property of the seller, or was obtained through illegal means, we will immediately remove the item from our service.
+If Digital Domain learns that an item is not the property of the seller, or was obtained through illegal means, we will immediately remove the item from our service without notice.
 
-** Items that Infringe Upon an Individual's Privacy**
+**Items that Infringe Upon an Individual's Privacy**
 
 Digital Domain holds personal privacy in the highest regard. Therefore, items that infringe upon, or have potential to infringe upon, an individual's privacy are prohibited. Additionally, the sale of marketing lists (bulk e-mail lists, direct-mail marketing lists, etc.) is prohibited.
 
@@ -216,7 +216,7 @@ Copies, dubs, duplicates, or transfers of music, videos, software, images, etc.,
 
 **Movies**
 
-Unauthorized copies of movies (VHS, DVD, etc.) may not be sold through Digital Domain. Also, movies that have been transferred from one format to another (unless done by the proper rights holder) are not permitted. For example, NTSC to Pal and Pal to NTSC conversions are not permitted unless done by the proper rights holder. Unreleased/prereleased movies, screeners and trailers are prohibited.
+Unauthorized copies of movies (VHS, DVD, etc.) may not be sold through Digital Domain. Also, movies that have been transferred from one format to another (unless done by the proper rights holder) are not permitted. For example, NTSC to Pal and Pal to NTSC conversions are not permitted unless done by the proper rights holder. Unreleased/pre-released movies, screeners and trailers are prohibited.
 
 **Television Programs**
 
@@ -236,4 +236,4 @@ Celebrity images and/or celebrity names cannot be used for commercial purposes w
 
 **Public Domain and Other Non-Exclusive Content**
 
-Some types of content, such as public domain content, may be free to use by anyone, or may be licensed for use by more than one party. We will not accept content that is freely available on the web unless you are the copyright owner of that content. For example, if you received your content from a source that allows you and others to re-distribute it, and the content is freely available on the web, we will not accept it for sale through Digital Domain. We do accept public domain content, however we may request that you provide proof that your submitted material is actually in the public domain and may choose to not sell a public domain title if its content is undifferentiated or barely differentiated from one or more books already available through our service or available through other retail sites. We do not currently accept public domain material for Digital Domain video  service.
+Some types of content, such as public domain content, may be free to use by anyone, or may be licensed for use by more than one party. We will not accept content that is freely available on the web unless you are the copyright owner of that content. For example, if you received your content from a source that allows you and others to re-distribute it, and the content is freely available on the web, we will not accept it for sale through Digital Domain. We do accept public domain content, however we may request that you provide proof that your submitted material is actually in the public domain and may choose to not sell a public domain title if its content is undifferentiated or barely differentiated from one or more books already available through our service or available through other retail sites.

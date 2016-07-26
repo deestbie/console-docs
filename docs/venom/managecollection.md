@@ -1,4 +1,4 @@
-# <a id="define-collection"></a>Define Collection
+# <a id="create-collection"></a>Create Collection
 
 Within each Property you then define a Collection:
 
@@ -12,7 +12,7 @@ Within each Property you then define a Collection:
 
 *Authorized Role* -  Administrator, Content Manager
 
-**To define a collection:**
+**To create a collection:**
 
 1. In **Home > Properties > Property Name**, select **+Collection**. The *Create New Collection* pop-up displays.
 ![Home](images\add_collection.jpg "Add Collection")

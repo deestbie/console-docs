@@ -23,15 +23,15 @@ Let's get started!
 
 * [Staff Permissions](venom\permissions.md) - Learn about supported account roles, account permissions, and how to invite staff to the content console.
 
-* [Update Property](venom\manageproperties.md) - Learn how to update a property definition and set the display order of the property on the *Properties Summary* page.
+* [Update Property](venom\manageproperty.md#update-property) - Learn how to update a property definition and set the display order of the property on the *Properties Summary* page.
 
 ##### Media Publishing Prerequisites (Videos / Live Events)
 
 * [Media Publishing Requirements](venom\mediapublishrequirements.md) - Learn about prerequisites for optimizing the content production cycle, and video and live stream and audio technical requirements.
 
-* [Define Property](venom\manageproperties.md#define-property) - Learn how to define a property for storing your media asset collections.
+* [Create Property](venom\manageproperty.md#create-property) - Learn how to define a property for storing your media asset collections.
 
-* [Define Collection](venom\managecollections.md#define-collection) - Learn how to define a collection within a property for grouping your media assets by type.
+* [Create Collection](venom\managecollection.md#create-collection) - Learn how to define a collection within a property for grouping your media assets by type.
 
 ##### Publish Videos
 

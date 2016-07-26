@@ -20,8 +20,8 @@ A Live event is composed of one or more live streams that are hosted on an exter
 * Review [Media Publishing Requirements](mediapublishrequirements.md)
 * Review [HTTP Live Streaming Requirements](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19)
 * Review [Live Media Playlist Using HTTPS Requirements](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19#section-8.2)
-* Define a [Property](manageproperties.md#define-property)
-* Define a [Collection](managecollections#define-collections.md)
+* Create [Property](manageproperty.md#create-property)
+* Create [Collection](managecollection#create-collections.md)
 
 ## PART 2: CREATE LIVE EVENT
 

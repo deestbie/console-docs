@@ -5,8 +5,8 @@ The following tutorial illustrates how to publish a video that is hosted on the 
 # PART 1 - COMPLETE PREREQUISITES
 
 * Review [Media Publishing Requirements](mediapublishrequirements.md)
-* Define a [Property](manageproperties.md#define-property)
-* Define a [Collection](managecollections.md#define-collection)
+* Create [Property](manageproperty.md#create-property)
+* Create [Collection](managecollection.md#create-collection)
 
 # PART 2 - CREATE HOSTED VIDEO PROFILE
 

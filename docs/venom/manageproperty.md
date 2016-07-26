@@ -1,4 +1,4 @@
-# <a id="define-property"></a>Define Property
+# <a id="create-property"></a>Create Property
 
 The first step in the video/app publishing process is to define a property. A property has the following characteristics:
 
@@ -13,7 +13,7 @@ The first step in the video/app publishing process is to define a property. A pr
 
 *Authorized Role* -  Administrator
 
-**To define a property:**
+**To create a property:**
 
 1. On the **Home** page go to **Properties**.
 2. Select **+Property**. The *Create New Property* pop-up displays.
