@@ -1,4 +1,4 @@
-# Define Property
+# <a id="define-property"></a>Define Property
 
 The first step in the video/app publishing process is to define a property. A property has the following characteristics:
 
@@ -16,8 +16,28 @@ The first step in the video/app publishing process is to define a property. A pr
 **To define a property:**
 
 1. On the **Home** page go to **Properties**.
-2. Select **+Property**. The *Create a New Property* pop-up displays.
+2. Select **+Property**. The *Create New Property* pop-up displays.
 ![Home](images\add_property.jpg "Add Property")
 3. Enter the Property Name, Headline, and Description.
 4. Upload an icon to uniquely identify the property (image size 512 x 512).
-5. Select **Create**. The new property is added to the *Properties Summary* page.
+5. Select **Create**. The new property is added to the current organization and displays on the *Properties Summary* page.
+
+# <a id="update-property"></a>Update Property
+
+After a property is created, you can manage it using  **Edit Property**. Update the following items as needed:
+
+* The Property Name, Headline, and Priority.
+* The display sequence of the property on the *Properties Summary*.
+* The property icon.
+
+*Authorized Role* -  Administrator
+
+**To update a property:**
+
+1. Go to **Organization**.
+2. Select a property on the *Properties Summary*.
+3. Select the **Edit** tab, then **Edit**. The *Edit Property* pop-up displays.
+4. Update the Property Name, Headline, and Description.
+5. Upload an icon to uniquely identify the property (image size 512 x 512).
+5. Enter a sequence number in Display Priority.
+4, Select **Update**.

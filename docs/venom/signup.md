@@ -8,7 +8,7 @@ Yes. You can create your account on im360.com using the instructions below. If y
 
 1. Go to **im360.com**.
 2. On the Home page, choose **Signup**.
-2. On the *Signup* page, enter Email, First Name, Last Name, Password, and Confirm, then **Create**. You will receive an account verification email.
+2. On the *Signup* page, enter Email, First Name, Last Name, Password, and Confirm, then **Create Account**. You will receive an account verification email.
 3. Choose the link in the email to verify your account and log into the im360 site using your credentials.
 
 #### <a id="log-in"></a>How do I log into the im360.com site?

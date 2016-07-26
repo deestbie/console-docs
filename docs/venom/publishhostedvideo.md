@@ -5,8 +5,8 @@ The following tutorial illustrates how to publish a video that is hosted on the 
 # PART 1 - COMPLETE PREREQUISITES
 
 * Review [Media Publishing Requirements](mediapublishrequirements.md)
-* Define a [Property](createproperty.md)
-* Define a [Collection](createcollection.md)
+* Define a [Property](manageproperties.md#define-property)
+* Define a [Collection](managecollections.md#define-collection)
 
 # PART 2 - CREATE HOSTED VIDEO PROFILE
 
@@ -44,7 +44,7 @@ The upload video process allows you to upload a VoD video. Supported video and a
 | Video Format    | MP4 HD (1040p), MP4 (2K), and MP4 (4K) |
 | Audio Compression and Encoding Scheme        | Advanced Audio Coding (AAC)                             |
 
-See [Video Publishing Requirements](mediapublishrequirements.md) for prerequisite steps and video and audio requirements.
+* See [Video Publishing Requirements](mediapublishrequirements.md) for prerequisite steps and video and audio requirements.
 
 **To select video source:**
 

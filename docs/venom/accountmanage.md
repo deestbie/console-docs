@@ -22,7 +22,7 @@ Our Client Services department creates each Content Console organization and ass
 | Status       | Indicates your account status. The default is *Active*. This account is non-editable and maintained by Client Services. |
 | Organization Name       | The organization name users will see when they log onto the Content Console.                |
 | Address       | Address of organization.  |
-| Phone       | Phone number of organization.  |
+| Phone       | Phone number of organization (Format: 1(###)###-###).  |
 | Web Site       | Website URL of organization.  |
 | Brand Tagline      | Brand tagline or organization.  |
 | Type      | Organization type (i.e., Business or Personal).  |

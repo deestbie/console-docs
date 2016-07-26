@@ -19,8 +19,8 @@ The magnifying glass icon in the upper-right of the Content Console header allow
 |:-----------------|:-------------------------------------|
 | Title       | Alphabetically by title.                |
 | Recent         | Most recently added |
-| Active        | Includes videos that are not yet published.                              |
-| Staging          | Includes published with broadcast time pending or live.          |
+| Active        | Includes media that are in progress and not yet published.                              |
+| Staging          | Includes published media with broadcast time pending or live.          |
 
 ## <a id="view-video-types-and-visibility"></a>How do I view video types and security settings of videos in a collection?
 

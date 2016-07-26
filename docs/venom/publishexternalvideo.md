@@ -6,8 +6,8 @@ The following tutorial illustrates how to publish a URL to an externally publish
 # PART 1 - COMPLETE PREREQUISITES
 
 * Review [Media Publishing Requirements](mediapublishrequirements.md)
-* Define a [Property](createproperty.md)
-* Define a [Collection](createcollection.md)
+* Define a [Property](manageproperties.md#define-property)
+* Define a [Collection](managecollections.md#define-collection)
 
 # PART 2 - CREATE EXTERNALLY HOSTED VIDEO PROFILE
 

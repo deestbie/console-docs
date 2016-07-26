@@ -47,7 +47,7 @@ Contact our Client Services Specialists to develop a solution that best suits yo
 
 ### Step 3. Convert Video Digital Assets for Mobile Devices
 
-**Videos**
+***<a id="videos"></a>Videos***
 
 Videos must be converted to the Video and Audio formats prior to being uploaded to the Content Console.
 
@@ -60,11 +60,11 @@ The following video file types are supported for mobile devices:
 *	Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
 * Content Console supports **On Demand (VoD)** and **Live Stream,** video types.
 
-**Live Stream**
+***<a id="live-streams"></a>Live Streams***
 
 The Digital Domain HTML5 Player supports HTTP streaming, but HTTPS is preferred. HTTPS is being the new standard because it is more secure and HTTPS is required if you want to include or request scripts, videos, images, iframes, etc.
 
-Our HTML5 player supports the following HTTP Live Stream specification. The Live Media Playlist using HTTPS link outlines the preferred requirements. 
+Our HTML5 player supports the following HTTP Live Stream specification. The Live Media Playlist using HTTPS link outlines the preferred requirements.
 
 * [HTTP Live Streaming](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19)
 * [Live Media Playlist Using HTTPS](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19#section-8.2)

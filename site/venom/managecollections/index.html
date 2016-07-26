@@ -8,7 +8,7 @@
   
   
   
-  <title>Application Publishing Requirements - Digital Domain Content Console</title>
+  <title>Define Collection - Digital Domain Content Console</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Application Publishing Requirements";
-    var mkdocs_page_input_path = "venom\apppublishrequirements.md";
-    var mkdocs_page_url = "/venom/apppublishrequirements/";
+    var mkdocs_page_name = "Define Collection";
+    var mkdocs_page_input_path = "venom\managecollections.md";
+    var mkdocs_page_url = "/venom/managecollections/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -180,8 +180,12 @@
       
 
 
-  <li class="toctree-l1 ">
-    <a class="" href="../managecollections/">Define Collection</a>
+  <li class="toctree-l1 current">
+    <a class="current" href="./">Define Collection</a>
+    
+      <ul>
+  
+  </ul>
     
   </li>
 
@@ -288,31 +292,8 @@
       
 
 
-  <li class="toctree-l1 current">
-    <a class="current" href="./">Application Publishing Requirements</a>
-    
-      <ul>
-  
-    <li class="toctree-l3">
-      <a href="#introduction">Introduction</a>
-      
-        <ul>
-  
-    <li class="toctree-l4">
-      <a href="#mobile-device-support">Mobile Device Support</a>
-      
-    </li>
-  
-    <li class="toctree-l4">
-      <a href="#bundle-id">Bundle ID</a>
-      
-    </li>
-  
-  </ul>
-      
-    </li>
-  
-  </ul>
+  <li class="toctree-l1 ">
+    <a class="" href="../apppublishrequirements/">Application Publishing Requirements</a>
     
   </li>
 
@@ -441,11 +422,11 @@
     
       
         
-          <li>APPLICATION PUBLISHING PREREQUISITES &raquo;</li>
+          <li>MEDIA PUBLISHING PREREQUISITES &raquo;</li>
         
       
     
-    <li>Application Publishing Requirements</li>
+    <li>Define Collection</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -455,41 +436,32 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="introduction">Introduction</h1>
-<h2 id="mobile-device-support">Mobile Device Support</h2>
-<p>The Content Console allows you to manage content for applications developed for the following mobile device types:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Device Type</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">iOS</td>
-<td align="left">Native mobile app written in Objective C for iOS operating system.</td>
-</tr>
-<tr>
-<td align="left">Android</td>
-<td align="left">Native app written in Java for Android operating system.</td>
-</tr>
-<tr>
-<td align="left">GearVR Gear VR Mobile Headset</td>
-<td align="left">Custom Android app written using Unity3D software.</td>
-</tr>
-<tr>
-<td align="left">Oculus Rift Virtual Reality Headset</td>
-<td align="left">Custom app written using Unity3D software and the Oculus Rift SDK.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="bundle-id">Bundle ID</h2>
-<p>Oculus Rift
-https:/</p>
-<p>These sizes apply to iOS and Android apps. There will be a separate guide for GearVR.</p>
-<p>Image sizes have layout buffers built into them, so your supplied images can go right to the edge of the canvas. For the non-square images, the width is the maximum that the image can take up. You can choose to make them less. The image will be centered horizontally.</p>
-<p>All images should be 32-bit non-interlaced PNGs unless otherwise specified.</p>
+                <h1 id="define-collection"><a id="define-collection"></a>Define Collection</h1>
+<p>Within each Property you then define a Collection:</p>
+<ul>
+<li>A Collection is a sub-category of a Property (e.g., TV Series Name).</li>
+<li>After adding a new media asset, you then assign it to a Property and Collection.</li>
+<li>Media assets (i.e., videos / live events) in a Collection can be reordered.</li>
+<li>You can reassign a video to a different Property and Collection.</li>
+<li>Within each Collection you also group your collection under a <em>Type</em> (i.e. Season, Series, Year, or Custom).</li>
+<li>You an assign key art to the collection so you can easily identify it in the Content Console views.</li>
+<li>When you create a Collection, it is automatically assigned a Staging status of <em>No</em>. After you add videos to your collection you can change the status to <em>Yes</em>.</li>
+</ul>
+<p><em>Authorized Role</em> -  Administrator, Content Manager</p>
+<p><strong>To define a collection:</strong></p>
+<ol>
+<li>In <strong>Home &gt; Properties &gt; Property Name</strong>, select <strong>+Collection</strong>. The <em>Create New Collection</em> pop-up displays.
+<img alt="Home" src="../images\add_collection.jpg" title="Add Collection" /></li>
+<li>Enter the Collection Name, Description, and Type, then <strong>OK</strong>. The <em>Collection</em> page displays.</li>
+<li>The Collection is automatically assigned to the current Property, a Collection ID, and Staging status of <em>No</em>.</li>
+</ol>
+<h1 id="update-collection"><a id="update-collection"></a>Update Collection</h1>
+<p>After you create a Collection you can update the Description, Type, Staging status, and Key Art.</p>
+<p><strong>To update a collection:</strong></p>
+<ol>
+<li>In <strong>Home &gt; Properties &gt; Collection</strong>, select the <strong>Edit</strong> tab.</li>
+<li>Perform your updates based on your requirements, then <strong>Save</strong>.</li>
+</ol>
               
             </div>
           </div>
@@ -497,10 +469,10 @@ https:/</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../publishapp/" class="btn btn-neutral float-right" title="Publish Application">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../mediapublishingoptions/" class="btn btn-neutral float-right" title="Media Publishing Options">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../addcamerastreams/" class="btn btn-neutral" title="Add Multiple Live Stream Cameras"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../manageproperties/" class="btn btn-neutral" title="Define Property"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -526,10 +498,10 @@ https:/</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../addcamerastreams/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../manageproperties/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../publishapp/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../mediapublishingoptions/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

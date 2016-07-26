@@ -26,9 +26,9 @@ The Content Console *Roadmap* provides a quick reference to all help topics.
 
 | What task do you want to perform?    |  Who can perform this task? |
 |:-----------------|:-------------------------------------|
-| [Add Property](createproperty.md)    | Admin     |
-| [Update Property](updateproperty.md)    | Admin     |
-| [Add Collection](createcollection.md)    | Admin, Content Manager     |
+| [Define Property](manageproperties.md)    | Admin     |
+| [Update Property](manageproperties.md)    | Admin     |
+| [Add Collection](managecollections.md)    | Admin, Content Manager     |
 
 ### Publish Media (Video / Live Event)
 

@@ -2,9 +2,9 @@
 
 Here's the key features you'll be using in the content publishing cycle:
 
-### Video
+### Media (Videos / Live Events)
 
-**Video Properties** - Allows you to define a logical grouping for videos called a *property*. You can optionally add one or more seasons. Each season is a subcategory of a property.
+**Properties** - Allows you to define a logical grouping for media called a *Property*. You can optionally add one or more seasons. Each season is a subcategory of a property.
 
 **Video Publishing** - Allows you to add videos to the property using file upload or URL, define a video description, and set video visibility. You can post live streams or external videos from your own Content Delivery Network, or use our Hosted Solution.
 
@@ -15,6 +15,8 @@ Here's the key features you'll be using in the content publishing cycle:
 ### Application
 
 **Add Application** - Allows you to add an application profile to the Content Console, and upload and manage required assets.
+
+**Add Assets** - Allows you to xxx.
 
 ### Site Views and Social Sharing
 

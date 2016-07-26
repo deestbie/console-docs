@@ -13,11 +13,11 @@ pages:
   - Sign Up: venom\signup.md
   - Manage User Accounts: venom\accountmanage.md
   - Staff Permissions: venom\permissions.md
-  - Update Property: venom\updateproperty.md
+  - Update Property: venom\manageproperties.md
 - MEDIA PUBLISHING PREREQUISITES:
   - Media Publishing Requirements: venom\mediapublishrequirements.md
-  - Define Property: venom\createproperty.md
-  - Define Collection: venom\createcollection.md
+  - Define Property: venom\manageproperties.md
+  - Define Collection: venom\managecollections.md
 - PUBLISH VIDEOS:
   - Media Publishing Options: venom\mediapublishingoptions.md
   - Publish Hosted Video: venom\publishhostedvideo.md

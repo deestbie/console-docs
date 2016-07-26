@@ -20,8 +20,8 @@ A Live event is composed of one or more live streams that are hosted on an exter
 * Review [Media Publishing Requirements](mediapublishrequirements.md)
 * Review [HTTP Live Streaming Requirements](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19)
 * Review [Live Media Playlist Using HTTPS Requirements](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19#section-8.2)
-* Define a [Property](createproperty.md)
-* Define a [Collection](createcollection.md)
+* Define a [Property](manageproperties.md#define-property)
+* Define a [Collection](managecollections#define-collections.md)
 
 ## PART 2: CREATE LIVE EVENT
 
@@ -61,9 +61,8 @@ The first step in the live event setup process is to specify a Stream Origin URL
 
 Your live stream must meet the following requirements:
 
-* Supported video formats include **MP4 HD (1040p)**, **MP4 (2K)**, and **MP4 (4K)**.
-* Supported audio compression and encoding scheme is **Advanced Audio Coding (AAC)**
 * See [Media Publishing Requirements](mediapublishrequirements.md) for prerequisite steps and video and audio requirements.
+* See [Live Streams](mediapublishrequirements.md#live-streams) for supported HTTP Live Streaming requirements.
 * If you will be using multiple live stream cameras, the URL published during the initial upload process represents your first stream in the sequence. You will then specify subsequent streams via the *Camera* page after the initial upload process is complete.
 * You can set visibility for the entire "Live Event" instance *only*. You cannot set visibility for specific live stream camera entries within live event the instance (i.e., on the *Cameras* page).
 
