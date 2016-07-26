@@ -57,7 +57,7 @@ The following tutorial illustrates how to publish a live event that is hosted on
 
 The first step in the live event setup process is to specify a Stream Origin URL. This URL type represents the publishing point URL where the live stream is originally hosted.
 
-*Note: You can also specify additional optional Stream URLs (Stream Return, Stream Share, and Stream Meta). In Step X.*
+*Note: You can also specify additional optional Stream URLs (Stream Return, Stream Share, and Stream Meta). In Step 7.*
 
 Your live stream must meet the following requirements:
 
@@ -133,8 +133,7 @@ You can optionally specify the following additional stream types for your live e
 |:-------------------|:-------------------------------------|
 | Stream Return URL    | The redirection URL the viewer will return to after the live-stream concludes. |
 | Stream Share URL    | The URL that will upload when a video is shared on an external site.  |
-| Stream Meta URL    | Typically includes a file uploaded with modified instructions on how to render
-particular videos in the player.   |
+| Stream Meta URL    | Typically includes a file uploaded with modified instructions on how to render particular videos in the player.   |
 
 **To specify stream URLs:**
 
@@ -200,8 +199,7 @@ The following table shows page options and permission state:
 | Origin URL  | Publishing point URL where live event is originally hosted | Update |
 | Return URL | The redirection URL the viewer will return to after the live-stream concludes.  | Update |
 | Share URL | The URL that will upload when a live event is shared on an external site.  | Update |
-| Meta URL | Typically includes a file uploaded with modified instructions on how to render
-particular videos in the player.  | Update  |
+| Meta URL | Typically includes a file uploaded with modified instructions on how to render particular videos in the player.  | Update  |
 | Visibility Settings  | Private, Internal, Public         | Update |
 | Status | Indicates if the live event is active or stopped | Read-only|
 | Stream Start Time | The live event stream broadcast time. | Update |
