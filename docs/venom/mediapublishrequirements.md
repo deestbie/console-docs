@@ -62,9 +62,9 @@ The following video file types are supported for mobile devices:
 
 ***<a id="live-streams"></a>Live Streams***
 
-The Digital Domain HTML5 Player supports HTTP streaming, but HTTPS is preferred. HTTPS is being the new standard because it is more secure and HTTPS is required if you want to include or request scripts, videos, images, iframes, etc.
+The Digital Domain HTML5 Player supports HTTP streaming, but HTTPS is preferred. HTTPS represents the newest standard because it is more secure. HTTPS is also required if you would like to include or request scripts, videos, images, iframes, etc.
 
-Our HTML5 player supports the following HTTP Live Stream specification. The Live Media Playlist using HTTPS link outlines the preferred requirements.
+The player supports the following HTTP Live Stream specification. The Live Media Playlist using HTTPS link outlines the preferred requirements.
 
 * [HTTP Live Streaming](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19)
 * [Live Media Playlist Using HTTPS](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19#section-8.2)

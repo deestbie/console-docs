@@ -1,5 +1,9 @@
 # Terminology
 
+#### Digital Assets
+
+Digital assets are image files, media (video files, live stream URLs, external videos), description text (metadata) used to describe properties, collections, media profiles for Videos, Live Events, External Video, and profiles for mobile device applications in the Content Console.
+
 #### Property
 Represents the top-level branding element of your videos (e.g., TV Network).
 
@@ -70,14 +74,31 @@ See [Media Publishing Requirements](mediapublishrequirements.md) for more inform
 
 #### Live Event
 
+A Live event is composed of one or more live streams that are hosted on an external streaming Media Server, a Content Delivery Network (CDN), or streamed directly from a 360 camera.
 
+* Cameras that support live 360 video stitching and streaming can utilize the live event option.
+
+* You can add a live streams from a single 360 video camera or using an array of synchronized cameras (i.e., multiple 360 video cameras).
+
+* Using your 360 video camera, you can create a customized RTSP request URL stream link for external media players, or let your camera generate a default URL.
+
+* You can add live stream URLs from your Media Server or Content Delivery Network, or you can live stream directly from your 360 camera (depending on internet connectivity).
+
+* You can add a URL to the Content Console for each additional 360 video camera and specify a camera label that uniquely identifies characteristics of the stream (e.g., angle, associated mobile devices, video format, etc.). See [Add Camera](addcamerastreams.md).
 
 #### Video Formats
 
+The distribution strategy for your video content is based on many factors. For example your video marketing plan may include requirements for:
 
+* Achieving brand awareness
+* The number of user engagements through social sharing you want to achieve
+* The level of metrics (e.g., views, coverage in geographical region, etc.) you want to achieve
 
-#### Digital Assets
+These goals will in turn require you to define where you want to post your video digital assets (e.g., on websites, mobile device applications, etc.). Each website or mobile device platform will have requirements for the *video format* and size they accept to guarantee optimum performance.
 
+The *Video > Edit* page includes a *Video Formats* section that allows you to upload multiple formats of the same video for a single video profile. You can then label each video, designate the website or mobile device application (and platform) the video is associated with, and post the format-specific URL to these websites and applications.
+
+See [Media Publishing Requirements](mediapublishrequirements.md) for a list of supported video formats.
 
 #### <a id="video-metadata"></a>Video Metadata
 
@@ -125,8 +146,32 @@ Real Time Streaming Protocol (RTSP). A network control protocol used to control 
 
 #### H.264 Stream URL
 
+
+
 #### Bundle ID
 
 Field used to specify the application Bundle ID (iOS) or Package Name (Android). This ID is a unique identifier for the application asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>). The Bundle ID is automatically created when an app is initially defined. The same Bundle ID must be used for when app updates are issued.  
 
+#### Store URL
+
+Each application instance added to the Content Console requires that you specify a URL that represents the digital distribution platform (i.e., App Store) that will be used for your mobile app. The URL must launch the exact location of the platform-specific App Store where your app is published and can be downloaded. You receive your final App *Store URL* after your app completes the App Store review process. Some examples of App Store URLs for Digital Domain supported app platforms include:
+
+* Google Play -  https://play.google.com/apps/<appname>
+* iOS -  https://itunes.apple.com/us/<appname>)
+* Gear VR - https://www.oculus.com/experiences/gear-vr/<appname>
+* Oculus Rift - https://www.oculus.com/experiences/rift/<appname>
+
 #### HLS (HTTP Live Streaming)
+
+HTTP Live Streaming (HLS) is an HTTP-based streaming communications protocol. Videos encoded to HLS are created for different bandwidths and different resolutions. This provides a flexible means of delivering video on demand to content to a broad range of devices.
+
+The Digital Domain HTML5 Player supports HTTP streaming, but HTTPS is preferred. HTTPS represents the newest standard because it is more secure. HTTPS is also required if you would like to include or request scripts, videos, images, iframes, etc.
+
+The player supports the following HTTP Live Stream specification. The Live Media Playlist using HTTPS link outlines the preferred requirements.
+
+* [HTTP Live Streaming](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19)
+* [Live Media Playlist Using HTTPS](https://tools.ietf.org/html/draft-pantos-http-live-streaming-19#section-8.2)
+
+#### Application Scheme
+
+Represents the URI scheme used to open a mobile device application. To ensure a positive user experience, it's important to research your potential URI schemes to ensure that they are unique. You always want users of your app to be redirected to *your* application when they are deep linking, and not conflict with similar applications using a similar URI scheme.

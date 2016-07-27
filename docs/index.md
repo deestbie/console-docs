@@ -53,10 +53,6 @@ Let's get started!
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
 
-##### Application Publishing Prerequisites
-
-* [Application Publishing Requirements](venom\apppublishrequirements.md) - Learn about prerequisites for optimizing the application publishing production cycle.
-
 ##### Publish Applications
 
 * [Publish Application](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.
