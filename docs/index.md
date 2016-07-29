@@ -53,9 +53,13 @@ Let's get started!
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
 
+##### Application Publishing Requirements
+
+* [Publish Application](venom\apppublishrequirements.md) - Learn about the application development and publishing process, learn about requirements for publishing an application to a mobile device store, and publishing an application instance and associated assets to the Digital Domain Content Console.
+
 ##### Publish Applications
 
-* [Publish Application](venom\publishapp.md) - Learn how to publish application content using a step-by-step tutorial.
+* [Publish Application](venom\publishapp.md)) - Learn how to publish application content using a step-by-step tutorial.
 
 * [Update Application](venom\manageapp.md) - Learn how to manage (i.e., edit/update) an application that is added to the Content Console.
 

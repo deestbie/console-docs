@@ -299,12 +299,32 @@
         <ul>
   
     <li class="toctree-l4">
-      <a href="#mobile-device-support">Mobile Device Support</a>
+      <a href="#how-does-the-application-publishing-process-work">How does the application publishing process work?</a>
       
     </li>
   
     <li class="toctree-l4">
-      <a href="#bundle-id">Bundle ID</a>
+      <a href="#what-application-platforms-are-supported">What application platforms are supported?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#what-requirements-are-gathered-for-each-mobile-device-application">What requirements are gathered for each mobile device application?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#what-digital-assets-are-required-for-each-mobile-device-application">What digital assets are required for each mobile device application?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#how-do-i-publish-an-application-instance-on-the-content-console">How do I publish an application instance on the Content Console?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#how-do-i-publish-application-assets-on-the-content-console">How do I publish application assets on the Content Console?</a>
       
     </li>
   
@@ -456,12 +476,40 @@
             <div class="section">
               
                 <h1 id="introduction">Introduction</h1>
-<h2 id="mobile-device-support">Mobile Device Support</h2>
-<p>The Content Console allows you to manage content for applications developed for the following mobile device types:</p>
+<p>This topic provides an overview of how the application publishing process works, and continues with information on supported platforms, general requirements list, digital asset requirements, and localization requirements.</p>
+<h2 id="how-does-the-application-publishing-process-work">How does the application publishing process work?</h2>
+<p>The production and publishing of a Digital Domain mobile device application involves the following key activities:</p>
 <table>
 <thead>
 <tr>
-<th align="left">Device Type</th>
+<th align="left">Activity</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Application Design and Development</td>
+<td align="left">Digital Domain <em>Client Services</em>: <p></p><ul><li>Manages the application design and development cycle.</li> <li>Works with each client to gather specific requirements.</li> <li>Works with the development staff through the app development cycle.</li> <li>Refines the application design through a review and quality assurance testing cycle.</li></ul></td>
+</tr>
+<tr>
+<td align="left">Publish Application to App Stores</td>
+<td align="left">When an application is ready to be published: <p></p><ul><li> Digital Domain <em>Client Services</em> submits each mobile device application to the platform-specific app store.</li> <li>After the app store review / publishing cycle is complete, the app is published to the app store. </li><li>A published app will be available for download via the designated Store URL based on each clients' selected launch date.</li></td>
+</tr>
+<tr>
+<td align="left">Publish Application Instance to Content Console</td>
+<td align="left">Coming soon...</td>
+</tr>
+<tr>
+<td align="left">Publish Application Assets to the Content Console</td>
+<td align="left">Coming soon...</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-application-platforms-are-supported">What application platforms are supported?</h2>
+<table>
+<thead>
+<tr>
+<th align="left">App Platform</th>
 <th align="left">Description</th>
 </tr>
 </thead>
@@ -484,12 +532,69 @@
 </tr>
 </tbody>
 </table>
-<h2 id="bundle-id">Bundle ID</h2>
-<p>Oculus Rift
-https:/</p>
-<p>These sizes apply to iOS and Android apps. There will be a separate guide for GearVR.</p>
-<p>Image sizes have layout buffers built into them, so your supplied images can go right to the edge of the canvas. For the non-square images, the width is the maximum that the image can take up. You can choose to make them less. The image will be centered horizontally.</p>
-<p>All images should be 32-bit non-interlaced PNGs unless otherwise specified.</p>
+<h2 id="what-requirements-are-gathered-for-each-mobile-device-application">What requirements are gathered for each mobile device application?</h2>
+<ul>
+<li>Determine if a native or custom application is needed and define requirements.</li>
+<li>Determine what platforms app will be supported on (iOS, Android, GearVR, Oculus Rift).</li>
+<li>Determine app stores apps will be published on.</li>
+<li>Determine localization requirements for each app.</li>
+<li>Determine assets required for each app.</li>
+</ul>
+<h2 id="what-digital-assets-are-required-for-each-mobile-device-application">What digital assets are required for each mobile device application?</h2>
+<p>A series of digital assets will need to be developed for each application.</p>
+<ul>
+<li>The assets will be unique for each application based the requirements defined with your <em>Client Services</em> representative.</li>
+<li>Developed assets will be uploaded an application instanced defined in the Digital Domain Content Console. Examples of asset types include:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">Asset</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">App Branding Logos</td>
+<td align="left">Custom branding logos for app pages (.PNG).</td>
+</tr>
+<tr>
+<td align="left">CMS Branding Logos</td>
+<td align="left">Custom branding logos for Content Console Organization page (.PNG)</td>
+</tr>
+<tr>
+<td align="left">Landing/Splash Page</td>
+<td align="left">App landing page images. (.JPG)</td>
+</tr>
+<tr>
+<td align="left">Event Icons</td>
+<td align="left">Unique icons for specific app events or sections.</td>
+</tr>
+<tr>
+<td align="left">App Icons</td>
+<td align="left">App icon that will display on each mobile device after application is installed (.PNG file type)</td>
+</tr>
+<tr>
+<td align="left">Video Player Icons</td>
+<td align="left">Icon that will display on app video player to uniquely identify your brand. (.PNG file type)</td>
+</tr>
+<tr>
+<td align="left">Brand Assets</td>
+<td align="left">Set of full sized brand assets for design development.</td>
+</tr>
+<tr>
+<td align="left">Background Images</td>
+<td align="left">Keyframe images to be used for live events or VoD metadata. This requirement will vary per each custom app.</td>
+</tr>
+</tbody>
+</table>
+<p>Each onboarding specification document will include:</p>
+<ul>
+<li>Size requirements and format requirements of digital assets for each platform-specific app.</li>
+<li>Image name requirements to be assigned to each digital asset. Adhering to the defined naming convention is important, because if an asset requires updating in the Content Console, it will be immediately available in the published app.</li>
+</ul>
+<h2 id="how-do-i-publish-an-application-instance-on-the-content-console">How do I publish an application instance on the Content Console?</h2>
+<h2 id="how-do-i-publish-application-assets-on-the-content-console">How do I publish application assets on the Content Console?</h2>
               
             </div>
           </div>

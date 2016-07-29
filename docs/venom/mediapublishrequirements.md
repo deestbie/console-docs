@@ -1,4 +1,6 @@
-# Media Publishing Requirements
+# Introduction
+
+This topic provides information on requirements for publishing video and live stream media types to the Digital Domain Content Console.
 
 ## What activities are involved in managing media assets on the Digital Domain Content Console?
 

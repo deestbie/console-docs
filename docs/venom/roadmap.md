@@ -35,10 +35,19 @@ The Content Console *Roadmap* provides a quick reference to all help topics.
 
 | What task do you want to perform?    |  Who can perform this task? |
 |:-----------------|:-------------------------------------|
+| [Review Publishing Requirements](mediapublishrequirements.md) |  All / CMS Help  |
 | [Publish Hosted Video](publishhostedvideo.md) |  Admin, Content Manager |
 | [Publish External Video](publishexternalvideo.md) |  Admin, Content Manager |
 | [Publish Live Event](publishliveevent.md) |  Admin, Content Manager |
 | [Video Technical FAQ](techfaqvideo.md) |  All Users |
+
+### Publish Application
+
+| What task do you want to perform?    |  Who can perform this task? |
+|:-----------------|:-------------------------------------|
+| [Review Application Requirements](apppublishrequirements.md) |  All Users  |
+| [Publish Application](publishapp.md) |  Admin, Content Manager |
+| [App Technical FAQ](techfaqapp.md) |  All Users  |
 
 ### Search Tools
 
