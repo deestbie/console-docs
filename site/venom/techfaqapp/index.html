@@ -335,22 +335,52 @@
         <ul>
   
     <li class="toctree-l4">
-      <a href="#how-long-does-it-take-to-configure-an-app-video-profile">How long does it take to configure an app video profile?</a>
+      <a href="#what-is-an-app-profile">What is an App Profile?</a>
       
     </li>
   
     <li class="toctree-l4">
-      <a href="#how-do-i-add-an-app-to-the-distribution-app-section-of-a-video">How do I add an app to the Distribution App section of a video?</a>
+      <a href="#how-do-i-add-an-application-instance-to-the-content-console">How do I add an application instance to the Content Console?</a>
       
     </li>
   
     <li class="toctree-l4">
-      <a href="#if-update-a-video-profile-are-changes-automatically-posted-to-the-list-of-distribution-apps">If update a video profile, are changes automatically posted to the list of Distribution Apps?</a>
+      <a href="#how-long-does-it-take-to-configure-an-app-profile-in-the-content-console">How long does it take to configure an app profile in the Content Console?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#how-do-i-associate-an-app-with-a-video-collection-stored-on-the-content-console">How do I associate an app with a video collection stored on the Content Console?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#if-update-a-video-profile-are-changes-automatically-posted-my-distribution-apps">If update a video profile, are changes automatically posted my distribution apps?</a>
       
     </li>
   
     <li class="toctree-l4">
       <a href="#do-i-have-to-resubmit-my-app-to-its-platform-specific-store-every-time-i-perform-an-update">Do I have to resubmit my app to its platform-specific store every time I perform an update?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#how-do-i-localize-an-app">How do I localize an app?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#as-a-client-do-i-submit-my-mobile-device-application-to-a-store-or-does-client-services-perform-that-task">As a client, do I submit my mobile device application to a store, or does Client Services perform that task?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#are-application-assets-added-to-the-content-console-after-the-mobile-device-application-is-published-to-a-platform-specific-store">Are application assets added to the Content Console after the mobile device application is published to a platform-specific store?</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#in-what-scenario-would-i-need-to-update-my-token-secret">In what scenario would I need to update my Token Secret?</a>
       
     </li>
   
@@ -466,11 +496,51 @@
             <div class="section">
               
                 <h1 id="technical-faq-application">Technical FAQ (Application)</h1>
-<p>Coming soon...</p>
-<h3 id="how-long-does-it-take-to-configure-an-app-video-profile">How long does it take to configure an app video profile?</h3>
-<h3 id="how-do-i-add-an-app-to-the-distribution-app-section-of-a-video">How do I add an app to the Distribution App section of a video?</h3>
-<h3 id="if-update-a-video-profile-are-changes-automatically-posted-to-the-list-of-distribution-apps">If update a video profile, are changes automatically posted to the list of Distribution Apps?</h3>
+<h3 id="what-is-an-app-profile">What is an App Profile?</h3>
+<p>Mobile device apps are developed using mobile device development tools specific to each supported platform. During the design process all of the assets required for a specific app are defined (i.e., images, screen content, etc.), along with image size requirements and format. All of the app assets are considered metadata and will be stored in the Digital Domain Content Console.</p>
+<p>After the application development is complete and the assets have been defined, an application instance is added to the Digital Domain Content Console. Here you catalog the various parts of your app.</p>
+<ul>
+<li>The app is automatically associated with the current Organization.</li>
+<li>App Name, Description, Type, Version, and Store URL are informational identifiers that are internal to the Content Console</li>
+<li>Bundle ID (iOS) or Package Name (Android) is a unique identifier for the application asset bundle that includes branding art and stylesheet information.</li>
+<li>Analytics ID includes captured statistical data about your app.</li>
+</ul>
+<p>When a new asset is added to the app, the asset bundle is updated (which is associated with the Bundle ID). The App ID then gets passed to the mobile device API, and an API call is initiated that fetches the newly uploaded asset and updates the live application. Statistical data is updated in a similar manner and report can be viewed at different hierarchies in the Content Console.</p>
+<h3 id="how-do-i-add-an-application-instance-to-the-content-console">How do I add an application instance to the Content Console?</h3>
+<p>See <a href="../publishapp/">Publish Application</a> for detailed instructions on how to add an application instance to the Content Console.</p>
+<h3 id="how-long-does-it-take-to-configure-an-app-profile-in-the-content-console">How long does it take to configure an app profile in the Content Console?</h3>
+<p>If you have all of your application assets available, the configuration process for each application should take approximately ten minutes.</p>
+<h3 id="how-do-i-associate-an-app-with-a-video-collection-stored-on-the-content-console">How do I associate an app with a video collection stored on the Content Console?</h3>
+<p>Your Organization Administrator is responsible for associating video collections with application instances. Depending on the nature of the app, the management and visibility of content within a video collection that is available app could be a 24/7 process (for live events), or on a periodic basis if the app presents VoD content only.   </p>
+<h3 id="if-update-a-video-profile-are-changes-automatically-posted-my-distribution-apps">If update a video profile, are changes automatically posted my distribution apps?</h3>
+<p>If the collection the video you are updating is a designated distribution app, the video content will be automatically updated.</p>
 <h3 id="do-i-have-to-resubmit-my-app-to-its-platform-specific-store-every-time-i-perform-an-update">Do I have to resubmit my app to its platform-specific store every time I perform an update?</h3>
+<p>The requirement of resubmitting an app to its platform-specific store is based on the type of update you are performing.</p>
+<ul>
+<li>If you are updating app assets, the updates will occur immediately.</li>
+<li>If the update is a more significant feature or bug update it may be necessary to resubmit the app to its store. In this scenario, the update would post to the app installation in the mobile device app store and the user would need to initiate the update process.</li>
+</ul>
+<h3 id="how-do-i-localize-an-app">How do I localize an app?</h3>
+<p>App localization occurs at the native code level, and at the app instance level (in the Content Console).</p>
+<ul>
+<li>At the app development level (i.e., native code), Client Services will provide each client with a localization package that includes metadata that will display in the app (i.e., labels, menu item names, hover text, description text, etc). This metadata will be translated by the client into the designated language. This translated code will then be added to the native app code for the localized app version.</li>
+<li>At the Content Console level, if your distribution scenario requires a mobile device app in English, Spanish, and French (for example) you will have three application instances added to the Content Console.</li>
+<li>Each will have localized assets, a unique bundle ID, application ID, and analytics ID.</li>
+</ul>
+<h3 id="as-a-client-do-i-submit-my-mobile-device-application-to-a-store-or-does-client-services-perform-that-task">As a client, do I submit my mobile device application to a store, or does Client Services perform that task?</h3>
+<p>This depends on your onboarding agreement, application type, and specific requirements. To common scenarios include:</p>
+<ul>
+<li>
+<p><em>For native apps</em> (i.e., ones that Digital Domain exclusively develops for a client), Client Services handles generating the bundle id or package name, submitting it to the platform-specific store, and adding it to the application instance in the Content Console.</p>
+</li>
+<li>
+<p><em>For custom apps</em> (depending on the arrangement with Client Services), the client may provide Digital Domain with a Bundle ID or Package Name that Client Services adds to an application instance in the Content Console, and the client may submit the application to the platform-specific store.</p>
+</li>
+</ul>
+<h3 id="are-application-assets-added-to-the-content-console-after-the-mobile-device-application-is-published-to-a-platform-specific-store">Are application assets added to the Content Console after the mobile device application is published to a platform-specific store?</h3>
+<p>Application assets are independent from submission to a platform-specific app stores. An app store doesn't see the assets in the Digital Domain Content Console, only the resulting usage of the assets in the application. Generally the application instance and associated assets are added to the Content Console prior to submission to a platform-specific app store as they are needed for the development and design cycles.</p>
+<h3 id="in-what-scenario-would-i-need-to-update-my-token-secret">In what scenario would I need to update my Token Secret?</h3>
+<p>The Token ID / Token Secret is built into the mobile device app so it can talk to the Content Console (i.e., retrieve updated metadata/assets, fetch analytics ID so it can generate analytics reports, etc). If you feel your Content Console login has been compromised, as the client you will need a new Token Secret to successfully authenticate and log into the Content Console. In this scenario, send a request to your Client Services representative for assistance.</p>
               
             </div>
           </div>

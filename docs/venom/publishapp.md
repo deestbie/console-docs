@@ -41,7 +41,7 @@ Your *Client Services* representative will add your application instance to the 
 1. Go to **Organization > Apps > AppName > Profile**.
 2. Select the profile icon and upload a icon via the dialog box.
 
-## Step 3: Add Application Assets
+## <a id="add-app-assets"></a>Step 3: Add Application Assets
 
 * Clients will deliver assets to their Client Services representative based on their onboarding specification.
 * Client services will add each asset to the Content Console (using an automated script or **Create New Application Asset** function).
@@ -74,9 +74,9 @@ The **App Profile** page allows you to update your application instance. The fol
 | Organization       | Organization where app is stored and managed. This field is non-editable. |
 | Application Id  | A string that is auto-generated when your app is added to the Content Console and uniquely identifies the app. This field is non-editable. |
 | Description  | Update your app description. |
-| Scheme  | Represents the URI scheme used to open a mobile device application. Default is im360://. |
-| Bundle ID  | Update your app Bundle ID or Package Name.|
-| Analytics ID  | Update the Analytics ID that that includes captured statistical data about your app. |
+| Scheme  | Represents the URI scheme used to open a mobile device application. Digital Domain native apps are assigne3d the default URI Scheme (im360://). Custom apps can assign unique URI Scheme.  |
+| Bundle ID  | Update your the app ID that stores app settings and references the application. For iOS specify the Bundle ID, for Android apps specify the Package Name. |
+| Analytics ID  | Update the Analytics ID that includes captured statistical data about your app. |
 | Store URL  | Update the Store URL where your app could be downloaded. |
 | Token Id       | Token that is used to verify the identity of user signed-in to an app. This field is non-editable. |
 | Token Secret       | The token shared secret is updated if app security is compromised. This can only be updated by Client Services.  |

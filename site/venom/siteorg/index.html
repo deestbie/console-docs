@@ -443,6 +443,34 @@
               
                 <h1 id="site-organization">Site Organization</h1>
 <p>The Content Console is organized into following sections:</p>
+<h2 id="content-console-header"><a id="console-header"></a>Content Console Header</h2>
+<p>Provides a set of common tools that are accessible on any Content Console site page:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Console Header</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Navigation Breadcrumb</td>
+<td align="left">Displays organization name and current Content Console area.</td>
+</tr>
+<tr>
+<td align="left">Search</td>
+<td align="left">Hourglass / text box that allows you to perform a free form search. See <a href="../searchtools/">Search Tools</a></td>
+</tr>
+<tr>
+<td align="left">Cloud</td>
+<td align="left">Launches the Upload Video tool that provides hosted video, external video, and live event publishing options. See <a href="../mediapublishingoptions/">Upload Video Tool</a>.</td>
+</tr>
+<tr>
+<td align="left">User Icon</td>
+<td align="left">Allows you to switch from the main IM360 site page to the Content Console and provide Login/Logout options.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="organization-home-dashboard"><a id="org-home-dashboard"></a>Organization Home &gt; Dashboard</h2>
 <p>Provides a top-view of assets and analytic data associated with your account including:</p>
 <table>
@@ -455,23 +483,27 @@
 <tbody>
 <tr>
 <td align="left">Dashboard</td>
-<td align="left">Lists the total number of videos and streams, apps, members, and properties.</td>
+<td align="left">Lists the total number of videos and streams, properties, apps, and users.</td>
 </tr>
 <tr>
 <td align="left">Organization</td>
-<td align="left">Displays the Organization Name and administrator contact information, and account edit option if you have administrator privileges</td>
+<td align="left">Displays the organization name, administrator contact information (email address and admin name), organization homepage, and account edit option if you have administrator privileges</td>
 </tr>
 <tr>
-<td align="left">Properties</td>
-<td align="left">Lists properties defined in your account, and total number of collections, videos, and streams in the property.</td>
+<td align="left">Properties Summary</td>
+<td align="left">Lists properties defined in the current organization, and total number of collections, videos, and streams in each property.</td>
 </tr>
 <tr>
 <td align="left">View Property</td>
-<td align="left">Allows you to select a property name to drill-down to a detailed view of collections in each property</td>
+<td align="left">Allows you to select a property name to drill-down to a detailed view of collections in each property.</td>
 </tr>
 <tr>
 <td align="left">Add Property</td>
 <td align="left">Allows you to add a property (<strong>+ Property</strong>).</td>
+</tr>
+<tr>
+<td align="left">Filter</td>
+<td align="left">A drop-down that allows you to filter the property list by Title, Recent, Active, or Inactive.</td>
 </tr>
 <tr>
 <td align="left">View Report</td>
@@ -480,7 +512,7 @@
 </tbody>
 </table>
 <h2 id="organization-home-apps"><a id="org-home-apps"></a>Organization Home &gt; Apps</h2>
-<p>Provides a top-view of application instances added to the Content Console, publishing info, platform, and video statistics.</p>
+<p>Provides a top-view of application instances added to the Content Console including publishing and platform information.</p>
 <table>
 <thead>
 <tr>
@@ -491,7 +523,7 @@
 <tbody>
 <tr>
 <td align="left">App Summary</td>
-<td align="left">A list of application instances defined in the current organization.</td>
+<td align="left">Lists application instances defined in the current organization.</td>
 </tr>
 <tr>
 <td align="left">Add Application</td>
@@ -499,7 +531,7 @@
 </tr>
 <tr>
 <td align="left">Published State</td>
-<td align="left">The application publishing state (Published or Staging).</td>
+<td align="left">The published state of the application (Published/Staging).</td>
 </tr>
 <tr>
 <td align="left">Version</td>
@@ -507,47 +539,82 @@
 </tr>
 <tr>
 <td align="left">Type</td>
-<td align="left">Platform the app is published on (iOS, Android, GearVR, Oculus Rift).</td>
+<td align="left">Platform  app is published on (iOS, Android, Gear VR, Oculus Rift, HTC Vive, Playstation VR, Daydream).</td>
 </tr>
 <tr>
-<td align="left">Videos</td>
-<td align="left">Number of videos posted to the app.</td>
+<td align="left">Token</td>
+<td align="left">Indicates if a Token Id and Token Secret have been assigned to the app (Yes / No).</td>
 </tr>
 <tr>
-<td align="left">Live Feeds</td>
-<td align="left">Number of live feeds posted to the app.</td>
-</tr>
-<tr>
-<td align="left">Downloads</td>
-<td align="left">Number of times a video has been downloaded on the app.</td>
+<td align="left">Filter</td>
+<td align="left">A drop-down that allows you to filter the app by platform (iOS, Android, Gear VR, Oculus Rift, HTC Vive, Playstation VR, or Daydream).</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Coming soon...</strong></p>
-<!--
-| Profile                                               |
-|:----------------|:--------------------------------------|
-| Organization ID    |  |
-| Application ID     |  |
-| Bundle ID          |  |
-| Scheme             |  |
-| Description        |  |
-| Type               |  |
-| Current Version    | Current app version. |
-| Store URL          | URL of the app store the video is published in. |
-| Analytics ID       |  |
-| Published ID       | A Yes/No toggle that indicates whether the app has been published to the specified Store URL. |
-
-| Assets                                               |
-|:----------------|:--------------------------------------|
-| Coming soon     |  |
-
-
-| Token                                               |
-|:----------------|:--------------------------------------|
-| Coming soon     |  |
--->
-
+<h2 id="organization-home-apps-profile"><a id="app-profile"></a>Organization Home &gt; Apps &gt; Profile</h2>
+<p>Provides definition details of the currently selected app.</p>
+<table>
+<thead>
+<tr>
+<th align="left">App Profile</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Key Art</td>
+<td align="left">Select the key art image and upload a new one via the dialog box.</td>
+</tr>
+<tr>
+<td align="left">Organization ID</td>
+<td align="left">Displays the Organization ID. This field is non-editable.</td>
+</tr>
+<tr>
+<td align="left">Application ID</td>
+<td align="left">A string that is auto-generated when your app is added to the Content Console and uniquely identifies the app. This field is non-editable.</td>
+</tr>
+<tr>
+<td align="left">Bundle ID</td>
+<td align="left">Update your the app ID that stores app settings and references the application. For iOS specify the Bundle ID, for Android apps specify the Package Name.</td>
+</tr>
+<tr>
+<td align="left">Scheme</td>
+<td align="left">epresents the URI scheme used to open a mobile device application. Digital Domain native apps are assigne3d the default URI Scheme (im360://). Custom apps can assign unique URI Scheme.</td>
+</tr>
+<tr>
+<td align="left">Description</td>
+<td align="left">Update your app description.</td>
+</tr>
+<tr>
+<td align="left">Type</td>
+<td align="left">Change your application's platform (iOS, Android, GearVR, Oculus)</td>
+</tr>
+<tr>
+<td align="left">Current Version</td>
+<td align="left">Current app version.</td>
+</tr>
+<tr>
+<td align="left">Store URL</td>
+<td align="left">The Store URL where an app is published and can be downloaded from.</td>
+</tr>
+<tr>
+<td align="left">Analytics ID</td>
+<td align="left">Update the Analytics ID that includes captured statistical data about your app.</td>
+</tr>
+<tr>
+<td align="left">Published ID</td>
+<td align="left">A Yes/No toggle that indicates whether the app has been published to the specified Store URL.</td>
+</tr>
+<tr>
+<td align="left">Token Id</td>
+<td align="left">Token that is used to verify the identity of user signed-in to an app. This field is non-editable.</td>
+</tr>
+<tr>
+<td align="left">Token Secret</td>
+<td align="left">The token shared secret is updated if app security is compromised. This can only be updated by Client Services.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="home-users"><a id="home-users"></a>Home &gt; Users</h2>
 <p>Provides a summary of users defined in the current organization.</p>
 <table>

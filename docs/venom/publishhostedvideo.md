@@ -76,7 +76,6 @@ Select a category that best suits your video. Available options include Entertai
 1. Go to **Video Category Type**.
 2. Select a category from the drop-down.
 
-
 ## Step 5: Select Property and Collection
 
 Assign a property to your video and group it in a collection. Note that both steps are required.

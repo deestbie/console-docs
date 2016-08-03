@@ -14,7 +14,6 @@ Let's get started!
 
 * [Road Map](venom\roadmap.md) - Provides a quick access roadmap for navigating content management How To topics.
 
-
 ##### Account Management
 
 * [Sign Up](venom\signup.md) - Learn how to sign up for an im360 account and log into to the Content Console.
@@ -53,9 +52,9 @@ Let's get started!
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
 
-##### Application Publishing Requirements
+##### [Application Publication Requirements](venom\apppublishrequirements.md)
 
-* [Publish Application](venom\apppublishrequirements.md) - Learn about the application development and publishing process, learn about requirements for publishing an application to a mobile device store, and publishing an application instance and associated assets to the Digital Domain Content Console.
+* Learn about the application development and publishing process, learn about requirements for publishing an application to a mobile device store, and publishing an application instance and associated assets to the Digital Domain Content Console.
 
 ##### Publish Applications
 

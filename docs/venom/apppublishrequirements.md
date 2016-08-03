@@ -55,4 +55,8 @@ Each onboarding specification document will include:
 
 ## How do I publish an application instance on the Content Console?
 
+See [Publish Application](publishapp.md) for detailed instructions on how to add an application instance to the Content Console.
+
 ## How do I publish application assets on the Content Console?
+
+See [Add App Assets]([publishapp.md]#add-app-asset).

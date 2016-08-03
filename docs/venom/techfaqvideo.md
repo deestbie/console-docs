@@ -48,7 +48,7 @@ Supported iOS, Android, and GearVR apps use our HTML5 Video Player. The HTML5 pl
 * Supports popular browsers including Safari, Opera, Chrome, Internet Explorer, and Firefox.
 * Integrates easily when videos are embedded on websites or shared from app.
 
-### How do I embed network camera video on a website?
+<!--###### How do I embed network camera video on a website?-->
 
 ### How do I embed a VoD, External URL, or Live Event on a website?
 
@@ -60,14 +60,16 @@ Yes, refer to the [URL Live Stream](publishliveevent.md) for information on how 
 
 Also see [Media Publishing Options](mediapublishingoptions.md) for information about publishing tools.
 
-### How do I set up a live stream media server?
+<!--### How do I set up a live stream media server?
 
 ### How do I find out what RTSP string my 360 video camera uses?
 
-### How do I ensure my live stream can be accessed externally?
+### How do I ensure my live stream can be accessed externally?-->
 
 * Your live stream URL will most likely reside on a secure Media Server or Content Delivery Network.
 * Set default port of router to allow media server to be accessed externally. The default port is usually 5119.
 * Set firewall to allow users to access the media server.
 
 ### How do I fill a 360 live stream blind spot using an app asset?
+
+The App Asset functionality does not support filling a blind spot with a graphic image. That process must be performed in post production before uploading your assets. You can, however, indicate the location of the blind spot (None, Top, or Bottom).
