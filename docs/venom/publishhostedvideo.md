@@ -26,7 +26,7 @@ This section shows you how to publish a hosted video. You will:
 
 1. You can launch the easy-to-use **Media Upload**  publishing tool using the following paths:
 
-    * Select the Cloud Icon ![Cloud Icon](images\cloud_option.jpg "Upload Video") conveniently accessible via the Content Console header.
+    * Select the Cloud Icon ![Cloud Icon](images\cloud_option.jpg "Upload Video") accessible via the Content Console header.
 
     * Navigate to **Property > Collection** and select **+Upload Video**.<p></p>
 
@@ -67,7 +67,7 @@ Metadata is used to uniquely identify the characteristics of each video.
 
 1. Go to **Details**.
 2. Enter the Title, Headline, and Description for your video.
-3. Enter one or more search Tags (comma separated).
+3. Enter one or more search Tags (comma separated). After entering each tag, select Return to commit it. The tag will display in blue. You can delete a tag by selecting "x". If attempt to add a tag name that already exists you will not be able to commit it.
 
 ## Step 4: Select Video Category
 
@@ -161,34 +161,6 @@ After your video is uploaded, the final step in the configuration process is to 
 1. After completing your entries, select **Upload** begin the video upload. A progress indicator displays.
 2. After the video upload is complete the **Edit** page displays.
 
-## Step 12: Add Key Art
-
-*Key Art* is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a *thumbnail*. When your video was initially uploaded a thumbnail was assigned as the default start page.
-
-* You can upload a key art to replace auto-generated version.
-* Key Art displays on your video profile, property, and collection pages.
-
-Supported key art size specifications include:
-
-| Key Art Setting       | Description            |
-|:-----------------|:-------------------------------------|
-| Image Size    | 16:9, 1600 x 825     |
-| Format    | 4K           |
-| Live Area    | Square, 825 x 825           |
-
-**To upload key art:**
-
-1. Select the current image and upload a new image based on the image requirements.
-
-## Step 13: Review Final Details / Upload
-
-After completing your entries, review Hosted Video settings to verify they are correct:
-
-* Review the current settings assigned to the video for accuracy.
-* Verify that descriptions represent the message and style you want to present.
-* Update the video thumbnail as needed.
-* Perform a video check to validate that the master video file is properly uploaded and initiates the stream.
-
 The following table shows page options and permission state:
 
 | Option / Setting         | Description            | Permission  |
@@ -212,12 +184,54 @@ The following table shows page options and permission state:
 | Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   | Read-only |
 | Distribution Apps | Displays a list of apps the current video is associated with | Read-only |
 
-**To update video details:**
+## Step 12: Test Hosted Video
 
-1. Review the table above and Edit / Update items as needed.
+You can test the hosted VoD video to verify that it's running properly using the **Check Video** option. The following list briefly summarizes what happens during the hosted video check:
 
-## Step 14: Publish Video
+* Verify that the VoD MP4 file exists.
+
+* Verify that the VoD content type is valid (e.g., application/octet-stream).
+
+* Verify that the URL content-length matches video size.
+
+* Verify that Access-Control-Allow-Origin header is valid.
+
+* If the VoD is not accessible or raises errors, you will immediately receive a source error message.
+
+* If the hosted video is successfully verified you will receive a confirmation message.
+
+**To test hosted video:**
+
+1. On the *Edit* page, select **Check Video**.
+2. If the video is successful, you will receive a confirmation message.
+3. If the video is not successful, you will receive a source error message. Determine steps necessary to resolve the errors and try again.  
+
+## Step 13: Add Key Art
+
+*Key Art* is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a *thumbnail*. When your video was initially uploaded a thumbnail was assigned as the default start page.
+
+* You can upload a key art to replace auto-generated version.
+* Key Art displays on your video profile, property, and collection pages.
+
+Supported key art size specifications include:
+
+| Key Art Setting       | Description            |
+|:-----------------|:-------------------------------------|
+| Image Size    | 16:9, 1600 x 825     |
+| Format    | 4K           |
+| Live Area    | Square, 825 x 825           |
+
+**To upload key art:**
+
+1. Select **Upload Keyart**, select a file to upload based on the image requirements, then **Close**. The file will be uploaded when the video profile is saved.
+
+## Step 14: Add Video Format
+
+To add additional video formats to the current video profile, go to [Add Video Formats](addvideoformats.md) and follow the tutorial.
+
+## Step 15: Publish Video
+
+After completing your entries, review Hosted Video settings to verify they are correct.
 
 1. If you would like your video to go live on all sites/applications where it is posted, set **Visibility** to **Public**.
 2. If you are happy with the video configuration, and are ready to publish the video, select **Save**.
-3. To add additional video formats to the current video profile, go to [Add Video Formats](addvideoformats.md).

@@ -21,8 +21,7 @@ The following tutorial illustrates how to upload a new video format:
 ## Step 2: Add New Video Format
 
 1. After the upload process is complete you will be redirected to the *Edit* page.
-2. Select the *Video Details* page.
-3. In the *Video Formats* section, select **+ New Format**. The *Add New Format* pop-up displays.
+2. In the *Video Formats* section, select **+ New Format**. The *Add New Format* pop-up displays.
 
 ## Step 3: Add Video Details
 

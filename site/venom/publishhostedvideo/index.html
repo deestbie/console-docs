@@ -283,17 +283,22 @@
     </li>
   
     <li class="toctree-l4">
-      <a href="#step-12-add-key-art">Step 12: Add Key Art</a>
+      <a href="#step-12-test-hosted-video">Step 12: Test Hosted Video</a>
       
     </li>
   
     <li class="toctree-l4">
-      <a href="#step-13-review-final-details-upload">Step 13: Review Final Details / Upload</a>
+      <a href="#step-13-add-key-art">Step 13: Add Key Art</a>
       
     </li>
   
     <li class="toctree-l4">
-      <a href="#step-14-publish-video">Step 14: Publish Video</a>
+      <a href="#step-14-add-video-format">Step 14: Add Video Format</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#step-15-publish-video">Step 15: Publish Video</a>
       
     </li>
   
@@ -552,7 +557,7 @@
 <p>You can launch the easy-to-use <strong>Media Upload</strong>  publishing tool using the following paths:</p>
 <ul>
 <li>
-<p>Select the Cloud Icon <img alt="Cloud Icon" src="../images\cloud_option.jpg" title="Upload Video" /> conveniently accessible via the Content Console header.</p>
+<p>Select the Cloud Icon <img alt="Cloud Icon" src="../images\cloud_option.jpg" title="Upload Video" /> accessible via the Content Console header.</p>
 </li>
 <li>
 <p>Navigate to <strong>Property &gt; Collection</strong> and select <strong>+Upload Video</strong>.<p></p></p>
@@ -611,7 +616,7 @@
 <ol>
 <li>Go to <strong>Details</strong>.</li>
 <li>Enter the Title, Headline, and Description for your video.</li>
-<li>Enter one or more search Tags (comma separated).</li>
+<li>Enter one or more search Tags (comma separated). After entering each tag, select Return to commit it. The tag will display in blue. You can delete a tag by selecting "x". If attempt to add a tag name that already exists you will not be able to commit it.</li>
 </ol>
 <h2 id="step-4-select-video-category">Step 4: Select Video Category</h2>
 <p>Select a category that best suits your video. Available options include Entertainment, Sports, Music, Action, Family, Games, Funny, Political, TV, Movies, News, Drama, Education, Art, and Travel.</p>
@@ -737,47 +742,6 @@ After your video is uploaded, the final step in the configuration process is to 
 <li>After completing your entries, select <strong>Upload</strong> begin the video upload. A progress indicator displays.</li>
 <li>After the video upload is complete the <strong>Edit</strong> page displays.</li>
 </ol>
-<h2 id="step-12-add-key-art">Step 12: Add Key Art</h2>
-<p><em>Key Art</em> is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a <em>thumbnail</em>. When your video was initially uploaded a thumbnail was assigned as the default start page.</p>
-<ul>
-<li>You can upload a key art to replace auto-generated version.</li>
-<li>Key Art displays on your video profile, property, and collection pages.</li>
-</ul>
-<p>Supported key art size specifications include:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Key Art Setting</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Image Size</td>
-<td align="left">16:9, 1600 x 825</td>
-</tr>
-<tr>
-<td align="left">Format</td>
-<td align="left">4K</td>
-</tr>
-<tr>
-<td align="left">Live Area</td>
-<td align="left">Square, 825 x 825</td>
-</tr>
-</tbody>
-</table>
-<p><strong>To upload key art:</strong></p>
-<ol>
-<li>Select the current image and upload a new image based on the image requirements.</li>
-</ol>
-<h2 id="step-13-review-final-details-upload">Step 13: Review Final Details / Upload</h2>
-<p>After completing your entries, review Hosted Video settings to verify they are correct:</p>
-<ul>
-<li>Review the current settings assigned to the video for accuracy.</li>
-<li>Verify that descriptions represent the message and style you want to present.</li>
-<li>Update the video thumbnail as needed.</li>
-<li>Perform a video check to validate that the master video file is properly uploaded and initiates the stream.</li>
-</ul>
 <p>The following table shows page options and permission state:</p>
 <table>
 <thead>
@@ -880,15 +844,74 @@ After your video is uploaded, the final step in the configuration process is to 
 </tr>
 </tbody>
 </table>
-<p><strong>To update video details:</strong></p>
+<h2 id="step-12-test-hosted-video">Step 12: Test Hosted Video</h2>
+<p>You can test the hosted VoD video to verify that it's running properly using the <strong>Check Video</strong> option. The following list briefly summarizes what happens during the hosted video check:</p>
+<ul>
+<li>
+<p>Verify that the VoD MP4 file exists.</p>
+</li>
+<li>
+<p>Verify that the VoD content type is valid (e.g., application/octet-stream).</p>
+</li>
+<li>
+<p>Verify that the URL content-length matches video size.</p>
+</li>
+<li>
+<p>Verify that Access-Control-Allow-Origin header is valid.</p>
+</li>
+<li>
+<p>If the VoD is not accessible or raises errors, you will immediately receive a source error message.</p>
+</li>
+<li>
+<p>If the hosted video is successfully verified you will receive a confirmation message.</p>
+</li>
+</ul>
+<p><strong>To test hosted video:</strong></p>
 <ol>
-<li>Review the table above and Edit / Update items as needed.</li>
+<li>On the <em>Edit</em> page, select <strong>Check Video</strong>.</li>
+<li>If the video is successful, you will receive a confirmation message.</li>
+<li>If the video is not successful, you will receive a source error message. Determine steps necessary to resolve the errors and try again.  </li>
 </ol>
-<h2 id="step-14-publish-video">Step 14: Publish Video</h2>
+<h2 id="step-13-add-key-art">Step 13: Add Key Art</h2>
+<p><em>Key Art</em> is an still image file that is used to showcase your video. It typically uses a memorable image or icon that represents the essence of the story or topic presented in a video. Key art is also referred to as a <em>thumbnail</em>. When your video was initially uploaded a thumbnail was assigned as the default start page.</p>
+<ul>
+<li>You can upload a key art to replace auto-generated version.</li>
+<li>Key Art displays on your video profile, property, and collection pages.</li>
+</ul>
+<p>Supported key art size specifications include:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Key Art Setting</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Image Size</td>
+<td align="left">16:9, 1600 x 825</td>
+</tr>
+<tr>
+<td align="left">Format</td>
+<td align="left">4K</td>
+</tr>
+<tr>
+<td align="left">Live Area</td>
+<td align="left">Square, 825 x 825</td>
+</tr>
+</tbody>
+</table>
+<p><strong>To upload key art:</strong></p>
+<ol>
+<li>Select <strong>Upload Keyart</strong>, select a file to upload based on the image requirements, then <strong>Close</strong>. The file will be uploaded when the video profile is saved.</li>
+</ol>
+<h2 id="step-14-add-video-format">Step 14: Add Video Format</h2>
+<p>To add additional video formats to the current video profile, go to <a href="../addvideoformats/">Add Video Formats</a> and follow the tutorial.</p>
+<h2 id="step-15-publish-video">Step 15: Publish Video</h2>
+<p>After completing your entries, review Hosted Video settings to verify they are correct.</p>
 <ol>
 <li>If you would like your video to go live on all sites/applications where it is posted, set <strong>Visibility</strong> to <strong>Public</strong>.</li>
 <li>If you are happy with the video configuration, and are ready to publish the video, select <strong>Save</strong>.</li>
-<li>To add additional video formats to the current video profile, go to <a href="../addvideoformats/">Add Video Formats</a>.</li>
 </ol>
               
             </div>

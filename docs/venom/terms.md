@@ -65,6 +65,9 @@ Metadata allows you to describe the content of a video. The following list inclu
 * Should contain keywords on who you are (individual, business, event, etc.)
 * To gain an edge on coverage, perform research on competitors, sites most relevant to your video subject, and tag names.
 * Search tags must be comma separated.
+* Tags are committed by selecting Return. The tag will display in blue.
+* You can delete a tag by selecting "x".
+* If attempt to add a tag name that already exists you will not be able to commit it.
 
 #### <a id="blind-spot"></a>Blind Spot
 
@@ -138,7 +141,7 @@ These goals will in turn require you to define where you want to post your video
 
 The *Video > Edit* page includes a *Video Formats* section that allows you to upload multiple formats of the same video for a single video profile. You can then label each video, designate the website or mobile device application (and platform) the video is associated with, and post the format-specific URL to these websites and applications.
 
-See [Media Publishing Requirements](mediapublishrequirements.md) for a list of supported video formats.
+See [Media Publishing Requirements](mediapublishrequirements.md) for a list of supported video formats. See go to [Add Video Formats](addvideoformats.md) for instruction on how to add a new video format. 
 
 #### <a id="http-live-streaming"></a>HLS (HTTP Live Streaming)
 
