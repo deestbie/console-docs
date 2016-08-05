@@ -16,11 +16,12 @@ This section shows you how to publish a hosted video. You will:
 * Define video metadata (i.e., title, headline, description, tags)
 * Select video category
 * Select the property and collection the hosted video will be contained in
-* Configure video settings (i.e., downloadable, visibility, projection, and blindspot)
+* Configure video settings (i.e., visibility, downloadable, social sharing, video projection, and blind spot)
 * Upload a video
+* Test hosted video
 * Upload key art
-* Review final video configuration
-* Publish video
+* Add video format
+* Review final video configuration and publish video
 
 ## Step 1: Select Media Upload Method
 

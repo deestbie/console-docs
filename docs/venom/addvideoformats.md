@@ -10,7 +10,7 @@ These goals will in turn require you to define where you want to post your video
 
 To accommodate this requirement, the Content Console provides a *Video Formats* page that allows you to upload multiple formats of the same video for a single video profile. You can then label each video, designate the website or mobile device application (and platform) the video is associated with, and post the format-specific URL to these websites and applications.
 
-During the initial upload process, you will select the *main video content* as your first upload, and then perform subsequent uploads on the *Video Formats* page as a post-upload activity. The video you select as your main video content, will display in the video player on the *Video Details* page.
+During the initial upload process, you will select the *main video content* as your first upload. You can upload additional video formats in the *Edit > Video Formats* section as part of the initial video configuration process or as a post-upload activity. The video you select as your main video content, will display in the video player on the *Video Details* page.
 
 The following tutorial illustrates how to upload a new video format:
 
