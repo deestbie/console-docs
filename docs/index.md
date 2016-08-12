@@ -44,11 +44,15 @@ Let's get started!
 
 * [Publish External Video](venom\publishexternalvideo.md) - Learn how to publish an external video hosted on a media server or content delivery network using a step-by-step tutorial.
 
+* [Add Language](venom\addlanguage.md#add-language-video) - Learn how to add multiple language metadata entries to a single video media profile.
+
 * [**Technical FAQ (Video)**](venom\techfaqvideo.md) -  Review a list of technical topics pertaining to video production using the Content Console.
 
 ##### Publish Live Events
 
 * [Publish Live Event](venom\publishliveevent.md) - Learn how to publish a live event composed of one or more live streams using a step-by-step tutorial.
+
+* [Add Language](venom\addlanguage.md#add-language-stream) - Learn how to add multiple language metadata entries to a single live event media profile. 
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
 

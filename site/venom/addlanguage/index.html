@@ -8,7 +8,7 @@
   
   
   
-  <title>Add Multiple Live Stream Cameras - Digital Domain Content Console</title>
+  <title>Add Language - Digital Domain Content Console</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Add Multiple Live Stream Cameras";
-    var mkdocs_page_input_path = "venom\addcamerastreams.md";
-    var mkdocs_page_url = "/venom/addcamerastreams/";
+    var mkdocs_page_name = "Add Language";
+    var mkdocs_page_input_path = "venom\addlanguage.md";
+    var mkdocs_page_url = "/venom/addlanguage/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -226,7 +226,7 @@
 
 
   <li class="toctree-l1 ">
-    <a class="" href="../addlanguage/">Add Language</a>
+    <a class="" href="./">Add Language</a>
     
   </li>
 
@@ -279,8 +279,17 @@
       
 
 
-  <li class="toctree-l1 ">
-    <a class="" href="../addlanguage/">Add Language</a>
+  <li class="toctree-l1 current">
+    <a class="current" href="./">Add Language</a>
+    
+      <ul>
+  
+    <li class="toctree-l3">
+      <a href="#introduction">Introduction</a>
+      
+    </li>
+  
+  </ul>
     
   </li>
 
@@ -288,26 +297,8 @@
       
 
 
-  <li class="toctree-l1 current">
-    <a class="current" href="./">Add Multiple Live Stream Cameras</a>
-    
-      <ul>
-  
-    <li class="toctree-l3">
-      <a href="#introduction">Introduction</a>
-      
-        <ul>
-  
-    <li class="toctree-l4">
-      <a href="#add-multiple-cameras">Add Multiple Cameras</a>
-      
-    </li>
-  
-  </ul>
-      
-    </li>
-  
-  </ul>
+  <li class="toctree-l1 ">
+    <a class="" href="../addcamerastreams/">Add Multiple Live Stream Cameras</a>
     
   </li>
 
@@ -458,7 +449,7 @@
         
       
     
-    <li>Add Multiple Live Stream Cameras</li>
+    <li>Add Language</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -469,51 +460,115 @@
             <div class="section">
               
                 <h1 id="introduction">Introduction</h1>
-<p>If you will be broadcasting your live event using multiple 360 cameras, you can set up additional camera streams using our <em>+ New Camera</em> option.</p>
+<p>The Add Language (<strong>+ Language</strong>) function allows you to add one or more instances of language metadata into a single video or live event profile.</p>
 <ul>
-<li>The main stream event you specified on the <em>New Event</em> upload page will typically represent your live event master shot.</li>
-<li>Additional cameras generally cover various angles of close-ups of your live event subject matter.</li>
-<li>You can also set up additional cameras to pan and zoom live event action.</li>
-<li>During the live event, you then use your switcher to go back to the main stream event when an event pauses, if you need to make adjustments (i.e., audio, camera focus, shot width adjustment, etc.)</li>
+<li>
+<p>You select a Language Culture Name (e.g., en-US) and add your localized description metadata.</p>
+</li>
+<li>
+<p>Your mobile device application will then be configured to call a designated language instance and will present the localized copy on the app for the specific media item.  </p>
+</li>
+<li>
+<p>For example, if primary language of your mobile device application is Chinese, you would select + Language, select the zh-CN Language Culture Name, and enter the localized content.</p>
+</li>
+<li>
+<p>This approach allows you to define a single video or live event, and localize the display content in your custom app.</p>
+</li>
 </ul>
-<h2 id="add-multiple-cameras">Add Multiple Cameras</h2>
+<h2 id="add-language-video"><a id="add-language-video"></a>Add Language (Video)</h2>
 <ol>
-<li>After you have completed and saved your live event profile on the <em>Edit</em> page, select the <em>Cameras</em> tab.</li>
-<li>Select <strong>+ New Camera</strong>. The <em>Add New Camera Stream</em> pop-up displays.</li>
-<li>Enter the information presented in the table below.   </li>
-<li>Select <strong>Add</strong> to commit your changes and add the camera instance. The camera is added to the sequence. Summary information includes Display Order, Name, Description, Projection, and Active (i.e., indicates whether the live stream is active within stated broadcast date/time).</li>
-<li>Repeat this process for each new camera instance.</li>
+<li>Go to <em>Organization &gt; Property &gt; Collection &gt; Video</em>.</li>
+<li>Select <em>Edit</em> tab.</li>
+<li>Go to <em>Languages</em> section and select + Language.</li>
+<li>Select a Language Culture Name from the drop-down. Review the supported languages in the table below.</li>
+<li>Enter Title, Headline, Description, and Tags.</li>
+<li>After completing your entries, select <strong>Save</strong>. The new language version will be listed on the <em>Edit</em> page.</li>
 </ol>
 <table>
 <thead>
 <tr>
-<th align="left">Name</th>
+<th align="left">Type</th>
 <th align="left">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Camera Name</td>
-<td align="left">Specify a unique camera name (e.g., main stream, camera angle, etc.). This is a required field.</td>
+<td align="left">en-US</td>
+<td align="left">English - United States</td>
 </tr>
 <tr>
-<td align="left">Description</td>
-<td align="left">Use to specify a camera label that uniquely identifies the stream, angle, device support, and unique characteristics.</td>
+<td align="left">en-GB</td>
+<td align="left">English - United Kingdom</td>
 </tr>
 <tr>
-<td align="left">Origin URL</td>
-<td align="left">Represents the publishing point URL where the live stream is originally hosted.</td>
+<td align="left">zh-TW</td>
+<td align="left">Chinese - Taiwan</td>
 </tr>
 <tr>
-<td align="left">Projection</td>
-<td align="left">Indicates whether camera projection is Spherical or Flat.</td>
+<td align="left">zh-CN</td>
+<td align="left">Chinese - China</td>
 </tr>
 <tr>
-<td align="left">Display Order</td>
-<td align="left">Indicate the order the camera will be displayed on the <em>Cameras Summary</em>.</td>
+<td align="left">fr</td>
+<td align="left">French (all regions)</td>
+</tr>
+<tr>
+<td align="left">de</td>
+<td align="left">Germany (all regions)</td>
 </tr>
 </tbody>
 </table>
+<h2 id="add-language-live-event"><a id="add-language-stream"></a>Add Language (Live Event)</h2>
+<ol>
+<li>Go to <em>Organization &gt; Property &gt; Collection &gt; Stream</em>.</li>
+<li>Select <em>Edit</em> tab.</li>
+<li>Go to <em>Languages</em> section and select + Language.</li>
+<li>Select a Language Culture Name from the drop-down. Review the supported languages in the table below.</li>
+<li>Enter Stream Title, Pre Stream Message, Post Stream Message, Description, and Tags.</li>
+<li>After completing your entries, select <strong>Save</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">Type</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">en-US</td>
+<td align="left">English - United States</td>
+</tr>
+<tr>
+<td align="left">en-GB</td>
+<td align="left">English - United Kingdom</td>
+</tr>
+<tr>
+<td align="left">zh-TW</td>
+<td align="left">Chinese - Taiwan</td>
+</tr>
+<tr>
+<td align="left">zh-CN</td>
+<td align="left">Chinese - China</td>
+</tr>
+<tr>
+<td align="left">fr</td>
+<td align="left">French (all regions)</td>
+</tr>
+<tr>
+<td align="left">de</td>
+<td align="left">Germany (all regions)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="delete-language"><a id="delete-language"></a>Delete Language</h2>
+<ol>
+<li>Go to <em>Organization &gt; Property &gt; Collection &gt; Stream</em> or <em>Organization &gt; Property &gt; Collection &gt; Video</em></li>
+<li>Select <em>Edit</em> tab.</li>
+<li>Go to <em>Languages</em> section.</li>
+<li>In the language section you would like to delete, select <strong>Delete Language</strong>.</li>
+<li>After completing your entries, select <strong>Save</strong>.</li>
+</ol>
               
             </div>
           </div>
@@ -521,10 +576,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../apppublishrequirements/" class="btn btn-neutral float-right" title="Application Publishing Requirements">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../addcamerastreams/" class="btn btn-neutral float-right" title="Add Multiple Live Stream Cameras">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../addlanguage/" class="btn btn-neutral" title="Add Language"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../publishliveevent/" class="btn btn-neutral" title="Publish Live Event"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -550,10 +605,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../addlanguage/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../publishliveevent/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../apppublishrequirements/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../addcamerastreams/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

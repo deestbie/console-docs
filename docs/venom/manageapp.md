@@ -1,5 +1,3 @@
 ## Introduction
 
-This topic provides guidelines for performing updates to an application instance. 
-
-Coming soon...
+This topic provides guidelines for performing updates to an application instance.

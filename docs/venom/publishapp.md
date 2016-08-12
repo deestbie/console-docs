@@ -4,7 +4,7 @@ This topic provides information about Content Console application publishing pro
 
 ## Step 1: Review Application Requirements
 
-Coming soon...
+See [Application Publish Requirements](apppublishrequirements.md) for details. 
 
 ## Step 2: Add Application to Content Console
 

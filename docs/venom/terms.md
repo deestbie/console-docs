@@ -141,7 +141,7 @@ These goals will in turn require you to define where you want to post your video
 
 The *Video > Edit* page includes a *Video Formats* section that allows you to upload multiple formats of the same video for a single video profile. You can then label each video, designate the website or mobile device application (and platform) the video is associated with, and post the format-specific URL to these websites and applications.
 
-See [Media Publishing Requirements](mediapublishrequirements.md) for a list of supported video formats. See go to [Add Video Formats](addvideoformats.md) for instruction on how to add a new video format. 
+See [Media Publishing Requirements](mediapublishrequirements.md) for a list of supported video formats. See go to [Add Video Formats](addvideoformats.md) for instruction on how to add a new video format.
 
 #### <a id="http-live-streaming"></a>HLS (HTTP Live Streaming)
 
@@ -158,10 +158,7 @@ The player supports the following HTTP Live Stream specification. The Live Media
 
 Real Time Streaming Protocol (RTSP). A network control protocol used to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points.
 
-#### H.264 Stream URL
-
-
-
+<!--#### H.264 Stream URL-->
 #### <a id="bundle-id"></a>Bundle ID
 
 Field used to specify the application Bundle ID (iOS) or Package Name (Android). This ID is a unique identifier for the application asset bundle that includes branding art and stylesheet information for the app (e.g. com.<appname>.<companyname>). The Bundle ID is automatically created when an app is initially defined. The same Bundle ID must be used for when app updates are issued.  

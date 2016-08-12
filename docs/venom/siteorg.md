@@ -2,7 +2,7 @@
 
 The Content Console is organized into following sections:
 
-## <a id="console-header"></a>Content Console Header
+### <a id="console-header"></a>Content Console Header
 
 Provides a set of common tools that are accessible on any Content Console site page:
 
@@ -14,7 +14,7 @@ Provides a set of common tools that are accessible on any Content Console site p
 | User Icon      | Allows you to switch from the main IM360 site page to the Content Console and provide Login/Logout options.    |
 
 
-## <a id="org-home-dashboard"></a>Organization Home > Dashboard
+### <a id="org-home-dashboard"></a>Organization Home > Dashboard
 
 Provides a top-view of assets and analytic data associated with your account including:
 
@@ -29,7 +29,7 @@ Provides a top-view of assets and analytic data associated with your account inc
 | View Report      | Allows you to view analytical reports about app usage. |
 
 
-## <a id="org-home-apps"></a>Organization Home > Apps
+### <a id="org-home-apps"></a>Organization Home > Apps
 
 Provides a top-view of application instances added to the Content Console including publishing and platform information.
 
@@ -43,7 +43,7 @@ Provides a top-view of application instances added to the Content Console includ
 | Token     | Indicates if a Token Id and Token Secret have been assigned to the app (Yes / No). |  
 | Filter      | A drop-down that allows you to filter the app by platform (iOS, Android, Gear VR, Oculus Rift, HTC Vive, Playstation VR, or Daydream).   |
 
-## <a id="app-profile"></a>Organization Home > Apps > Profile
+### <a id="app-profile"></a>Organization Home > Apps > Profile
 
 Provides definition details of the currently selected app.
 
@@ -64,7 +64,7 @@ Provides definition details of the currently selected app.
 | Token Id       | Token that is used to verify the identity of user signed-in to an app. This field is non-editable. |
 | Token Secret       | The token shared secret is updated if app security is compromised. This can only be updated by Client Services.  |
 
-## <a id="home-users"></a>Home > Users
+### <a id="home-users"></a>Home > Users
 
 Provides a summary of users defined in the current organization.
 
@@ -75,7 +75,7 @@ Provides a summary of users defined in the current organization.
 | Join Date   | Displays the member join date and time. |
 | +New Member    | Launches the Add New Organization Member popup. |
 
-## <a id="usershome-dashboard-property"></a>Home > UsersHome > Dashboard > Property
+### <a id="usershome-dashboard-property"></a>Home > UsersHome > Dashboard > Property
 
 | Property Summary            | Description |
 |:----------------|:--------------------------------------|
@@ -85,7 +85,7 @@ Provides a summary of users defined in the current organization.
 | View Collection     | Allows you to select a collection name to drill-down to a detailed view of videos added to each collection. |    
 | Add Collection      | Allows you to add a collection (**+ Collection**).  |
 
-## <a id="home-dashboard-property-collection"></a>Home > Dashboard > Property > Collection
+### <a id="home-dashboard-property-collection"></a>Home > Dashboard > Property > Collection
 
 | Collection Summary          | Description |
 |:----------------|:--------------------------------------|

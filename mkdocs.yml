@@ -22,11 +22,13 @@ pages:
   - Media Publishing Options: venom\mediapublishingoptions.md
   - Publish Hosted Video: venom\publishhostedvideo.md
   - Add Video Formats: venom\addvideoformats.md
+  - Add Language: venom\addlanguage.md
   - Publish External Video: venom\publishexternalvideo.md
   - Manage Video: venom\managevideo.md
   - Technical FAQ (Video): venom\techfaqvideo.md
 - PUBLISH LIVE EVENTS:
   - Publish Live Event: venom\publishliveevent.md
+  - Add Language: venom\addlanguage.md
   - Add Multiple Live Stream Cameras: venom\addcamerastreams.md
 - APPLICATION PUBLISHING PREREQUISITES:
   - Application Publishing Requirements: venom\apppublishrequirements.md

@@ -145,7 +145,7 @@ If your 360 video includes a blind spot and you adjusted it in post-production b
 
 **To configure blind spot:**
 
-1. Go to **Blindspot**, select from the drop-down based on the following scenarios:
+1. Go to **Blindspot**, select an option based on the following scenarios:
 
 | If Projection =             | Setting   |
 |:-----------------|:-------------------------------------|
@@ -190,15 +190,10 @@ The following table shows page options and permission state:
 You can test the hosted VoD video to verify that it's running properly using the **Check Video** option. The following list briefly summarizes what happens during the hosted video check:
 
 * Verify that the VoD MP4 file exists.
-
 * Verify that the VoD content type is valid (e.g., application/octet-stream).
-
 * Verify that the URL content-length matches video size.
-
 * Verify that Access-Control-Allow-Origin header is valid.
-
 * If the VoD is not accessible or raises errors, you will immediately receive a source error message.
-
 * If the hosted video is successfully verified you will receive a confirmation message.
 
 **To test hosted video:**
@@ -224,7 +219,8 @@ Supported key art size specifications include:
 
 **To upload key art:**
 
-1. Select **Upload Keyart**, select a file to upload based on the image requirements, then **Close**. The file will be uploaded when the video profile is saved.
+1. Select **Upload Key Art**.
+2. Select a file to upload based on the image requirements, then **Close**. The file will be uploaded when the video profile is saved.
 
 ## Step 14: Add Video Format
 
