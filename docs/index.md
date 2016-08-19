@@ -52,9 +52,11 @@ Let's get started!
 
 * [Publish Live Event](venom\publishliveevent.md) - Learn how to publish a live event composed of one or more live streams using a step-by-step tutorial.
 
-* [Add Language](venom\addlanguage.md#add-language-stream) - Learn how to add multiple language metadata entries to a single live event media profile. 
+* [Add Language](venom\addlanguage.md#add-language-stream) - Learn how to add multiple language metadata entries to a single live event media profile.
 
 * [Add Multiple Live Stream Cameras](venom\addcamerastreams.md) - Learn how to add multiple live stream cameras and change the camera sequence.
+
+* [Manage Live Events](venom\manageliveevent.md) - Learn how to manage (i.e., edit/update) a live event that is currently defined in a collection.
 
 ##### [Application Publication Requirements](venom\apppublishrequirements.md)
 

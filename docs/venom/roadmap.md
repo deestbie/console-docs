@@ -41,6 +41,50 @@ The Content Console *Roadmap* provides a quick reference to all help topics.
 | [Publish Live Event](publishliveevent.md) |  Admin, Content Manager |
 | [Video Technical FAQ](techfaqvideo.md) |  All Users |
 
+
+<!--### Manage Video / Video on Demand (VoD)   
+
+| What task do you want to perform?    |  Who can perform this task? |
+|:-----------------|:-------------------------------------|
+| [View Video Details](managevideo.md#view-video-profile) |  All / CMS Help  |
+| [Re-Upload Video](xxx.md) |  All / CMS Help  |
+| Copy Embed Code](xxx.md) |  All / CMS Help  |
+| [Download Video](xxx.md) |  All / CMS Help  |
+| Test Hosted Video](xxx.md) |  All / CMS Help  |
+| [Test Live Stream](xxx.md) |  All / CMS Help  |
+| [Upload / Refresh Key Art](managevideo.md#refresh-key-art) |  All / CMS Help  |
+| [Reassign Property or Collection](xxx.md) |  All / CMS Help  |
+| [Update Visibility Settings](xxx.md) |  All / CMS Help  |
+| [Enable/Disable Video ](xxx.md) |  All / CMS Help  |
+| [Add Language](xxx.md) |  All / CMS Help  |
+| [Delete Language](xxx.md) |  All / CMS Help  |
+| [Update Metadata](xxx.md) |  All / CMS Help  |
+| [Add New Format](xxx.md) |  All / CMS Help  |
+| [Change Projection](xxx.md) |  All / CMS Help  |
+| [Change Blind Spot](xxx.md) |  All / CMS Help  |
+| [Save Profile](xxx.md) |  All / CMS Help  |
+
+### Manage Video / Live Event   
+
+| What task do you want to perform?    |  Who can perform this task? |
+|:-----------------|:-------------------------------------|
+| [Re-Upload Video](xxx.md) |  All / CMS Help  |
+| Copy Embed Code](xxx.md) |  All / CMS Help  |
+| [Download Video](xxx.md) |  All / CMS Help  |
+| Test Hosted Video](xxx.md) |  All / CMS Help  |
+| [Test Live Stream](xxx.md) |  All / CMS Help  |
+| [Upload / Refresh Key Art](xxx.md) |  All / CMS Help  |
+| [Reassign Property or Collection](xxx.md) |  All / CMS Help  |
+| [Update Visibility Settings](xxx.md) |  All / CMS Help  |
+| [Enable/Disable Video ](xxx.md) |  All / CMS Help  |
+| [Add Language](xxx.md) |  All / CMS Help  |
+| [Delete Language](xxx.md) |  All / CMS Help  |
+| [Update Metadata](xxx.md) |  All / CMS Help  |
+| [Add New Format](xxx.md) |  All / CMS Help  |
+| [Change Projection](xxx.md) |  All / CMS Help  |
+| [Change Blind Spot](xxx.md) |  All / CMS Help  |
+| [Save Profile](xxx.md) |  All / CMS Help  |-->
+
 ### Publish Application
 
 | What task do you want to perform?    |  Who can perform this task? |

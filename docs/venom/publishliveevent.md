@@ -122,7 +122,7 @@ The date and time you set your live event to broadcast is based on many factors.
 **To set video start time and duration:**
 
 1. Go to **Settings > Start Time**.
-3. Select the down arrow to load the calendar popup, then set the date and time the live event will broadcast.
+2. Select the down arrow to load the calendar popup, then set the date and time the live event will broadcast.
 3. In **Duration (In Minutes)** specify a number that indicates estimated maximum live event play time in minutes (e.g., 60 for 60 minutes).
 
 ## Step 7: Specify Additional Stream URLs (Optional)

@@ -8,7 +8,7 @@ If you have all the digital assets available and complete the prerequisite steps
 * Testing
 * Adding additional live stream cameras
 
-## Can I download multiple videos at one time?
+### Can I download multiple videos at one time?
 
 The current upload process is one step in the overall video profile creation process. Batch uploading of videos is currently not supported.  
 
@@ -27,7 +27,7 @@ Meridian Outpost has an easy to use calculator:
 
 * [Sample Download Estimator](http://www.meridianoutpost.com/resources/etools/calculators/calculator-file-download-time.php "Download Estimator")
 
-##### Where are my digital assets stored?
+### Where are my digital assets stored?
 
 In case of an outage, Content Console digital assets and the associated network infrastructure are stored on multiple offsite disparate locations to ensure continuity of service.
 

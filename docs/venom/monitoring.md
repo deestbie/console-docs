@@ -2,7 +2,7 @@
 
 This topic provides information on the Content Console's data monitoring capabilities.
 
-## Data Collection Areas
+### Data Collection Areas
 
 The Content Console compiles monitoring data related to live and on demand video streams. Data is collected for external video usage and internally for console artifacts.
 
@@ -33,7 +33,7 @@ Usage monitoring is performed for Content Console Artifacts and tracks the actua
 | Visibility  | Organization Administrators and Publishers |
 | Performance Tracking  | Views, Videos, Streams, Apps, Members, Properties, Collections |
 
-## Data Collection Process
+### Data Collection Process
 
 * Data to be captured is defined in a business definition.
 * Based on this definition raw data for Video on Demand (VoD) and live stream activity is collected.
@@ -42,7 +42,7 @@ Usage monitoring is performed for Content Console Artifacts and tracks the actua
 * Data presentation is segregated based on collection point (i.e., external or internal).
 * Collected data is then presented in a series of data tables on the Dashboard, Property, and Collection pages.
 
-## Analytic Reports
+### Analytic Reports
 
 The following analytics reports are provided:
 
@@ -67,7 +67,7 @@ The following analytics reports are provided:
 | Total Views     | Total number of times a published video or live stream video that started playing.    | Web, Android, iOS |
 
 
-## Viewing a Report
+### Viewing a Report
 
 * Video usage reports are auto-generated the end of each daily cycle and saved to an HTML Reports page.
 * To view a report select **View Report** in the blue information box on Dashboard, Property, and Collection pages.
@@ -76,16 +76,16 @@ The following illustration shows a example of an analytics report:
 
  ![Monitoring](images\analytics_example.jpg "Example Analytics Report")
 
-## View Reports > Organization Dashboard
+### View Reports > Organization Dashboard
 
 ![Org](images\org_viewreport.jpg "View Organization Report")
 
-## View Reports > Property
+### View Reports > Property
 
 ![Property](images\property_viewreport.jpg "View Property Report")
 
-## View Reports > Collection
+### View Reports > Collection
 
 ![Collection](images\collection_viewreport.jpg "View Collection Report")
 
-## Monitoring Reports
+### Monitoring Reports

@@ -299,7 +299,17 @@
         <ul>
   
     <li class="toctree-l4">
-      <a href="#add-multiple-cameras">Add Multiple Cameras</a>
+      <a href="#add-camera-instance">Add Camera Instance</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#update-camera-instance">Update Camera Instance</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#view-camera-instances">View Camera Instances</a>
       
     </li>
   
@@ -308,6 +318,15 @@
     </li>
   
   </ul>
+    
+  </li>
+
+    
+      
+
+
+  <li class="toctree-l1 ">
+    <a class="" href="../manageliveevent/">Manage Live Event</a>
     
   </li>
 
@@ -476,12 +495,15 @@
 <li>You can also set up additional cameras to pan and zoom live event action.</li>
 <li>During the live event, you then use your switcher to go back to the main stream event when an event pauses, if you need to make adjustments (i.e., audio, camera focus, shot width adjustment, etc.)</li>
 </ul>
-<h2 id="add-multiple-cameras">Add Multiple Cameras</h2>
+<h2 id="add-camera-instance">Add Camera Instance<a id="add-camera-instance"></a></h2>
 <ol>
-<li>After you have completed and saved your live event profile on the <em>Edit</em> page, select the <em>Cameras</em> tab.</li>
+<li>Go to <em>Organization Name &gt; Property &gt; Collection</em>.</li>
+<li>Select a live stream (i.e., HLS). The <em>Stream Details</em> page displays.</li>
+<li>Select the <em>Edit</em> tab.</li>
 <li>Select <strong>+ New Camera</strong>. The <em>Add New Camera Stream</em> pop-up displays.</li>
 <li>Enter the information presented in the table below.   </li>
 <li>Select <strong>Add</strong> to commit your changes and add the camera instance. The camera is added to the sequence. Summary information includes Display Order, Name, Description, Projection, and Active (i.e., indicates whether the live stream is active within stated broadcast date/time).</li>
+<li>To commit your changes, <strong>Save</strong>. Your camera instances can be viewed in the <em>Cameras</em> section on the <em>Stream Details</em> page.</li>
 <li>Repeat this process for each new camera instance.</li>
 </ol>
 <table>
@@ -509,11 +531,74 @@
 <td align="left">Indicates whether camera projection is Spherical or Flat.</td>
 </tr>
 <tr>
+<td align="left">Blindspot</td>
+<td align="left">Represents the position where the camera rig is supported and the tripod point is either left out of the video or the images are pinched together to eliminate the hole. Select Top, Bottom, or None.</td>
+</tr>
+<tr>
 <td align="left">Display Order</td>
 <td align="left">Indicate the order the camera will be displayed on the <em>Cameras Summary</em>.</td>
 </tr>
+<tr>
+<td align="left">Active</td>
+<td align="left">A Yes/No toggle that indicates whether camera will display on the HTML5 player as a selectable option.</td>
+</tr>
 </tbody>
 </table>
+<h2 id="update-camera-instance">Update Camera Instance<a id="update-camera-instance"></a></h2>
+<ol>
+<li>Go to <em>Organization Name &gt; Property &gt; Collection</em>.</li>
+<li>Select a live stream (i.e., HLS). The <em>Stream Details</em> page displays.</li>
+<li>In the <em>Cameras</em> section, select a hyperlinked camera name. Select the <em>Edit</em> tab.</li>
+<li>Select <strong>+ New Camera</strong>. The <em>Update Stream Camera</em> pop-up displays.</li>
+<li>Update the information presented in the table below.   </li>
+<li>Select <strong>Update</strong> to commit your changes.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Camera Name</td>
+<td align="left">Specify a unique camera name (e.g., main stream, camera angle, etc.). This is a required field.</td>
+</tr>
+<tr>
+<td align="left">Description</td>
+<td align="left">Use to specify a camera label that uniquely identifies the stream, angle, device support, and unique characteristics.</td>
+</tr>
+<tr>
+<td align="left">Origin URL</td>
+<td align="left">Represents the publishing point URL where the live stream is originally hosted.</td>
+</tr>
+<tr>
+<td align="left">Projection</td>
+<td align="left">Indicates whether camera projection is Spherical or Flat.</td>
+</tr>
+<tr>
+<td align="left">Blindspot</td>
+<td align="left">Represents the position where the camera rig is supported and the tripod point is either left out of the video or the images are pinched together to eliminate the hole. Select Top, Bottom, or None.</td>
+</tr>
+<tr>
+<td align="left">Display Order</td>
+<td align="left">Indicate the order the camera will be displayed on the <em>Cameras Summary</em>.</td>
+</tr>
+<tr>
+<td align="left">Active</td>
+<td align="left">A Yes/No toggle that indicates whether camera will display on the HTML5 player as a selectable option.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="view-camera-instances">View Camera Instances<a id="view-camera-instances"></a></h2>
+<p>A listing of cameras associated with the current live event media profile can be viewed on the <em>Stream Details</em> page in the <em>Cameras</em> section.</p>
+<ul>
+<li>The <em>main</em> camera is defined on the <em>Edit</em> page and can be updated there.</li>
+<li>Additional cameras are added using the <strong>+ Camera</strong> option on the <em>Edit</em> page.</li>
+<li>Additional cameras can be updated by selecting the hyperlinked camera name and updating the configuration.</li>
+<li>You can change the display sequence of cameras in your listing using this update option. When you do this, the sequence of selectable camera buttons on the HTML5 player will update based on the new camera order.  </li>
+</ul>
               
             </div>
           </div>
@@ -521,7 +606,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../apppublishrequirements/" class="btn btn-neutral float-right" title="Application Publishing Requirements">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../manageliveevent/" class="btn btn-neutral float-right" title="Manage Live Event">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../addlanguage/" class="btn btn-neutral" title="Add Language"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -553,7 +638,7 @@
         <span><a href="../addlanguage/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../apppublishrequirements/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../manageliveevent/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

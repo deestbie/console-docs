@@ -30,6 +30,7 @@ pages:
   - Publish Live Event: venom\publishliveevent.md
   - Add Language: venom\addlanguage.md
   - Add Multiple Live Stream Cameras: venom\addcamerastreams.md
+  - Manage Live Event: venom\manageliveevent.md
 - APPLICATION PUBLISHING PREREQUISITES:
   - Application Publishing Requirements: venom\apppublishrequirements.md
 - PUBLISH APPLICATIONS:
