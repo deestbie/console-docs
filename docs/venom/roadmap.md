@@ -1,6 +1,6 @@
 # Roadmap
 
-The Content Console *Roadmap* provides a quick reference to all help topics.
+The Content Console *Roadmap* provides a categorized quick reference to all help topics.
 
 ### Account Management
 
@@ -42,48 +42,44 @@ The Content Console *Roadmap* provides a quick reference to all help topics.
 | [Video Technical FAQ](techfaqvideo.md) |  All Users |
 
 
-<!--### Manage Video / Video on Demand (VoD)   
+### Manage Video / Video on Demand (VoD)   
 
 | What task do you want to perform?    |  Who can perform this task? |
 |:-----------------|:-------------------------------------|
 | [View Video Details](managevideo.md#view-video-profile) |  All / CMS Help  |
-| [Re-Upload Video](xxx.md) |  All / CMS Help  |
-| Copy Embed Code](xxx.md) |  All / CMS Help  |
-| [Download Video](xxx.md) |  All / CMS Help  |
-| Test Hosted Video](xxx.md) |  All / CMS Help  |
-| [Test Live Stream](xxx.md) |  All / CMS Help  |
+| [Re-Upload Video](managevideo.md#reupload-video) |  All / CMS Help  |
+| [Copy Embed Code](managevideo.md#embed-code-video) |  All / CMS Help  |
+| [Download Video](managevideo.md#download-video) |  All / CMS Help  |
+| [Test Hosted Video](managevideo.md#test-hosted-video) |  All / CMS Help  |
 | [Upload / Refresh Key Art](managevideo.md#refresh-key-art) |  All / CMS Help  |
-| [Reassign Property or Collection](xxx.md) |  All / CMS Help  |
-| [Update Visibility Settings](xxx.md) |  All / CMS Help  |
-| [Enable/Disable Video ](xxx.md) |  All / CMS Help  |
-| [Add Language](xxx.md) |  All / CMS Help  |
-| [Delete Language](xxx.md) |  All / CMS Help  |
-| [Update Metadata](xxx.md) |  All / CMS Help  |
-| [Add New Format](xxx.md) |  All / CMS Help  |
-| [Change Projection](xxx.md) |  All / CMS Help  |
-| [Change Blind Spot](xxx.md) |  All / CMS Help  |
-| [Save Profile](xxx.md) |  All / CMS Help  |
+| [Reassign Property or Collection](managevideo.md#change-property-collection-video) |  All / CMS Help  |
+| [Update Visibility Settings](managevideo.md#update-visibility-video) |  All / CMS Help  |
+| [Enable/Disable Video Download ](managevideo.md#enable-disable-downloads-video) |  All / CMS Help  |
+| [Enable/Disable Video Sharing ](managevideo.md#enable-disable-video-sharing) |  All / CMS Help  |
+| [Add Language](managevideo.md#add-language-video) |  All / CMS Help  |
+| [Delete Language](managevideo.md#delete-language-video) |  All / CMS Help  |
+| [Update Metadata](managevideo.md#update-metadata-video) |  All / CMS Help  |
+| [Add Video Format](addvideoformats.md) |  All / CMS Help  |
+| [Change Projection](managevideo.md#change-projection-video) |  All / CMS Help  |
+| [Change Blind Spot](managevideo.md#change-blindspot-video) |  All / CMS Help  |
+| [Save Profile](managevideo.md#save-media-profile-video) |  All / CMS Help  |
 
 ### Manage Video / Live Event   
 
 | What task do you want to perform?    |  Who can perform this task? |
 |:-----------------|:-------------------------------------|
-| [Re-Upload Video](xxx.md) |  All / CMS Help  |
-| Copy Embed Code](xxx.md) |  All / CMS Help  |
-| [Download Video](xxx.md) |  All / CMS Help  |
-| Test Hosted Video](xxx.md) |  All / CMS Help  |
-| [Test Live Stream](xxx.md) |  All / CMS Help  |
-| [Upload / Refresh Key Art](xxx.md) |  All / CMS Help  |
-| [Reassign Property or Collection](xxx.md) |  All / CMS Help  |
-| [Update Visibility Settings](xxx.md) |  All / CMS Help  |
-| [Enable/Disable Video ](xxx.md) |  All / CMS Help  |
-| [Add Language](xxx.md) |  All / CMS Help  |
-| [Delete Language](xxx.md) |  All / CMS Help  |
-| [Update Metadata](xxx.md) |  All / CMS Help  |
-| [Add New Format](xxx.md) |  All / CMS Help  |
-| [Change Projection](xxx.md) |  All / CMS Help  |
-| [Change Blind Spot](xxx.md) |  All / CMS Help  |
-| [Save Profile](xxx.md) |  All / CMS Help  |-->
+| [Update Camera](manageliveevent.md#update-live-event-camera) |  All / CMS Help  |
+| [Copy Embed Code](manageliveevent.md#embed-code-live-event) |  All / CMS Help  |
+| [Test Live Stream](manageliveevent.md#test-live-stream) |  All / CMS Help  |
+| [Upload / Refresh Key Art](manageliveevent.md#refresh-key-art-live-event) |  All / CMS Help  |
+| [Reassign Property or Collection](manageliveevent.md#change-property-collection-live-event) |  All / CMS Help  |
+| [Update Visibility Settings](manageliveevent.md#update-visibility-live-event) |  All / CMS Help  |
+| [Add Language](manageliveevent.md#add-language-live-event) |  All / CMS Help  |
+| [Delete Language](manageliveevent.md#delete-language-live-event) |  All / CMS Help  |
+| [Update Metadata](manageliveeventmd.update-metadata-live-event) |  All / CMS Help  |
+| [Add Camera](addcamerastreams.md) |  All / CMS Help  |
+| [Change Blind Spot](manageliveevent.md#change-blindspot-live-event) |  All / CMS Help  |
+| [Save Profile](manageliveevent.md#save-media-profile-live-event) |  All / CMS Help  |
 
 ### Publish Application
 

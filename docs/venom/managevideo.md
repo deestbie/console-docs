@@ -182,7 +182,7 @@ The following topic illustrate how to delete a language in a video media profile
 
 See [Add Video Format](addvideoformats.md) for details on uploading a VoD file, or adding an External Video URL.
 
-### How do I change the projection of a media profile?<a id="change-projection-video"></a>
+### How do I change the projection of a video media profile?<a id="change-projection-video"></a>
 
 1. Go to *Organization Name > Property > Collection*.
 2. Select a video. The *Video Details* page displays.

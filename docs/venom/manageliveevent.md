@@ -37,7 +37,7 @@ The following table lists information that is displayed on the Stream Details pa
 | Share URL  | Update   |  [Update Stream URLs ](manageliveevent.md#update-stream-urls)        |
 | View Cameras  | View   | [View Camera Instances](..\venom\addcamerastreams.md#view-camera-instances)   |
 
-### How do update the *main* camera on a live event media profile?<a id="update-main-camera"></a>
+### How do update the *main* and *Additional* cameras on a live event media profile?<a id="update-live-event-camera"></a>
 
 For live events, you add a *main* camera when you create the initial media profile. Here's some background on how the process works:
 
@@ -60,6 +60,14 @@ For live events, you add a *main* camera when you create the initial media profi
 7. If the live stream runs successfully, change the *Status* to **Ready**.
 8. If your *main* camera is embedded on a website or social media network, go to *Stream Details*, **Copy Embed Code** for this camera and repost to the appropriate locations.
 9. If your *main* camera is on a mobile device app only, the URL is automatically updated after you **Save** the live event media profile.
+
+**To update an additional live event camera:**
+
+1. Go to *Organization Name > Property > Collection*.
+2. Select a live event. The *Stream Details* page displays.
+3. In the *Cameras* section, select a hyperlinked camera name.
+4. Perform updates as needed on Camera Name, Description, Origin URL, Projection, Blindspot, Display Order, and Active.
+5. Select **Update** to apply changes.
 
 ### How do I obtain embed code for live event?<a id="embed-code-live-event"></a>
 
@@ -139,19 +147,6 @@ A variety of scenarios may require you to change your visibility settings. For e
 4. In *Visibility*, select Private, Internal, or Public.
 6. After completing your selections, **Save**. The visibility of your live event be updated. Live events that are set to Internal or Private will be removed from any collections exposed in your applications. Embedded URL will present the live event as no longer available.
 
-### How do I enable or disable video sharing?<a id="enable-disable-video-sharing"></a>
-
-Based on your video distribution requirements, you can enable or disable the ability of a user to share a video on a social media site. The ability to offer videos to share is based on your specific video distribution requirements.
-
-**To enable/disable video sharing option:**
-
-1. Go to *Organization Name > Property > Collection*.
-2. Select a video or live stream. The *Video Details* or *Stream Details* page displays.
-3. Select the *Edit* tab.
-4. In *Allow Downloads*, select Yes or No.
-6. After completing your selection, **Save**.
-7. A list of sharable social networks will be visible in mobile device applications or websites where a video is embedded to allow downloading, and the Content Console *Video Details* page will indicate **Sharing Allowed** or **Sharing Not Allowed**.
-
 ### How do I add a language to a live event media profile?<a id="add-language-live-event"></a>
 
 The following topics illustrate how to add a language to a live event media profile:
@@ -175,7 +170,7 @@ The following topic illustrate how to delete a language in a live event media pr
 
 Each live event media profile includes a *Status* section that is used to manage the workflow cycle of your live event. The status applies to *All* cameras that are defined in the media profile as a group (i.e., main and additional cameras). The following status states are supported:
 
-*Note: All Status settings must be set manually in the current Console Console release.*
+*Note: All Status settings must be set manually in the current Content Console release.*
 
 | Live Event Status          | Description   |
 |:-----------------|:-------------------------------------|
@@ -218,6 +213,14 @@ After you create a live event profile, you can add or update the following optio
 4. In **Stream Start Time** select the down arrow to load the calendar popup, then set the date and time the live event will broadcast.
 5. In **Duration (In Minutes)** specify a number that indicates estimated maximum live event play time in minutes (e.g., 60 for 60 minutes).
 6. Perform an update and **Save**. The *Stream Details* page displays and presents your updated content.
+
+### How do I change the projection of a live event main camera?<a id="change-projection-live-event-main-camera"></a>
+
+1. Go to *Organization Name > Property > Collection*.
+2. Select a video. The *Stream Details* page displays.
+3. Select the *Edit* tab.
+4. In *Cameras > Projection*, select Spherical or Flat.
+5. Select **Save** to apply changes.
 
 ### How do I change the blindspot setting of a live event media profile?<a id="change-blindspot-live-event"></a>
 
