@@ -318,7 +318,7 @@
     </li>
   
     <li class="toctree-l4">
-      <a href="#how-do-update-the-main-camera-on-a-live-event-media-profile">How do update the main camera on a live event media profile?</a>
+      <a href="#how-do-update-the-main-and-additional-cameras-on-a-live-event-media-profile">How do update the main and Additional cameras on a live event media profile?</a>
       
     </li>
   
@@ -353,11 +353,6 @@
     </li>
   
     <li class="toctree-l4">
-      <a href="#how-do-i-enable-or-disable-video-sharing">How do I enable or disable video sharing?</a>
-      
-    </li>
-  
-    <li class="toctree-l4">
       <a href="#how-do-i-add-a-language-to-a-live-event-media-profile">How do I add a language to a live event media profile?</a>
       
     </li>
@@ -384,6 +379,11 @@
   
     <li class="toctree-l5">
       <a href="#how-do-i-change-the-stream-start-time-and-duration-for-a-live-event">How do I change the stream start time and duration for a live event?</a>
+      
+    </li>
+  
+    <li class="toctree-l5">
+      <a href="#how-do-i-change-the-projection-of-a-live-event-main-camera">How do I change the projection of a live event main camera?</a>
       
     </li>
   
@@ -682,7 +682,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="how-do-update-the-main-camera-on-a-live-event-media-profile">How do update the <em>main</em> camera on a live event media profile?<a id="update-main-camera"></a></h3>
+<h3 id="how-do-update-the-main-and-additional-cameras-on-a-live-event-media-profile">How do update the <em>main</em> and <em>Additional</em> cameras on a live event media profile?<a id="update-live-event-camera"></a></h3>
 <p>For live events, you add a <em>main</em> camera when you create the initial media profile. Here's some background on how the process works:</p>
 <ul>
 <li>The <em>main</em> camera always retains a display order of zero (0).</li>
@@ -704,6 +704,14 @@
 <li>If the live stream runs successfully, change the <em>Status</em> to <strong>Ready</strong>.</li>
 <li>If your <em>main</em> camera is embedded on a website or social media network, go to <em>Stream Details</em>, <strong>Copy Embed Code</strong> for this camera and repost to the appropriate locations.</li>
 <li>If your <em>main</em> camera is on a mobile device app only, the URL is automatically updated after you <strong>Save</strong> the live event media profile.</li>
+</ol>
+<p><strong>To update an additional live event camera:</strong></p>
+<ol>
+<li>Go to <em>Organization Name &gt; Property &gt; Collection</em>.</li>
+<li>Select a live event. The <em>Stream Details</em> page displays.</li>
+<li>In the <em>Cameras</em> section, select a hyperlinked camera name.</li>
+<li>Perform updates as needed on Camera Name, Description, Origin URL, Projection, Blindspot, Display Order, and Active.</li>
+<li>Select <strong>Update</strong> to apply changes.</li>
 </ol>
 <h3 id="how-do-i-obtain-embed-code-for-live-event">How do I obtain embed code for live event?<a id="embed-code-live-event"></a></h3>
 <p>The <em>Stream Details</em> pages include a <strong>Copy Embed Code</strong> option that allows you to live event cameras on external websites and social media sites. Example embed code looks similar to the following:</p>
@@ -777,17 +785,6 @@ draft-pantos-http-live-streaming-19</a>.</p>
 <li>In <em>Visibility</em>, select Private, Internal, or Public.</li>
 <li>After completing your selections, <strong>Save</strong>. The visibility of your live event be updated. Live events that are set to Internal or Private will be removed from any collections exposed in your applications. Embedded URL will present the live event as no longer available.</li>
 </ol>
-<h3 id="how-do-i-enable-or-disable-video-sharing">How do I enable or disable video sharing?<a id="enable-disable-video-sharing"></a></h3>
-<p>Based on your video distribution requirements, you can enable or disable the ability of a user to share a video on a social media site. The ability to offer videos to share is based on your specific video distribution requirements.</p>
-<p><strong>To enable/disable video sharing option:</strong></p>
-<ol>
-<li>Go to <em>Organization Name &gt; Property &gt; Collection</em>.</li>
-<li>Select a video or live stream. The <em>Video Details</em> or <em>Stream Details</em> page displays.</li>
-<li>Select the <em>Edit</em> tab.</li>
-<li>In <em>Allow Downloads</em>, select Yes or No.</li>
-<li>After completing your selection, <strong>Save</strong>.</li>
-<li>A list of sharable social networks will be visible in mobile device applications or websites where a video is embedded to allow downloading, and the Content Console <em>Video Details</em> page will indicate <strong>Sharing Allowed</strong> or <strong>Sharing Not Allowed</strong>.</li>
-</ol>
 <h3 id="how-do-i-add-a-language-to-a-live-event-media-profile">How do I add a language to a live event media profile?<a id="add-language-live-event"></a></h3>
 <p>The following topics illustrate how to add a language to a live event media profile:</p>
 <ul>
@@ -808,7 +805,7 @@ draft-pantos-http-live-streaming-19</a>.</p>
 </ol>
 <h3 id="how-do-i-update-the-status-of-a-live-event">How do I update the status of a live event?<a id="update-live-event-status"></a></h3>
 <p>Each live event media profile includes a <em>Status</em> section that is used to manage the workflow cycle of your live event. The status applies to <em>All</em> cameras that are defined in the media profile as a group (i.e., main and additional cameras). The following status states are supported:</p>
-<p><em>Note: All Status settings must be set manually in the current Console Console release.</em></p>
+<p><em>Note: All Status settings must be set manually in the current Content Console release.</em></p>
 <table>
 <thead>
 <tr>
@@ -882,6 +879,14 @@ draft-pantos-http-live-streaming-19</a>.</p>
 <li>In <strong>Stream Start Time</strong> select the down arrow to load the calendar popup, then set the date and time the live event will broadcast.</li>
 <li>In <strong>Duration (In Minutes)</strong> specify a number that indicates estimated maximum live event play time in minutes (e.g., 60 for 60 minutes).</li>
 <li>Perform an update and <strong>Save</strong>. The <em>Stream Details</em> page displays and presents your updated content.</li>
+</ol>
+<h3 id="how-do-i-change-the-projection-of-a-live-event-main-camera">How do I change the projection of a live event main camera?<a id="change-projection-live-event-main-camera"></a></h3>
+<ol>
+<li>Go to <em>Organization Name &gt; Property &gt; Collection</em>.</li>
+<li>Select a video. The <em>Stream Details</em> page displays.</li>
+<li>Select the <em>Edit</em> tab.</li>
+<li>In <em>Cameras &gt; Projection</em>, select Spherical or Flat.</li>
+<li>Select <strong>Save</strong> to apply changes.</li>
 </ol>
 <h3 id="how-do-i-change-the-blindspot-setting-of-a-live-event-media-profile">How do I change the blindspot setting of a live event media profile?<a id="change-blindspot-live-event"></a></h3>
 <p>Adding blindspot artwork to your live event in generally performed before you create a live event media profile. You may initially configure the position of the artwork for a specific camera position, and the blind spot position could change if for some reason your camera position changes. To update the blindspot position of a live event camera:</p>
