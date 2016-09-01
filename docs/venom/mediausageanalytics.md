@@ -4,7 +4,7 @@ This topic provides information on the Content Console's video usage analytics c
 
 ## Data Collection for Video Usage
 
-The Content Console compiles usage data for external Video on Demand (VoD) and Live Stream usage by mobile device applications, and websites where videos are embedded and viewed.
+The Content Console compiles usage data for Video on Demand (VoD) and Live Stream usage by mobile device applications, and websites where videos are embedded and viewed.
 
 Statistical data can help you determine audience size, number of unique visitors, peak traffic time, etc. and can be used to optimize your video outreach strategy.
 
@@ -14,10 +14,10 @@ Statistical data can help you determine audience size, number of unique visitors
 |:----------------|:--------------------------------------|
 | Collection Interval  | Daily |
 | Visibility  | Organization Administrators and Publishers |
-| Report Types  | HTML in Organization Home, Property, and Collection pages |
-| Performance Tracking  | Views, Page Loads, Session Time, Locality, Downloads |
+| Report Types  | HTML in Organization <!--- Home, Property, and Collection pages--->  |
+| Performance Tracking  | Views, Downloads, Total Session Time, Average Session Time, App Popularity, Locality, Top Videos, and Top Locations  |
 
-Note: **View Reports** link is available in the blue information box on Organization Dashboard, Properties, and Collection pages.
+Note: **View Reports** link is available in the blue information box on Organization Dashboard<!--, Properties, and Collection pages-->.
 
 ![Video Usage](images\blue_video_usage.jpg "View Reports")
 
@@ -32,48 +32,61 @@ Figure: Example of Dashboard Information Box
 * Data presentation is segregated based on collection point (i.e., external or internal).
 * Collected data is then presented in a series of data tables on the Dashboard, Property, and Collection pages.
 
+## Generate Analytics Reports
+
+1. Select **View Report** on the Organization Home page.
+2. On the *Analytics* page, select the **All Time** radio button to receive a report of all video activity for the current Organization.
+3. To scope your report to a specific date range, select the **Date Range** radio button, then use the calendar pop-up to **Select Start Date** and **Select End Date**.
+4. Select **Apply** to generate the report.
+
+## Export Analytics Report:
+
+After you generate an analytics report, you can export it to a Microsoft Excel .xlsx file. This file can then be imported into Third-Party reporting tools.
+
+1. Select Export Report.
+2. Select a location to save your report and enter a report name, then save.
+
 ## Analytic Reports
 
 The following analytics reports are provided:
 
-### User Activity Statistics by Date / Total
+### User Activity Statistics by Date Range / Total
 
 | Report Name | Description   | Platform  |
 |:----------------|:--------------------------------------|--------------------------|
-| Total Page Loads    | Total number of times a page containing a published video or live stream was accessed.  | Web, Android, iOS |
 | Total Views     | Total number of times a published video or live stream video that started playing.    | Web, Android, iOS |
-| Total Complete Plays   | Total number of times a page containing a published video or live stream was accessed and the video was played for its complete duration.  | Web, Android, iOS |
-| Unique Views     | Total number of unique viewers per Video on Demand (VoD) or Live Stream.     | Web, Android, iOS |
+| Unique Views     | Total number of unique viewers per Video on Demand (VoD) or Live Stream. For example, if the same view played the same video title five times in one day, that would equal one unique view.     | Web, Android, iOS |
+| Total Times Downloaded  | Total number of times Video on Demand (VoD) was downloaded  | Android, iOS |
 | Total Session Time  | Total time user spent on page containing a published video or live stream.  | Web, Android, iOS |
 | Average Session Time  | Average time user spent on page containing a published video or live stream.  | Web, Android, iOS |
-| Locality  | Total views segmented by geographic region (i.e., county, region, and city)  | Web, Android, iOS |
-| Total Times Downloaded  | Total number of times Video on Demand (VoD) was downloaded  | Android, iOS |
+| App Popularity  | Total percentage across Web, Android, and iOS platforms that a video or live event was viewed | Web, Android, iOS |
+| Countries (Locality) | Total views segmented by geographic region (i.e., county, region, and city)  | Web, Android, iOS |
 
-### Platform Activity Statistics by Date / Total
+### Download Summary and Geography Statistics
 
-| Report Name | Description   | Platform  |
+| Report Name | Description   
 |:----------------|:--------------------------------------|--------------------------|
-| Total Page Loads    | Total number of times a page containing a published video or live stream was accessed.  | Web, Android, iOS |
-| Total Views     | Total number of times a published video or live stream video that started playing.    | Web, Android, iOS |
-
+| Apps    | Displays the number of downloads for App, iOS, and Website platforms |
+| Top Videos     | Displays list of videos that have received the most views with number of unique views and downloads. Select **View More** / **View Less** to expand or collapse the list.  |
+| Top Locations     | Displays list of countries and cities where the most video viewing activity occurred. A count total is displayed at the top of the report, and each country / city is displayed with a unique video view count. Select **View More** / **View Less** to expand or collapse the list.  |
 
 ## Viewing a Report
 
 * Video usage reports are auto-generated the end of each daily cycle and saved to an HTML Reports page.
-* To view a report select **View Report** in the blue information box on Dashboard, Property, and Collection pages.
+* To view a report select **View Report** in the blue information box on Organization home page. <!---Property, and Collection pages.--->
 
-The following illustration shows a example of an analytics report:
+![Monitoring](images\analytics_org_view1.jpg "Content Console Analytics - Organization View (Top)")
+![Monitoring](images\analytics_org_view2.jpg "Content Console Analytics - Organization View (Bottom)")
 
- ![Monitoring](images\analytics_example.jpg "Example Analytics Report")
 
 ## View Reports > Organization Dashboard
 
 ![Org](images\org_viewreport.jpg "View Organization Report")
 
-## View Reports > Property
+<!---## View Reports > Property
 
 ![Property](images\property_viewreport.jpg "View Property Report")
 
 ## View Reports > Collection
 
-![Collection](images\collection_viewreport.jpg "View Collection Report")
+![Collection](images\collection_viewreport.jpg "View Collection Report")--->

@@ -189,3 +189,62 @@ The following example provides an example of an analytics report:
 | Duration    | Video play time.            | Read-only |
 | Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   | Read-only |
 | Distribution Apps | Displays a list of apps the current video is associated with | Read-only |
+
+
+The following table shows page options and permission state:
+
+| Option / Setting         | Description            | Permission  |
+|:-----------------|:-------------------------------------|------------|
+| Update Key Art | Image that will display on video player. Select **Upload Key Art**. | Update |
+| Check Video | Performs master video file check. | Update |
+| Source    | Location where the video is hosted on the Digital Domain server. | Read-only |
+| Visibility Settings  | Private, Internal, Public         | Update |
+| Allow Downloads    | Video download setting Yes/No       | Update |
+| Allow Sharing    | Video sharing setting Yes/No            | Update |
+| Category | Video Category. Select from dropdown. | Update |
+| Languages | Add new language and enter metadata. | Update |
+| Title    | Title that summarizes video subject.          | Edit  |
+| Headline    | Video headline caption.           | Edit |
+| Description    | Video description.   | Edit |
+| Tags    | Video description.   | Edit |
+
+| Projection    | Video projection setting Flat/Spherical        | Update |
+| Tags & Search Words    | List of search tags.        | Update |
+| Views    | Number of video views.            | Read-only |
+| Resolution    | Video resolution    | Read-only |
+| Uploaded    | Video upload time.        | Read-only |
+| File Size    | Video file size.        | Read-only |
+| Duration    | Video play time.            | Read-only |
+| Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   | Read-only |
+| Distribution Apps | Displays a list of apps the current video is associated with | Read-only |
+
+
+## Report Details
+
+| Features | Description   |
+|:----------------|:--------------------------------------|
+| Collection Interval  | Daily |
+| Visibility  | Organization Administrators and Publishers |
+| Report Types  | HTML in Organization <!--- Home, Property, and Collection pages--->  |
+| Performance Tracking  | Views, Page Loads, Session Time, Locality, Downloads |
+
+
+### User Activity Statistics by Date / Total
+
+| Report Name | Description   | Platform  |
+|:----------------|:--------------------------------------|--------------------------|
+| Total Page Loads    | Total number of times a page containing a published video or live stream was accessed.  | Web, Android, iOS |
+| Total Views     | Total number of times a published video or live stream video that started playing.    | Web, Android, iOS |
+| Total Complete Plays   | Total number of times a page containing a published video or live stream was accessed and the video was played for its complete duration.  | Web, Android, iOS |
+| Unique Views     | Total number of unique viewers per Video on Demand (VoD) or Live Stream.     | Web, Android, iOS |
+| Total Session Time  | Total time user spent on page containing a published video or live stream.  | Web, Android, iOS |
+| Average Session Time  | Average time user spent on page containing a published video or live stream.  | Web, Android, iOS |
+| Locality  | Total views segmented by geographic region (i.e., county, region, and city)  | Web, Android, iOS |
+| Total Times Downloaded  | Total number of times Video on Demand (VoD) was downloaded  | Android, iOS |
+
+### Platform Activity Statistics by Date / Total
+
+| Report Name | Description   | Platform  |
+|:----------------|:--------------------------------------|--------------------------|
+| Total Page Loads    | Total number of times a page containing a published video or live stream was accessed.  | Web, Android, iOS |
+| Total Views     | Total number of times a published video or live stream video that started playing.    | Web, Android, iOS |

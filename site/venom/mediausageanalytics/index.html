@@ -395,17 +395,27 @@
     </li>
   
     <li class="toctree-l4">
+      <a href="#generate-analytics-reports">Generate Analytics Reports</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
+      <a href="#export-analytics-report">Export Analytics Report:</a>
+      
+    </li>
+  
+    <li class="toctree-l4">
       <a href="#analytic-reports">Analytic Reports</a>
       
         <ul>
   
     <li class="toctree-l5">
-      <a href="#user-activity-statistics-by-date-total">User Activity Statistics by Date / Total</a>
+      <a href="#user-activity-statistics-by-date-range-total">User Activity Statistics by Date Range / Total</a>
       
     </li>
   
     <li class="toctree-l5">
-      <a href="#platform-activity-statistics-by-date-total">Platform Activity Statistics by Date / Total</a>
+      <a href="#download-summary-and-geography-statistics">Download Summary and Geography Statistics</a>
       
     </li>
   
@@ -420,16 +430,6 @@
   
     <li class="toctree-l4">
       <a href="#view-reports-organization-dashboard">View Reports &gt; Organization Dashboard</a>
-      
-    </li>
-  
-    <li class="toctree-l4">
-      <a href="#view-reports-property">View Reports &gt; Property</a>
-      
-    </li>
-  
-    <li class="toctree-l4">
-      <a href="#view-reports-collection">View Reports &gt; Collection</a>
       
     </li>
   
@@ -529,7 +529,7 @@
                 <h1 id="introduction">Introduction</h1>
 <p>This topic provides information on the Content Console's video usage analytics capabilities.</p>
 <h2 id="data-collection-for-video-usage">Data Collection for Video Usage</h2>
-<p>The Content Console compiles usage data for external Video on Demand (VoD) and Live Stream usage by mobile device applications, and websites where videos are embedded and viewed.</p>
+<p>The Content Console compiles usage data for Video on Demand (VoD) and Live Stream usage by mobile device applications, and websites where videos are embedded and viewed.</p>
 <p>Statistical data can help you determine audience size, number of unique visitors, peak traffic time, etc. and can be used to optimize your video outreach strategy.</p>
 <h2 id="report-details">Report Details</h2>
 <table>
@@ -550,15 +550,15 @@
 </tr>
 <tr>
 <td align="left">Report Types</td>
-<td align="left">HTML in Organization Home, Property, and Collection pages</td>
+<td align="left">HTML in Organization <!--- Home, Property, and Collection pages---></td>
 </tr>
 <tr>
 <td align="left">Performance Tracking</td>
-<td align="left">Views, Page Loads, Session Time, Locality, Downloads</td>
+<td align="left">Views, Downloads, Total Session Time, Average Session Time, App Popularity, Locality, Top Videos, and Top Locations</td>
 </tr>
 </tbody>
 </table>
-<p>Note: <strong>View Reports</strong> link is available in the blue information box on Organization Dashboard, Properties, and Collection pages.</p>
+<p>Note: <strong>View Reports</strong> link is available in the blue information box on Organization Dashboard<!--, Properties, and Collection pages-->.</p>
 <p><img alt="Video Usage" src="../images\blue_video_usage.jpg" title="View Reports" /></p>
 <p>Figure: Example of Dashboard Information Box</p>
 <h2 id="data-collection-process">Data Collection Process</h2>
@@ -570,9 +570,22 @@
 <li>Data presentation is segregated based on collection point (i.e., external or internal).</li>
 <li>Collected data is then presented in a series of data tables on the Dashboard, Property, and Collection pages.</li>
 </ul>
+<h2 id="generate-analytics-reports">Generate Analytics Reports</h2>
+<ol>
+<li>Select <strong>View Report</strong> on the Organization Home page.</li>
+<li>On the <em>Analytics</em> page, select the <strong>All Time</strong> radio button to receive a report of all video activity for the current Organization.</li>
+<li>To scope your report to a specific date range, select the <strong>Date Range</strong> radio button, then use the calendar pop-up to <strong>Select Start Date</strong> and <strong>Select End Date</strong>.</li>
+<li>Select <strong>Apply</strong> to generate the report.</li>
+</ol>
+<h2 id="export-analytics-report">Export Analytics Report:</h2>
+<p>After you generate an analytics report, you can export it to a Microsoft Excel .xlsx file. This file can then be imported into Third-Party reporting tools.</p>
+<ol>
+<li>Select Export Report.</li>
+<li>Select a location to save your report and enter a report name, then save.</li>
+</ol>
 <h2 id="analytic-reports">Analytic Reports</h2>
 <p>The following analytics reports are provided:</p>
-<h3 id="user-activity-statistics-by-date-total">User Activity Statistics by Date / Total</h3>
+<h3 id="user-activity-statistics-by-date-range-total">User Activity Statistics by Date Range / Total</h3>
 <table>
 <thead>
 <tr>
@@ -583,24 +596,19 @@
 </thead>
 <tbody>
 <tr>
-<td align="left">Total Page Loads</td>
-<td align="left">Total number of times a page containing a published video or live stream was accessed.</td>
-<td>Web, Android, iOS</td>
-</tr>
-<tr>
 <td align="left">Total Views</td>
 <td align="left">Total number of times a published video or live stream video that started playing.</td>
 <td>Web, Android, iOS</td>
 </tr>
 <tr>
-<td align="left">Total Complete Plays</td>
-<td align="left">Total number of times a page containing a published video or live stream was accessed and the video was played for its complete duration.</td>
+<td align="left">Unique Views</td>
+<td align="left">Total number of unique viewers per Video on Demand (VoD) or Live Stream. For example, if the same view played the same video title five times in one day, that would equal one unique view.</td>
 <td>Web, Android, iOS</td>
 </tr>
 <tr>
-<td align="left">Unique Views</td>
-<td align="left">Total number of unique viewers per Video on Demand (VoD) or Live Stream.</td>
-<td>Web, Android, iOS</td>
+<td align="left">Total Times Downloaded</td>
+<td align="left">Total number of times Video on Demand (VoD) was downloaded</td>
+<td>Android, iOS</td>
 </tr>
 <tr>
 <td align="left">Total Session Time</td>
@@ -613,52 +621,60 @@
 <td>Web, Android, iOS</td>
 </tr>
 <tr>
-<td align="left">Locality</td>
-<td align="left">Total views segmented by geographic region (i.e., county, region, and city)</td>
+<td align="left">App Popularity</td>
+<td align="left">Total percentage across Web, Android, and iOS platforms that a video or live event was viewed</td>
 <td>Web, Android, iOS</td>
 </tr>
 <tr>
-<td align="left">Total Times Downloaded</td>
-<td align="left">Total number of times Video on Demand (VoD) was downloaded</td>
-<td>Android, iOS</td>
+<td align="left">Countries (Locality)</td>
+<td align="left">Total views segmented by geographic region (i.e., county, region, and city)</td>
+<td>Web, Android, iOS</td>
 </tr>
 </tbody>
 </table>
-<h3 id="platform-activity-statistics-by-date-total">Platform Activity Statistics by Date / Total</h3>
+<h3 id="download-summary-and-geography-statistics">Download Summary and Geography Statistics</h3>
 <table>
 <thead>
 <tr>
 <th align="left">Report Name</th>
 <th align="left">Description</th>
-<th>Platform</th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Total Page Loads</td>
-<td align="left">Total number of times a page containing a published video or live stream was accessed.</td>
-<td>Web, Android, iOS</td>
+<td align="left">Apps</td>
+<td align="left">Displays the number of downloads for App, iOS, and Website platforms</td>
+<td></td>
 </tr>
 <tr>
-<td align="left">Total Views</td>
-<td align="left">Total number of times a published video or live stream video that started playing.</td>
-<td>Web, Android, iOS</td>
+<td align="left">Top Videos</td>
+<td align="left">Displays list of videos that have received the most views with number of unique views and downloads. Select <strong>View More</strong> / <strong>View Less</strong> to expand or collapse the list.</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">Top Locations</td>
+<td align="left">Displays list of countries and cities where the most video viewing activity occurred. A count total is displayed at the top of the report, and each country / city is displayed with a unique video view count. Select <strong>View More</strong> / <strong>View Less</strong> to expand or collapse the list.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <h2 id="viewing-a-report">Viewing a Report</h2>
 <ul>
 <li>Video usage reports are auto-generated the end of each daily cycle and saved to an HTML Reports page.</li>
-<li>To view a report select <strong>View Report</strong> in the blue information box on Dashboard, Property, and Collection pages.</li>
+<li>To view a report select <strong>View Report</strong> in the blue information box on Organization home page. <!---Property, and Collection pages.---></li>
 </ul>
-<p>The following illustration shows a example of an analytics report:</p>
-<p><img alt="Monitoring" src="../images\analytics_example.jpg" title="Example Analytics Report" /></p>
+<p><img alt="Monitoring" src="../images\analytics_org_view1.jpg" title="Content Console Analytics - Organization View (Top)" />
+<img alt="Monitoring" src="../images\analytics_org_view2.jpg" title="Content Console Analytics - Organization View (Bottom)" /></p>
 <h2 id="view-reports-organization-dashboard">View Reports &gt; Organization Dashboard</h2>
 <p><img alt="Org" src="../images\org_viewreport.jpg" title="View Organization Report" /></p>
-<h2 id="view-reports-property">View Reports &gt; Property</h2>
-<p><img alt="Property" src="../images\property_viewreport.jpg" title="View Property Report" /></p>
-<h2 id="view-reports-collection">View Reports &gt; Collection</h2>
-<p><img alt="Collection" src="../images\collection_viewreport.jpg" title="View Collection Report" /></p>
+<!---## View Reports > Property
+
+![Property](images\property_viewreport.jpg "View Property Report")
+
+## View Reports > Collection
+
+![Collection](images\collection_viewreport.jpg "View Collection Report")--->
               
             </div>
           </div>

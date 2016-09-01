@@ -14,7 +14,7 @@ The Add Language (**+ Language**) function allows you to add one or more instanc
 
 1. Go to *Organization > Property > Collection > Video*.
 2. Select *Edit* tab.
-3. Go to *Languages* section and select + Language.
+3. Go to *Languages* section and select **+ Language**.
 4. Select a Language Culture Name from the drop-down. Review the supported languages in the table below.
 5. Enter Title, Headline, Description, and Tags.
 6. After completing your entries, select **Save**. The new language version will be listed on the *Edit* page.

@@ -12,7 +12,7 @@ The following tutorial illustrates how to publish a video that is hosted on the 
 
 This section shows you how to publish a hosted video. You will:
 
-* Select video source file to upload
+* Select *main* video source file to upload
 * Define video metadata (i.e., title, headline, description, tags)
 * Select video category
 * Select the property and collection the hosted video will be contained in
@@ -37,15 +37,17 @@ This section shows you how to publish a hosted video. You will:
 
 ## Step 2: Select Video Source
 
-The upload video process allows you to upload a VoD video. Supported video and audio requirements include:
+The upload video process allows you to upload a VoD video. This video represents your *main* video content, that will display in the video player on the *Video Details* page. Supported video and audio requirements include:
 
 | Type         | Description            |
 |:-----------------|:-------------------------------------|
 | Video Type      | On Demand (VoD)             |
 | Video Format    | MP4 HD (1040p), MP4 (2K), and MP4 (4K) |
-| Audio Compression and Encoding Scheme        | Advanced Audio Coding (AAC)                             |
+| Audio Compression and Encoding Scheme        | Advanced Audio Coding (AAC)             |
 
 * See [Video Publishing Requirements](mediapublishrequirements.md) for prerequisite steps and video and audio requirements.
+
+*Note: You can add additional formats on the *Edit* page the main video upload process is complete. All videos for a completed video media profile display in the *Video Formats* section on the *Video Details* page.*
 
 **To select video source:**
 
@@ -55,20 +57,20 @@ The upload video process allows you to upload a VoD video. Supported video and a
 
 Metadata is used to uniquely identify the characteristics of each video.
 
-* Videos can be tagged with metadata including Title, Headline, Description, and (Search) Tags.
+* Videos can be tagged with metadata including Title, Headline, Description, and (Search) Tags. Note that Headline is optional and will only display on the *Video Details* page if content is defined.
 * The default language for metadata is *English*.
 * A Consumer will see the metadata on websites where a video is posted.  
 * A Publisher can search for metadata in the Content Console.
-* You can add additional language versions on the **Edit Video** page after the video upload process is complete.
+* You can add additional language metadata instances on the *Edit* page after the video upload process is complete using **+ Language**. See [Add Language Metadata](addlanguage.md) for more information.
 * See [Video Metadata](terms.md#video-metadata) more information on metadata types.
-<!--* The Add Language function allows you to add a new metadata instance to a video profile.-->
-<!--* Content for additional languages can be defined in a Excel template and uploaded to the Content Console.-->
 
 **To define video metadata:**
 
 1. Go to **Details**.
 2. Enter the Title, Headline, and Description for your video.
-3. Enter one or more search Tags (comma separated). After entering each tag, select Return to commit it. The tag will display in blue. You can delete a tag by selecting "x". If attempt to add a tag name that already exists you will not be able to commit it.
+3. Enter one or more search Tags (comma separated).
+4. After entering each tag, select **Return** to commit it. The tag will display in blue.
+5. You can delete a tag by selecting "x". If you attempt to add a tag name that already exists you will not be able to commit it.
 
 ## Step 4: Select Video Category
 
@@ -83,7 +85,7 @@ Assign a property to your video and group it in a collection. Note that both ste
 
 1. Go to **Settings**.
 2. In **Assign to a property**, select a property from the drop-down to assign to the current video.
-2. After you select the property, the **Assign to a collection"** drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the video.
+2. After you select the property, the **Assign to a collection** drop-down displays and presents a list of collections associated with the current property. Select a collection to assign to the video.
 
 ## Step 6: Configure Video Security
 
@@ -96,7 +98,7 @@ Video access levels include:
 | Visibility Setting     | Description   |
 |:----------------|:--------------------------------------|
 | Private    | Video can be accessed by the console user who uploaded it.   |
-| Internal    | Video can be accessed by the console administrator and designated console users.    |
+| Internal    | Video can be accessed by the console administrator and designated console users. This is the default setting for the initial video upload.    |
 | Public      | Video is visible to external consumers and can be accessed by console administrator and designated console users.    |
 
 **To configure video security:**
@@ -153,37 +155,30 @@ If your 360 video includes a blind spot and you adjusted it in post-production b
 | Spherical and video includes a Blind Spot   | Blind Spot = Top or Bottom |
 | Spherical and video does not include a Blind Spot   | Blind Spot = None     |
 
-<!--## PART 4: Manage Video Profile
-
-After your video is uploaded, the final step in the configuration process is to review and update your video details, upload video key art and set the video start time.-->
-
 ## Step 11: Upload Video
 
 1. After completing your entries, select **Upload** begin the video upload. A progress indicator displays.
-2. After the video upload is complete the **Edit** page displays.
+2. After the video upload is complete the *Edit* page displays.
 
 The following table shows page options and permission state:
 
 | Option / Setting         | Description            | Permission  |
 |:-----------------|:-------------------------------------|------------|
-| Update Key Art | Image that will display on video player. Select upload new image. | Update |
+| Update Key Art | Image that will display on video player. Select **Upload Key Art**. | Update |
 | Check Video | Performs master video file check. | Update |
-| Video Origin    | Location where the video is hosted on the Digital Domain server. | Read-only |
-| Video Title    | Title that summarizes video subject.          | Edit  |
-| Headline    | Video headline caption.           | Edit |
-| Description    | Video description.   | Edit |
+| Source    | Location where the video is hosted on the Digital Domain server. | Read-only |
 | Visibility Settings  | Private, Internal, Public         | Update |
 | Allow Downloads    | Video download setting Yes/No       | Update |
 | Allow Sharing    | Video sharing setting Yes/No            | Update |
+| Category | Video Category. Select from dropdown. | Update |
+| Languages | Add new language and enter metadata. | Update |
+| Title    | Title that summarizes video subject.          | Edit  |
+| Headline    | Video headline caption.           | Edit |
+| Description    | Video description.   | Edit |
+| Tags    | Video description.   | Edit |
+| Video Formats | Add additional video formats  | Update |
 | Projection    | Video projection setting Flat/Spherical        | Update |
-| Tags & Search Words    | List of search tags.        | Update |
-| Views    | Number of video views.            | Read-only |
-| Resolution    | Video resolution    | Read-only |
-| Uploaded    | Video upload time.        | Read-only |
-| File Size    | Video file size.        | Read-only |
-| Duration    | Video play time.            | Read-only |
-| Users    | Displays number of users in each role that has access to your video (Admins, Content Managers, Viewers)   | Read-only |
-| Distribution Apps | Displays a list of apps the current video is associated with | Read-only |
+| Blindspot    | Set Nadir Blind Spot    | Update |
 
 ## Step 12: Test Hosted Video
 
@@ -222,11 +217,17 @@ Supported key art size specifications include:
 1. Select **Upload Key Art**.
 2. Select a file to upload based on the image requirements, then **Close**. The file will be uploaded when the video profile is saved.
 
-## Step 14: Add Video Format
+
+## Step 14: Add Additional Language
+
+To add one or more additional language instances to the current video profile, go to [Add Language Formats](addlanguage.md) and follow the tutorial.
+
+
+## Step 15: Add Video Format
 
 To add additional video formats to the current video profile, go to [Add Video Formats](addvideoformats.md) and follow the tutorial.
 
-## Step 15: Publish Video
+## Step 16: Publish Video
 
 After completing your entries, review Hosted Video settings to verify they are correct.
 

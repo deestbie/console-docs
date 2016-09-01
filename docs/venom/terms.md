@@ -43,6 +43,7 @@ Metadata allows you to describe the content of a video. The following list inclu
 
 * Effective headlines use a unique a set of reasons why a user should view your video.
 * Some techniques for creating catchy headlines include using numbers, trigger words, adjectives, keywords, and promises (e.g., details on what you will experience when watching the video, etc.).
+* Note that a Headline is optional and will only display on the *Video Details* page if content is defined. 
 
 **Description**
 
